@@ -34,5 +34,6 @@ jobs:
         env:
           ATLAS_PYTHON: python
       - run: npm run build
+      - run: npm run build:public
       - run: python package_source.py
       - run: git diff --exit-code

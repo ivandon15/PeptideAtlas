@@ -4,7 +4,11 @@
 
 开放协作的多肽研究与产业图谱：从论文、专利、临床登记、监管和公司披露中整理可追溯信息，用时间轴与关系图呈现。覆盖多肽、肽偶联物与肽蛋白融合物，计算设计和实验研发分别展示。
 
-![Peptide Atlas 总览](docs/images/overview.png)
+**[直接浏览公开图谱](https://ivandon15.github.io/peptide-atlas/)** · [公开数据快照](data/public/snapshot.json) · [如何维护和发布](docs/publication.md)
+
+![Peptide Atlas 总览 · 高清原图](docs/images/overview-hd.jpg)
+
+[查看总览高清原图](docs/images/overview-hd.jpg) · [查看分子谱系与进度高清原图](docs/images/lineage-hd.jpg)（2545px 宽，2倍重新渲染）
 
 ## 可以看什么
 
@@ -56,7 +60,7 @@ ATLAS_PYTHON=.venv/bin/python npm start
 2. 直接修正时提交 PR：数据修改附原始链接、定位和不确定性；界面修改附前后截图。
 3. 维护者审阅后合并，CI 检查数据关联、隐私边界、测试和构建。
 
-共享**源码、公开资料的短摘要/链接和待研究问题**；每个人的 SQLite、下载原文、上传文件与审阅历史留在本地。没有共享在线写库或自动多用户同步。`git pull` 不会覆盖你的研究或归档；已有库由自己的 agent 比对、核实后更新。详见[贡献指南](CONTRIBUTING.md)。
+共享**源码、公开资料的短摘要/链接和待研究问题**，也可逐项选择经审阅的资料综合观察供在线浏览。每个人的 SQLite、下载原文、上传文件与审阅历史留在本地。没有共享在线写库或自动多用户同步。`git pull` 不会覆盖你的研究或归档；已有库由自己的 agent 比对、核实后更新。详见[贡献指南](CONTRIBUTING.md)。
 
 ## 开发与验证
 
@@ -67,7 +71,7 @@ npm run build                           # 类型检查与生产资源构建
 python3 package_source.py                # 生成不含私有数据的源码包
 ```
 
-代码地图见[架构说明](docs/architecture.md)，备份、恢复和发布边界见[运行说明](docs/operations.md)。当前交付为**本地使用版本**；API 只监听回环地址，不应直接映射到公网。GitHub 发布源码，不等于上线多人云服务。
+代码地图见[架构说明](docs/architecture.md)，备份和恢复见[运行说明](docs/operations.md)。**本地版负责调研与核验，在线版只读公开快照**；本地 API 不映射到公网。公开数据和界面通过 GitHub 维护，没有在线上传或多人写库。
 
 ## 许可
 

@@ -11,7 +11,7 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["node", "vite/client"],
     "allowImportingTsExtensions": true
   },
   "include": ["src", "vite.config.ts"]

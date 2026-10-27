@@ -17,6 +17,11 @@ def main():
     sub.add_parser("state")
     sub.add_parser("pending")
     sub.add_parser("skills")
+    s = sub.add_parser("export-public", help="按公开基线范围与字段白名单导出只读快照，不复制数据库")
+    s.add_argument("output", help="导出JSON路径；发布前审阅差异")
+    s.add_argument(
+        "--observation", action="append", default=[], help="逐项指定已审阅可公开的观察ID"
+    )
     s = sub.add_parser("serve")
     s.add_argument("--port", type=int, default=8766)
     s = sub.add_parser("plan")
@@ -81,6 +86,10 @@ def main():
             if not 1 <= a.limit <= 100 or not 1 <= a.days <= 36500:
                 raise Invalid("limit需1–100，days需1–36500")
             result = collect(store, a.target_id, a.days, a.limit, a.pages)
+        elif a.command == "export-public":
+            from server.publication import export_public
+
+            result = export_public(store, a.output, a.observation)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

@@ -42,6 +42,11 @@ import {
   type ResearchTrack,
 } from "./research-view";
 import { emptyFilters, type Filters } from "./explore";
+import { readPublicState } from "./public-state";
+const PUBLIC_MODE = import.meta.env.VITE_ATLAS_PUBLIC === "1";
+const SNAPSHOT_URL =
+  import.meta.env.VITE_ATLAS_DATA_URL ||
+  `${import.meta.env.BASE_URL}snapshot.json`;
 function App() {
   const closeRef = useRef<HTMLButtonElement>(null);
   const [s, setS] = useState<State | null>(null),
@@ -62,9 +67,18 @@ function App() {
   async function load() {
     setReading(true);
     try {
-      const r = await fetch("/api/state");
-      if (!r.ok) throw Error("本地服务尚未连接");
-      setS(await r.json());
+      let next: State;
+      if (PUBLIC_MODE) {
+        next = await readPublicState(
+          SNAPSHOT_URL,
+          `${import.meta.env.BASE_URL}snapshot.json`,
+        );
+      } else {
+        const r = await fetch("/api/state", { cache: "no-store" });
+        if (!r.ok) throw Error("本地服务尚未连接");
+        next = await r.json();
+      }
+      setS(next);
       setReadAt(new Date().toISOString());
       setError("");
     } catch (e) {
@@ -99,7 +113,9 @@ function App() {
       <main className="loading">
         <Layers />
         <h1>Peptide Atlas</h1>
-        <p>{error || "正在读取本地数据…"}</p>
+        <p>
+          {error || (PUBLIC_MODE ? "正在读取公开数据…" : "正在读取本地数据…")}
+        </p>
         <button onClick={load}>重新连接</button>
       </main>
     );
@@ -169,6 +185,7 @@ function App() {
     ) : null;
   };
   async function upload(g: Gap, files: FileList | null) {
+    if (PUBLIC_MODE) return;
     if (!files?.length) return;
     setBusy(g.id);
     setNotice("");
@@ -198,6 +215,7 @@ function App() {
     }
   }
   async function archiveGap(g: Gap, reason: string) {
+    if (PUBLIC_MODE) return;
     if (!reason.trim()) return;
     setBusy(g.id);
     try {
@@ -288,8 +306,13 @@ function App() {
           })}
         </nav>
         <div className="side-bottom">
-          <span className="dot" /> 私有本地工作区
-          <small>v{s.revision}</small>
+          <span className="dot" />{" "}
+          {PUBLIC_MODE ? "公开只读图谱" : "私有本地工作区"}
+          <small>
+            {PUBLIC_MODE
+              ? s.publication?.dataVersion.slice(0, 8)
+              : `v${s.revision}`}
+          </small>
         </div>
       </aside>
       <div className="workspace">
@@ -314,27 +337,46 @@ function App() {
                   （局部，不代表全库）
                 </p>
                 <p>
-                  数据库最近写入：
-                  {s.lastCommitAt ? formatTime(s.lastCommitAt) : "未记录"}
+                  {PUBLIC_MODE ? "数据发布：" : "数据库最近写入："}
+                  {PUBLIC_MODE
+                    ? s.publication
+                      ? formatTime(s.publication.publishedAt)
+                      : "未记录"
+                    : s.lastCommitAt
+                      ? formatTime(s.lastCommitAt)
+                      : "未记录"}
                 </p>
                 <p>本页读取：{readAt ? formatTime(readAt) : "未读取"}</p>
-                <p>重新读取只加载本地数据库；联网检索与核验需要另行执行。</p>
+                <p>
+                  {PUBLIC_MODE
+                    ? "此页读取维护者发布的公开快照；资料核验与更新在本地完成。"
+                    : "重新读取只加载本地数据库；联网检索与核验需要另行执行。"}
+                </p>
               </div>
             </details>
             <button
               className="quiet"
               onClick={load}
               disabled={reading}
-              aria-label="重新读取本地数据"
-              title="加载已写入本地库的数据，不执行联网调研"
+              aria-label={PUBLIC_MODE ? "读取最新公开数据" : "重新读取本地数据"}
+              title={
+                PUBLIC_MODE
+                  ? "读取维护者最新发布的公开快照"
+                  : "加载已写入本地库的数据，不执行联网调研"
+              }
             >
               <RefreshCw size={16} />
-              {reading ? "读取中…" : "重新读取"}
+              {reading ? "读取中…" : PUBLIC_MODE ? "读取最新数据" : "重新读取"}
             </button>
           </div>
         </header>
         <main className={tab === "targets" && !target ? "overview-main" : ""}>
           {error && <p className="alert">{error}</p>}
+          {s.publication?.fallback && (
+            <p className="alert">
+              最新数据源暂不可用，当前显示此网站部署时的公开快照。
+            </p>
+          )}
           {notice && (
             <div role="status" className="notice">
               {notice}
@@ -427,24 +469,39 @@ function App() {
               <div className="page-heading">
                 <div>
                   <h1>待核实问题</h1>
-                  <p>查看不确定的原因，补交所需原文，再由 Codex 核验更新。</p>
+                  <p>
+                    {PUBLIC_MODE
+                      ? "提供公开来源或纠错线索，通过 GitHub 一起完善。"
+                      : "查看不确定的原因，补交所需原文，再由 Codex 核验更新。"}
+                  </p>
                 </div>
                 <span className="tag">{pending.length} 项未解决</span>
               </div>
-              <div className="flow">
-                <span>打开原文</span>
-                <ChevronRight size={15} />
-                <span>下载并提交 PDF</span>
-                <ChevronRight size={15} />
-                <span>Codex 核验身份与内容</span>
-                <ChevronRight size={15} />
-                <span>更新事实与历史</span>
-              </div>
+              {!PUBLIC_MODE && (
+                <div className="flow">
+                  <span>打开原文</span>
+                  <ChevronRight size={15} />
+                  <span>下载并提交 PDF</span>
+                  <ChevronRight size={15} />
+                  <span>Codex 核验身份与内容</span>
+                  <ChevronRight size={15} />
+                  <span>更新事实与历史</span>
+                </div>
+              )}
               {!pending.length && <p className="muted">暂无待核实问题</p>}
               {pending.map((g) => (
                 <section className="gap" key={g.id}>
                   <div className="card-kicker">
-                    {[...g.targetIds.map(id=>s.targets.find(t=>t.id===id)?.name),...(g.companyIds||[]).map(id=>s.companies.find(c=>c.id===id)?.name)].filter(Boolean).join(" · ")}
+                    {[
+                      ...g.targetIds.map(
+                        (id) => s.targets.find((t) => t.id === id)?.name,
+                      ),
+                      ...(g.companyIds || []).map(
+                        (id) => s.companies.find((c) => c.id === id)?.name,
+                      ),
+                    ]
+                      .filter(Boolean)
+                      .join(" · ")}
                     <span className="tag">{gapLabel[g.status]}</span>
                   </div>
                   <h2>{g.title}</h2>
@@ -471,28 +528,44 @@ function App() {
                         <ExternalLink size={14} />
                       </a>
                     ))}
-                    <label
-                      className={"button " + (busy === g.id ? "disabled" : "")}
-                    >
-                      <UploadIcon size={16} />
-                      {busy === g.id ? "接收中…" : "提交 PDF"}
-                      <input
-                        aria-label={"提交 " + g.title + " 的PDF"}
-                        type="file"
-                        accept="application/pdf,.pdf"
-                        multiple
-                        hidden
-                        disabled={busy === g.id}
-                        onChange={(e) => {
-                          upload(g, e.target.files);
-                          e.target.value = "";
-                        }}
-                      />
-                    </label>
-                    <button className="outline" onClick={() => packet(g)}>
-                      <Files size={15} />
-                      下载审阅任务包
-                    </button>
+                    {!PUBLIC_MODE && (
+                      <label
+                        className={
+                          "button " + (busy === g.id ? "disabled" : "")
+                        }
+                      >
+                        <UploadIcon size={16} />
+                        {busy === g.id ? "接收中…" : "提交 PDF"}
+                        <input
+                          aria-label={"提交 " + g.title + " 的PDF"}
+                          type="file"
+                          accept="application/pdf,.pdf"
+                          multiple
+                          hidden
+                          disabled={busy === g.id}
+                          onChange={(e) => {
+                            upload(g, e.target.files);
+                            e.target.value = "";
+                          }}
+                        />
+                      </label>
+                    )}
+                    {!PUBLIC_MODE && (
+                      <button className="outline" onClick={() => packet(g)}>
+                        <Files size={15} />
+                        下载审阅任务包
+                      </button>
+                    )}
+                    {PUBLIC_MODE && (
+                      <a
+                        className="button outline"
+                        href={`https://github.com/ivandon15/PeptideAtlas/issues/new?template=data.yml&title=${encodeURIComponent(`[资料] ${g.title}`)}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        补充来源 / 纠错 <ArrowUpRight size={14} />
+                      </a>
+                    )}
                     <button
                       className="quiet"
                       onClick={async () => {
@@ -512,31 +585,33 @@ function App() {
                       复制给 Codex
                     </button>
                   </div>
-                  <details className="archive-gap">
-                    <summary>无法获取，归档此问题</summary>
-                    <form
-                      onSubmit={(e) => {
-                        e.preventDefault();
-                        const reason = new FormData(e.currentTarget).get(
-                          "reason",
-                        );
-                        archiveGap(g, String(reason || ""));
-                      }}
-                    >
-                      <label>
-                        人工核查结果
-                        <textarea
-                          name="reason"
-                          required
-                          maxLength={2000}
-                          placeholder="例如：已查出版社和机构入口，仍无法下载所需补充材料"
-                        />
-                      </label>
-                      <button className="outline" disabled={busy === g.id}>
-                        确认归档
-                      </button>
-                    </form>
-                  </details>
+                  {!PUBLIC_MODE && (
+                    <details className="archive-gap">
+                      <summary>无法获取，归档此问题</summary>
+                      <form
+                        onSubmit={(e) => {
+                          e.preventDefault();
+                          const reason = new FormData(e.currentTarget).get(
+                            "reason",
+                          );
+                          archiveGap(g, String(reason || ""));
+                        }}
+                      >
+                        <label>
+                          人工核查结果
+                          <textarea
+                            name="reason"
+                            required
+                            maxLength={2000}
+                            placeholder="例如：已查出版社和机构入口，仍无法下载所需补充材料"
+                          />
+                        </label>
+                        <button className="outline" disabled={busy === g.id}>
+                          确认归档
+                        </button>
+                      </form>
+                    </details>
+                  )}
                   {s.uploads
                     .filter((u) => u.gapId === g.id)
                     .map((u) => (
@@ -566,7 +641,22 @@ function App() {
         </main>
         <footer className="page-footer">
           Peptide Atlas · 公开证据研究工作台
-          <span>公开资料 · 本地维护</span>
+          <span>
+            {PUBLIC_MODE ? (
+              <>
+                <a href="/">返回博客</a> ·{" "}
+                <a
+                  href="https://github.com/ivandon15/PeptideAtlas"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  源码与数据
+                </a>
+              </>
+            ) : (
+              "公开资料 · 本地维护"
+            )}
+          </span>
         </footer>
       </div>
       {selected && (
@@ -653,18 +743,20 @@ function App() {
                   </article>
                 ))}
             </div>
-            <button
-              className="outline"
-              onClick={async () => {
-                const r = await fetch(
-                  `/api/history?kind=molecules&id=${selected.id}`,
-                );
-                setHistory(await r.json());
-              }}
-            >
-              <Clock size={15} />
-              查看记录修订
-            </button>
+            {!PUBLIC_MODE && (
+              <button
+                className="outline"
+                onClick={async () => {
+                  const r = await fetch(
+                    `/api/history?kind=molecules&id=${selected.id}`,
+                  );
+                  setHistory(await r.json());
+                }}
+              >
+                <Clock size={15} />
+                查看记录修订
+              </button>
+            )}
             {history && (
               <div className="revision-list">
                 {history.map((h) => (

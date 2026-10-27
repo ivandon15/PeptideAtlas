@@ -115,7 +115,10 @@ export function Overview({
                 <h4>下一步验证</h4>
                 <p>{o.nextCheck}</p>
                 <small>
-                  {o.coverage} · {o.author} · 基于 v{o.basedOnRevision}
+                  {o.coverage}
+                  {o.author && ` · ${o.author}`}
+                  {o.basedOnRevision !== undefined &&
+                    ` · 基于 v${o.basedOnRevision}`}
                 </small>
                 <div className="observation-sources">
                   {o.sourceIds.map((id) => {

@@ -9,9 +9,33 @@ import zipfile
 
 from package_source import ROOT, package, source_paths
 from server.store import Store
+from server.publication import FIELDS, project, check_public_text
+from server.store import stable
+import hashlib
 
 
 class PublicationTests(unittest.TestCase):
+    def test_published_snapshot_is_allowlisted_linked_and_content_addressed(self):
+        snapshot = json.loads((ROOT / "data/public/snapshot.json").read_text(encoding="utf-8"))
+        self.assertEqual(set(snapshot), {"schemaVersion", "publishedAt", "dataVersion", "records"})
+        self.assertEqual(snapshot["schemaVersion"], 1)
+        self.assertEqual(
+            snapshot["dataVersion"],
+            hashlib.sha256(stable(snapshot["records"]).encode()).hexdigest()[:16],
+        )
+        for kind, rows in snapshot["records"].items():
+            self.assertIn(kind, FIELDS)
+            for row in rows:
+                self.assertEqual(row, project(row, FIELDS[kind]))
+        check_public_text(snapshot["records"])
+        records = json.loads(json.dumps(snapshot["records"]))
+        for row in records["observations"]:
+            row.update(author="Isolated public graph validation", basedOnRevision=0)
+        with tempfile.TemporaryDirectory() as folder:
+            Store(folder, seed=False).commit(
+                {"baseRevision": 0, "reviewer": "Public snapshot CI validation", "records": records}
+            )
+
     def test_public_seed_is_valid_without_private_workflow_state(self):
         seed = json.loads((ROOT / "data/pilot.json").read_text(encoding="utf-8"))
         for kind in ("receipts", "reviews", "observations", "uploads"):

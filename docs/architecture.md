@@ -22,6 +22,7 @@ React：总览、靶点、分子进度、公司合作、问题
 | `server/store.py` | SQLite、记录/跨记录校验、原子提交、历史、指纹与审阅闭环 |
 | `server/research.py` | 查询计划、有限分页采集与失败/截断回执 |
 | `server/http.py` | 本地 HTTP API、静态资源和上传边界 |
+| `server/publication.py` | 公开范围、字段白名单、隐私检查与只读快照导出 |
 | `run.mjs` | 选择 Python，启动/停止 API 与开发前端 |
 | `src/main.tsx` | 应用状态、页面切换、分子详情及材料/问题交互 |
 | `Overview.tsx` / `summary-data.ts` | 库内观察、统计及上海自然日近期判断 |
@@ -30,6 +31,7 @@ React：总览、靶点、分子进度、公司合作、问题
 | `ComputationalTarget.tsx` / `research-view.ts` | 论文归档及研究分类 |
 | `Partnerships.tsx` / `business.ts` | 公司与事件过滤、角色、日期和金额 |
 | `src/model.ts` | 前端类型与标签 |
+| `src/public-state.ts` | 静态快照读取与显式回退；不加载私人工作流 |
 | `.agents/` | 四个 skill 与共享科学/数据约束 |
 | `data/pilot.json` | 可审阅、可分发的公开初始基线 |
 | `tests/` | 临时库、HTTP边界与纯前端逻辑回归 |
@@ -52,3 +54,5 @@ React：总览、靶点、分子进度、公司合作、问题
 完整记录替换及引用规则由 store.py 执行；[共享协议](../.agents/references/research-contract.md)解释科学含义。未确认阶段、结构、谱系和合同条款保留未知。UI 不修改事实。
 
 当前前端一次读取本地状态，在客户端筛选。尚未做万级真实资料压测，不宣称支持多人在线编辑；扩大规模前先测量瓶颈。
+
+在线只读版复用相同组件，读取 `data/public/snapshot.json`，不使用 Python 或 SQLite API。它不显示上传/归档/修订历史，不存在在线写库。公开数据版本是内容摘要，不是某人的本地数据库版本；见[发布流程](publication.md)。

@@ -24,7 +24,7 @@ FILES = (
     ".editorconfig",
 )
 FOLDERS = ("src", "server", "tests", "data", ".agents", "docs", ".github", "scripts")
-SUFFIXES = {".py", ".ts", ".tsx", ".css", ".mjs", ".json", ".md", ".yml", ".yaml", ".png", ".svg"}
+SUFFIXES = {".py", ".ts", ".tsx", ".css", ".mjs", ".json", ".md", ".yml", ".yaml", ".png", ".jpg", ".svg"}
 
 
 def source_paths():

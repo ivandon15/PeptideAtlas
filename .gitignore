@@ -1,6 +1,7 @@
 .data/
 node_modules/
 dist/
+dist-public/
 *.tsbuildinfo
 __pycache__/
 .venv/

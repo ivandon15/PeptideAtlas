@@ -52,10 +52,10 @@ agent 还可在私有目录保存临时查询结果。整个目录均不进入 G
 
 ## 发布范围
 
-- GitHub 提供源码、研究流程、公开基线及协作入口。
+- GitHub 提供源码、研究流程、公开基线及协作入口，个人博客托管只读界面。
 - package_source.py 按允许列表生成源码包，不含私有数据、依赖或构建产物。
-- dist/ 依赖本地 API，单独放到静态托管不能获得完整工作台。
-- 当前无账号、权限或共享审阅队列，不作为公网可写服务；见 [SECURITY.md](../SECURITY.md)。
+- dist/ 是依赖本地 API 的维护版；`npm run build:public` 生成无需 API 的 dist-public/，读取经过筛选的 JSON 快照，详见[发布说明](publication.md)。
+- 在线版无上传或写库，本地 API 不作为公网可写服务；见 [SECURITY.md](../SECURITY.md)。
 
 ## 常见问题
 

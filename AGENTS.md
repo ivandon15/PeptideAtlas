@@ -13,7 +13,7 @@
 
 - 数据从重新调研的原始资料产生。旧 XLSX 仅作方法与质量参考；不照搬，不限定 23 个靶点。
 - 所有事实写入走 `python3 atlas.py commit`，保留来源、定位、修订历史。不直接改 `.data/atlas.sqlite3`。
-- `.data/` 全为私有内容：不提交原文、上传材料、数据库、查询原始响应、临时更新包或密钥。公共 `data/pilot.json` 仅含可再分发的短摘要、身份与链接。
+- `.data/` 全为私有内容：不提交原文、上传材料、数据库、查询原始响应、临时更新包或密钥。公共 `data/pilot.json` 是事实发布范围，`data/public/snapshot.json` 是网页读取的字段白名单快照。发布流程见 `docs/publication.md`。
 - Jev 保持未配置，当前科学核实由用户自己的 Codex 执行。
 - 完整检查 `ATLAS_PYTHON=.venv/bin/python npm test`；类型与构建 `npm run build`。本地开发 `npm run dev`，前端 5180 / 后端 8766。
 
@@ -23,7 +23,7 @@
 2. 研究前读当前 `atlas.py state`、相关历史和全部问题状态。不要只看公共种子、照搬旧工作簿、用本次检索日期代替事件日期，或重开人工已归档的同一问题。
 3. `plan` 只给计划，`collect` 只给候选。事实必须回到原始来源核实，未完成的范围明确记录。不得声称 Jev、自动定时或后台 agent 已在执行。
 4. 修改事实使用带当前 `baseRevision` 的 CLI commit；完整保留被修改记录的其他有效字段。冲突后重新读取并核对，不能只改 revision 强行覆盖。
-5. 用户本地数据与 GitHub 公共基线分开：不提交整个 state 或 SQLite。确需公开时只整理短摘要、链接和必要身份/证据；`receipts`、`reviews`、`observations` 不从私人库复制进公共种子。
+5. 不提交整个 state 或 SQLite。公开事实先整理到基线，再用 export-public 导出。receipts、reviews、上传及本地 revision 不公开；观察只有明确选定并审阅公共依据后才通过 --observation 导出，剥离作者和本地基准版本。不要复制私人观察历史。新增字段默认不公开。
 
 ## 代码与交付
 

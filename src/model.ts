@@ -190,8 +190,8 @@ export interface Observation {
   id: string;
   title: string;
   asOf: string;
-  author: string;
-  basedOnRevision: number;
+  author?: string;
+  basedOnRevision?: number;
   coverage: string;
   summary: string;
   interpretation: string;
@@ -207,6 +207,11 @@ export interface Observation {
   seriesIds?: string[];
 }
 export interface State {
+  publication?: {
+    publishedAt: string;
+    dataVersion: string;
+    fallback?: boolean;
+  };
   observations?: Observation[];
   lastCommitAt?: string | null;
   revision: number;

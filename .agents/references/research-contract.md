@@ -78,3 +78,7 @@ CLI：`python3 atlas.py --help`。最小写入包：
 observations：id,title,asOf(实际截止日),author,basedOnRevision(读取时的版本),coverage,summary(事实观察),interpretation(推断/假设),uncertainty(限制/反证),nextCheck(验证问题),status(active/needs-review/superseded/withdrawn),sourceIds,evidenceIds,dealIds，以及可选targetIds/companyIds/moleculeIds/seriesIds。至少有一项evidence/deal依据及其完整来源引用；active的证据必须reviewed+reported。观察不等于科学证据，不用于提升分子阶段。相同主题修订同ID并保留history，撤回/替代不删除。依据或关联对象实质修改时，commit把未在本批复核的active观察自动标needs-review；重复提交相同事实不影响观察。此标记仅提示复核，不替代重新推理。
 
 补充材料的详细闭环以peptide-evidence-update为入口；字段校验仍以server/store.py为准。business evidence允许companyIds/dealIds，无分子/系列时不能声明分子stageClaim/statusClaim。纯公司/交易问题可用相关商业证据resolved，不需造分子。已有PDF审阅和冲突保护沿用；新材料只能改变经原文核对支持的事实。
+
+## 公开浏览与导出
+
+研究库继续保留在本地；线上只读快照不等于整个SQLite。经用户授权公开研究结果时，先整理data/pilot.json限定发布范围，再通过atlas.py export-public字段白名单导出。观察须逐项审阅并显式指定--observation，导出不带作者、本地revision、上传、回执、审阅或历史；未选定的私人观察不公开。公开文本仍须核对无个人/任职/内部项目内容，自动敏感词扫描不代替此项判断。完整发布流程见仓库docs/publication.md。
