@@ -1,0 +1,27 @@
+name: 补充资料或纠正事实
+description: 提供新的公开进展，协助解决待核实问题或纠正数据。
+title: '[资料] '
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交受限全文、个人资料或机构凭据。公开链接和准确定位即可。
+  - type: input
+    id: entity
+    attributes:
+      label: 靶点、分子、公司或问题 ID
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 原始来源与定位
+      description: URL / DOI / 专利公开号，以及页码、图表或实施例。
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 建议补充或修正什么
+      description: 区分原文报告、你的判断和仍不确定的部分。
+    validations:
+      required: true

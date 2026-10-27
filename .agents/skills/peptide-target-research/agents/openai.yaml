@@ -1,0 +1,4 @@
+interface:
+  display_name: "多肽靶点调研"
+  short_description: "从公开资料追踪靶点分子、实验谱系与临床进展，支持独立运行或联用公司调研"
+  default_prompt: "使用 $peptide-target-research 调研指定专题，保留原始证据、覆盖范围和缺口并更新本地图谱。"

@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {matchingMolecules,targetResults,pageItems,emptyFilters,clusterMarks} from '../src/explore.ts';
+import {marksFor} from '../src/progress.ts';
+const d=JSON.parse(fs.readFileSync(new URL('../data/pilot.json',import.meta.url),'utf8'));
+const f=(patch)=>({...emptyFilters,...patch});
+assert.equal(targetResults(d,f({query:'AVR-001'}))[0].target.id,'il23r');
+assert.equal(targetResults(d,f({query:'IL-23 receptor'}))[0].target.id,'il23r');
+assert.equal(matchingMolecules(d,d.molecules,f({company:'翰森',stage:'phase1'}))[0].id,'hs20118');
+assert.equal(targetResults(d,f({query:'Icotrokinra',stage:'phase1'})).length,0,'filters must match the same molecule');
+assert.equal(targetResults(d,f({query:'  no-such-drug  '})).length,0);
+assert.equal(targetResults(d,f({query:'ＩＬ２３Ｒ'}))[0].target.id,'il23r');
+const many={...d,targets:Array.from({length:501},(_,i)=>({id:'t'+i,name:'Target '+i})),molecules:Array.from({length:501},(_,i)=>({...d.molecules[0],id:'m'+i,targetIds:['t'+i]}))};
+const results=targetResults(many,emptyFilters);
+assert.equal(results.length,501);assert.equal(pageItems(results,1).items.length,12);assert.equal(pageItems(results,999).current,42);assert.equal(pageItems(results,42).items.length,9);
+assert.equal(pageItems([],99).current,1);
+const marks=marksFor(d.molecules.find(m=>m.id==='icotrokinra'),d.evidence,d.sources);
+const groups=clusterMarks(marks,365*8);
+assert.equal(groups.flat().length,marks.length,'clustering must retain every event');
+assert.equal(new Set(groups.flat().map(m=>m.id)).size,marks.length);
+assert(groups.some(g=>g.length>1));assert.deepEqual(clusterMarks([],365),[]);
+console.log('Explore: aliases, Unicode, intersecting filters, 501 targets, pagination and lossless event clustering passed.');
+
+assert.equal(targetResults(d,f({query:'AVR-001'}))[0].filters.query,'AVR-001');
+assert.equal(targetResults(d,f({query:'IL23R'}))[0].filters.query,'');
+assert.equal(targetResults(d,f({query:'Gilead'}))[0].target.id,'il23r','transaction counterparty is searchable without claiming ownership');

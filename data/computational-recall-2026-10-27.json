@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-27",
+  "scope": "23-target workbook recall benchmark; public identity and status only; not imported sequence/assay facts",
+  "works": [
+    {
+      "doi": "10.1038/s41467-025-59940-7",
+      "sourceId": "compute-afcyc",
+      "targetIds": [
+        "mdm2",
+        "keap1"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "AfCycDesign"
+    },
+    {
+      "doi": "10.34133/research.1420",
+      "sourceId": "compute-mirror",
+      "targetIds": [
+        "mdm2",
+        "cd274",
+        "il23r"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "Mirror-Peptidizer"
+    },
+    {
+      "doi": "10.1038/s41467-024-45766-2",
+      "sourceId": "compute-vae-md",
+      "targetIds": [
+        "ctnnb1",
+        "ikbkg"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "GRU-VAE + Rosetta + MD"
+    },
+    {
+      "doi": "10.1039/d6sc02631a",
+      "sourceId": "compute-hf",
+      "targetIds": [
+        "mdm2",
+        "gabarap"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "HFGuidedDesign"
+    },
+    {
+      "doi": "10.64898/2026.05.19.721857",
+      "sourceId": "compute-mc4r-colab",
+      "targetIds": [
+        "mc4r"
+      ],
+      "status": "recalled",
+      "readScope": "abstract",
+      "method": "ColabDesign · MC4R"
+    },
+    {
+      "doi": "10.64898/2026.03.12.711044",
+      "sourceId": "compute-anewomni",
+      "targetIds": [
+        "kras",
+        "pcsk9"
+      ],
+      "status": "recalled",
+      "readScope": "abstract",
+      "method": "AnewOmni"
+    },
+    {
+      "doi": "10.1038/72651",
+      "sourceId": "compute-ahnp",
+      "targetIds": [
+        "erbb2"
+      ],
+      "status": "recalled",
+      "readScope": "abstract",
+      "method": "AHNP · 结构指导界面模拟"
+    },
+    {
+      "doi": "10.1038/s41551-025-01507-4",
+      "sourceId": "compute-pepmimic",
+      "targetIds": [
+        "erbb2",
+        "cd274",
+        "cd38",
+        "tnfrsf17",
+        "cd4"
+      ],
+      "status": "recalled",
+      "readScope": "abstract",
+      "method": "PepMimic"
+    },
+    {
+      "doi": "10.1002/jbm.a.37898",
+      "sourceId": "compute-il4-mimic",
+      "targetIds": [
+        "il4ra"
+      ],
+      "status": "association-pending",
+      "readScope": "abstract",
+      "method": "IL-4模拟肽 · 受体关联待核"
+    },
+    {
+      "doi": "10.1016/j.biochi.2024.11.012",
+      "sourceId": "compute-tslp-staple",
+      "targetIds": [
+        "tslp"
+      ],
+      "status": "recalled",
+      "readScope": "abstract",
+      "method": "TSLP · 结构指导二硫键约束"
+    },
+    {
+      "doi": "10.1038/srep30859",
+      "sourceId": "compute-il17-structure",
+      "targetIds": [
+        "il17a"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "IL17A · 结构指导环化"
+    },
+    {
+      "doi": "10.1021/acschembio.5c00774",
+      "sourceId": "compute-bindcraft-peptide",
+      "targetIds": [
+        "mdm2",
+        "wdr5",
+        "pdcd1",
+        "cd274"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "BindCraft · 短肽评估"
+    },
+    {
+      "doi": "10.1002/advs.202507044",
+      "sourceId": "compute-glp1-proteinmpnn",
+      "targetIds": [
+        "glp1r"
+      ],
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "ProteinMPNN · GLP1RA"
+    },
+    {
+      "doi": "10.1038/s41589-025-01929-w",
+      "sourceId": "rfpeptides-2025",
+      "targetIds": [
+        "mcl1",
+        "mdm2",
+        "gabarap",
+        "gabarapl1",
+        "rbta-ab"
+      ],
+      "status": "already-indexed"
+    },
+    {
+      "doi": "10.48550/arXiv.2512.20263",
+      "sourceId": "lx2",
+      "targetIds": [
+        "kras"
+      ],
+      "status": "already-indexed"
+    }
+  ],
+  "targets": [
+    {
+      "target": "PCSK9",
+      "targetId": "pcsk9",
+      "papers": [
+        "10.64898/2026.03.12.711044"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "IL23R",
+      "targetId": "il23r",
+      "papers": [
+        "10.34133/research.1420"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "HER2",
+      "targetId": "erbb2",
+      "papers": [
+        "10.1038/72651",
+        "10.1038/s41551-025-01507-4"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "KRAS G12D",
+      "targetId": "kras",
+      "papers": [
+        "10.64898/2026.03.12.711044",
+        "10.48550/arXiv.2512.20263"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "β-catenin",
+      "targetId": "ctnnb1",
+      "papers": [
+        "10.1038/s41467-024-45766-2"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "PD-L1",
+      "targetId": "cd274",
+      "papers": [
+        "10.34133/research.1420",
+        "10.1038/s41551-025-01507-4",
+        "10.1021/acschembio.5c00774"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "TSLP",
+      "targetId": "tslp",
+      "papers": [
+        "10.1016/j.biochi.2024.11.012"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "IL17A",
+      "targetId": "il17a",
+      "papers": [
+        "10.1038/srep30859"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "Thrombin",
+      "targetId": "f2",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。旧表备注nCycle计算序列未公开；已核对论文为实验筛选，不据此造计算设计记录。"
+    },
+    {
+      "target": "MCL1",
+      "targetId": "mcl1",
+      "papers": [
+        "10.1038/s41589-025-01929-w"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "MDM2",
+      "targetId": "mdm2",
+      "papers": [
+        "10.1038/s41467-025-59940-7",
+        "10.34133/research.1420",
+        "10.1039/d6sc02631a",
+        "10.1021/acschembio.5c00774",
+        "10.1038/s41589-025-01929-w"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "WDR5",
+      "targetId": "wdr5",
+      "papers": [
+        "10.1021/acschembio.5c00774"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "GLP1R",
+      "targetId": "glp1r",
+      "papers": [
+        "10.1002/advs.202507044"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "NNMT",
+      "targetId": "nnmt",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "ACE2",
+      "targetId": "ace2",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "FXIIa",
+      "targetId": "f12",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "KEAP1",
+      "targetId": "keap1",
+      "papers": [
+        "10.1038/s41467-025-59940-7"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "IL4Rα",
+      "targetId": "il4ra",
+      "papers": [
+        "10.1002/jbm.a.37898"
+      ],
+      "status": "association-pending",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "α4β7",
+      "targetId": "itga4-itgb7",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "IL5Rα",
+      "targetId": "il5ra",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "Activin A",
+      "targetId": "inhba",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "Activin B",
+      "targetId": "inhbb",
+      "papers": [],
+      "status": "no-computational-paper-identified-in-reference",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    },
+    {
+      "target": "MC4R",
+      "targetId": "mc4r",
+      "papers": [
+        "10.64898/2026.05.19.721857"
+      ],
+      "status": "recalled",
+      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+    }
+  ]
+}

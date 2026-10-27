@@ -1,0 +1,17 @@
+.data/
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+.venv/
+.env
+.env.*
+release/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.pdf
+*.xlsx
+.DS_Store
+.pytest_cache/
+.ruff_cache/

@@ -1,0 +1,352 @@
+.overview-dashboard {
+  display: grid;
+  gap: 20px;
+}
+.overview-dashboard .catalog-title {
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.overview-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.overview-metrics > div {
+  background: white;
+  border: 1px solid #dce4df;
+  border-radius: 10px;
+  padding: 17px;
+  display: grid;
+  gap: 7px;
+}
+.overview-metrics strong {
+  font-size: 28px;
+  color: #335b4d;
+  font-weight: 550;
+}
+.overview-metrics span {
+  font-size: 11px;
+  color: #7b8b84;
+}
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 18px;
+}
+.overview-panel {
+  min-width: 0;
+  border: 1px solid #dce4df;
+  background: white;
+  border-radius: 11px;
+  padding: 20px;
+}
+.panel-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.panel-title h2 {
+  font-size: 16px;
+  margin: 0;
+}
+.panel-title > span {
+  font-size: 10px;
+  color: #819389;
+}
+.overview-panel .stage-key {
+  gap: 10px;
+  font-size: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+.overview-panel small,
+.overview-scope {
+  color: #819389;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.overview-panel > small {
+  display: block;
+  margin-top: 15px;
+}
+.target-bars {
+  display: grid;
+  gap: 7px;
+}
+.target-bars button {
+  display: grid;
+  grid-template-columns: minmax(70px, 1fr) minmax(50px, 1.2fr) 20px;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  border: 1px solid #edf1ed;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 11px;
+  box-shadow: 0 1px 0 #e4eae5;
+}
+.target-bars button > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bar-track {
+  background: #f4f6f3;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar-stack {
+  display: flex;
+  height: 9px;
+}
+.bar-stack i {
+  display: block;
+}
+.target-bars b {
+  font-weight: 500;
+  text-align: right;
+  color: #50745e;
+}
+.overview-more {
+  margin-top: 10px;
+  color: #527562;
+  font-size: 11px;
+  padding: 5px 9px;
+  border: 1px solid #dce4df;
+  border-radius: 5px;
+}
+.kind-distribution {
+  display: grid;
+  gap: 12px;
+}
+.kind-distribution > div {
+  display: grid;
+  grid-template-columns: 60px 1fr 20px;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  color: #637e6d;
+}
+.kind-distribution > div > div {
+  background: #f0f4ef;
+  height: 7px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.kind-distribution i {
+  background: #799b88;
+  display: block;
+  height: 100%;
+}
+.overview-panel h3 {
+  font-size: 12px;
+  margin: 20px 0 10px;
+}
+.company-ranks {
+  display: grid;
+  gap: 5px;
+}
+.company-ranks button {
+  display: flex;
+  gap: 8px;
+  text-align: left;
+  padding: 7px 8px;
+  border: 1px solid #edf1ed;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #456c57;
+  box-shadow: 0 1px 0 #e4eae5;
+}
+.company-ranks button span {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.insight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.insight-grid h3 {
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+.insight-grid p {
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0 0 12px;
+}
+.insight-grid article > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.insight-grid button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 7px;
+  font-size: 10px;
+  background: #f0f5f1;
+  border: 1px solid #dce4df;
+  border-radius: 5px;
+  color: #436b55;
+  box-shadow: 0 1px 0 #e4eae5;
+}
+.recent-feed article {
+  border-left: 3px solid #b18b47;
+  background: #fcfaf3;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  align-items: center;
+}
+.recent-feed time {
+  font-size: 11px;
+  color: #8c784d;
+}
+.recent-feed button {
+  text-align: left;
+  font-size: 12px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.recent-feed a {
+  font-size: 10px;
+  display: inline-flex;
+  gap: 4px;
+  margin-right: 8px;
+  color: #547e6a;
+}
+.recent-feed {
+  display: grid;
+  gap: 8px;
+}
+.overview-scope {
+  padding: 0 5px;
+}
+.overview-scope summary {
+  cursor: pointer;
+}
+.data-freshness {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.data-freshness details {
+  position: relative;
+  font-size: 10px;
+  color: #829087;
+}
+.data-freshness summary {
+  cursor: pointer;
+}
+.data-freshness details > div {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  z-index: 25;
+  width: 290px;
+  background: white;
+  border: 1px solid #dce4df;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 7px 25px #234d3e18;
+  color: #5f7969;
+  line-height: 1.7;
+}
+.data-freshness p {
+  margin: 5px 0;
+}
+.recent-card {
+  border-color: #ccb67c !important;
+  box-shadow: inset 3px 0 #b18b47 !important;
+}
+.recent-badge {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 9px;
+  color: #8b6527;
+  background: #faf0d7;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+.time-mark.recent-mark .mark-dot {
+  outline: 3px solid #e4c67f;
+  outline-offset: 2px;
+}
+@media (max-width: 1100px) {
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+  .insight-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 760px) {
+  .overview-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .overview-panel {
+    padding: 15px;
+  }
+  .data-freshness {
+    gap: 6px;
+  }
+  .data-freshness summary {
+    font-size: 9px;
+    max-width: 125px;
+  }
+  .data-freshness details > div {
+    right: -80px;
+    width: 260px;
+  }
+  .workspace > header {
+    gap: 8px;
+  }
+}
+
+.observation-meta {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  color: #819389;
+}
+.observation-pending {
+  opacity: 0.8;
+}
+.observation-detail {
+  margin-top: 12px;
+  font-size: 11px;
+}
+.observation-detail summary {
+  cursor: pointer;
+  color: #527562;
+}
+.observation-detail h4 {
+  font-size: 11px;
+  margin: 14px 0 6px;
+}
+.observation-sources {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+.observation-sources a {
+  color: #547e6a;
+  font-size: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  overflow-wrap: anywhere;
+}

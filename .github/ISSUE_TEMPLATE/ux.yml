@@ -1,0 +1,21 @@
+name: 界面与使用问题
+description: 反馈交互、筛选、可视化或运行错误。
+title: '[体验] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想完成什么，哪里遇到困难
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与预期表现
+      description: 可附使用公开基线的截图；不要展示私人材料或分析。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 系统、浏览器、Node / Python 版本及提交版本
