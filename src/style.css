@@ -1183,3 +1183,23 @@ details[open] .when-open {
 details[open] .when-closed {
   display: none;
 }
+
+.research-archive {
+  margin-top: 22px;
+  padding: 18px 20px;
+  border: 1px solid var(--line, #dce3df);
+  border-radius: 16px;
+  background: #fff;
+}
+.research-archive > summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 4px 0;
+}
+.research-archive[open] > summary {
+  margin-bottom: 18px;
+}
+.research-archive summary:focus-visible {
+  outline: 2px solid #42745e;
+  outline-offset: 4px;
+}

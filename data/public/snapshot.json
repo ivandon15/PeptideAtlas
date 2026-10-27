@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-27T09:38:57.506083+00:00",
-  "dataVersion": "30582e200121fcde",
+  "publishedAt": "2026-10-27T09:55:50.847761+00:00",
+  "dataVersion": "5e38fe7251956219",
   "records": {
     "targets": [
       {
@@ -4682,7 +4682,7 @@
         "origin": "screening",
         "basis": "publication",
         "researchFocus": "development",
-        "researchFocusNote": "持续优化PCSK9环肽抑制剂的药物发现系列。"
+        "researchFocusNote": "发现与SAR研究，逐编号数据用于药物发现路线和实验详情。独立项目由分子trackingRole标识。"
       },
       {
         "id": "pcsk9-merck",
@@ -5274,7 +5274,9 @@
         "specificity": "PTHrP(1-34)类似物",
         "stageEvidenceIds": [
           "label-stage-abaloparatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "abbv295",
@@ -5308,7 +5310,9 @@
         "stageEvidenceIds": [
           "abbv295-phase2",
           "registry-nct07752979"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "alrn6924",
@@ -5341,7 +5345,9 @@
         "stageEvidenceIds": [
           "alrn6924-stage",
           "alrn6924-company-stop"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "ap8784-m",
@@ -5368,7 +5374,9 @@
         "specificity": "KRAS 筛选命中物",
         "stageEvidenceIds": [
           "ap8784-hit"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "mRNA展示命中物，作为LUNA18发现路线的历史起点。"
       },
       {
         "id": "apraglutide",
@@ -5397,7 +5405,9 @@
         "specificity": "合成GLP-2类似物；2023年收购时为III期，最新监管进展待核实。",
         "stageEvidenceIds": [
           "baseline-stage-apraglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "asc36",
@@ -5429,7 +5439,9 @@
         "stageEvidenceIds": [
           "registry-nct07893093",
           "registry-nct07893106"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "atsp7041",
@@ -5456,7 +5468,9 @@
         "specificity": "p53相关订书肽；2013年论文报告体外及异种移植瘤活性。2026年研究报告DIPG小鼠鼻腔药库递送。",
         "stageEvidenceIds": [
           "atsp7041-stage"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始论文定位为药物开发先导并报告动物药效；当前开发状态待核实。"
       },
       {
         "id": "aube00",
@@ -5484,7 +5498,9 @@
         "specificity": "pan-KRAS · GDP",
         "stageEvidenceIds": [
           "aube-phase1"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "bivalirudin",
@@ -5514,7 +5530,9 @@
         "specificity": "直接凝血酶抑制肽",
         "stageEvidenceIds": [
           "label-stage-bivalirudin"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "bms986189",
@@ -5543,7 +5561,9 @@
         "specificity": "PD-L1大环肽；NCT02739373确认I期实际开展并完成。2024年工艺论文报告800g API，不据此提升临床阶段。",
         "stageEvidenceIds": [
           "bms986189-stage"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "bremelanotide",
@@ -5574,7 +5594,9 @@
         "specificity": "非选择性黑皮质素受体激动肽；HSDD治疗效果的精确机制未知",
         "stageEvidenceIds": [
           "label-stage-bremelanotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "bt7480",
@@ -5606,7 +5628,9 @@
         "specificity": "由一段NECTIN4结合肽与CD137结合/激动肽构成的三段双环肽。I/II期试验的I期剂量递增已给药；2026年披露拟退出内部开发并寻求合作。",
         "stageEvidenceIds": [
           "baseline-stage-bt7480"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "cagrilintide",
@@ -5634,7 +5658,9 @@
         "specificity": "胰淀素类似物；REDEFINE-1 III期包含单独cagrilintide组。CagriSema为其与semaglutide组合，不新算第三条核心序列。",
         "stageEvidenceIds": [
           "baseline-stage-cagrilintide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "cetrorelix",
@@ -5664,7 +5690,9 @@
         "specificity": "GnRH受体拮抗十肽",
         "stageEvidenceIds": [
           "label-stage-cetrorelix"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "ct388",
@@ -5699,7 +5727,9 @@
         "specificity": "CT-388 / enicepatide / RO7795068为GLP-1/GIP双激动肽。NCT07351045确认III期实际启动；2026年9月公布II期结果。",
         "stageEvidenceIds": [
           "baseline-stage-ct388"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "dalazatide",
@@ -5729,7 +5759,9 @@
         "specificity": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究报告探索性PASI信号。最新开发与权属待核实。",
         "stageEvidenceIds": [
           "dalazatide-stage"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "dapiglutide",
@@ -5758,7 +5790,9 @@
         "specificity": "GLP-1/GLP-2双激动肽；已进入I期，II期准备就绪，开发暂停。",
         "stageEvidenceIds": [
           "baseline-stage-dapiglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "dasiglucagon",
@@ -5788,7 +5822,9 @@
         "specificity": "胰高血糖素类似物；救援制剂已获批，CHI持续输注是不同适应证项目",
         "stageEvidenceIds": [
           "label-stage-dasiglucagon"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "degarelix",
@@ -5818,7 +5854,9 @@
         "specificity": "GnRH受体拮抗十肽",
         "stageEvidenceIds": [
           "label-stage-degarelix"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "difelikefalin",
@@ -5848,7 +5886,9 @@
         "specificity": "κ阿片受体激动肽；标签保留受体激活与治疗效果关系的不确定性",
         "stageEvidenceIds": [
           "label-stage-difelikefalin"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "dulaglutide",
@@ -5878,7 +5918,9 @@
         "specificity": "GLP-1类似物与Fc融合的肽蛋白融合物",
         "stageEvidenceIds": [
           "label-stage-dulaglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "enlicitide",
@@ -5915,7 +5957,9 @@
         "specificity": "PCSK9",
         "stageEvidenceIds": [
           "enlicitide-approved"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "eptifibatide",
@@ -5945,7 +5989,9 @@
         "specificity": "血小板GP IIb/IIIa拮抗环肽",
         "stageEvidenceIds": [
           "label-stage-eptifibatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "etelcalcetide",
@@ -5975,7 +6021,9 @@
         "specificity": "CaSR变构拟钙肽",
         "stageEvidenceIds": [
           "label-stage-etelcalcetide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "exenatide",
@@ -6005,7 +6053,9 @@
         "specificity": "GLP-1受体激动肽",
         "stageEvidenceIds": [
           "label-stage-exenatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "f18-bms986229",
@@ -6038,7 +6088,9 @@
         "specificity": "PD-L1大环肽PET示踪剂；PeptiDream现行管线确认I期观察研究完成。诊断显像与抗肿瘤治疗进度分开。",
         "stageEvidenceIds": [
           "f18-bms986229-stage"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "ganirelix",
@@ -6068,7 +6120,9 @@
         "specificity": "GnRH受体拮抗十肽",
         "stageEvidenceIds": [
           "label-stage-ganirelix"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "glepaglutide",
@@ -6096,7 +6150,9 @@
         "specificity": "长效GLP-2类似物；当前管线列III期。既往申报/CRL与最新欧洲审评需继续独立核实，当前记录非完整监管沿革。",
         "stageEvidenceIds": [
           "baseline-stage-glepaglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "glucagon",
@@ -6126,7 +6182,9 @@
         "specificity": "胰高血糖素受体激动肽；药用活性成分，非独立发现的新候选",
         "stageEvidenceIds": [
           "label-stage-glucagon"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "goserelin",
@@ -6156,7 +6214,9 @@
         "specificity": "GnRH激动十肽类似物",
         "stageEvidenceIds": [
           "label-stage-goserelin"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "hcxt2001",
@@ -6186,7 +6246,9 @@
         "specificity": "人 IL23R；具体物种及实验构建体见证据",
         "stageEvidenceIds": [
           "hcxt-phase1"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "hrs9531",
@@ -6218,7 +6280,9 @@
         "specificity": "恒瑞2025-11-05公告确认中国体重管理NDA已递交并受理；KAI-9531与HRS9531为同一资产。全球III期在该公告时仍是计划，不当作已执行。",
         "stageEvidenceIds": [
           "baseline-stage-hrs9531"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "hs20094",
@@ -6250,7 +6314,9 @@
         "specificity": "每周GLP-1/GIP双激动肽；2025年签约公告确认中国肥胖III期和糖尿病IIb期。更新至2026年的NDA受理原始文件仍待核实。",
         "stageEvidenceIds": [
           "baseline-stage-hs20094"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "hs20118",
@@ -6288,7 +6354,9 @@
         "stageEvidenceIds": [
           "hs20118-phase1",
           "hs20118-development"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "icatibant",
@@ -6318,7 +6386,9 @@
         "specificity": "缓激肽B2受体竞争性拮抗肽",
         "stageEvidenceIds": [
           "label-stage-icatibant"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "icotrokinra",
@@ -6356,7 +6426,9 @@
         "stageEvidenceIds": [
           "icotrokinra-us",
           "icotrokinra-uk"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "il23r-p4-2025",
@@ -6382,7 +6454,9 @@
         "specificity": "人 IL23R；具体物种及实验构建体见证据",
         "stageEvidenceIds": [
           "p4-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "il23r-wo2022109328-seq1",
@@ -6411,7 +6485,9 @@
         "specificity": "人 IL23R；具体物种及实验构建体见证据",
         "stageEvidenceIds": [
           "il23r-seq1-pk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "制剂专利的实验序列；与独立临床项目的身份映射待核实。"
       },
       {
         "id": "il4x-2025",
@@ -6437,7 +6513,9 @@
         "specificity": "IL-4(5–15)片段模拟肽；MST实验在所用条件下未检出对人IL4Rα的结合。",
         "stageEvidenceIds": [
           "il4x-2025-mst"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "il4y-2025",
@@ -6463,7 +6541,9 @@
         "specificity": "IL-4(78–92)片段模拟肽；MST报告对人IL4Rα的弱结合，Kd约349 μM。",
         "stageEvidenceIds": [
           "il4y-2025-mst"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "insulin-degludec",
@@ -6493,7 +6573,9 @@
         "specificity": "长效基础胰岛素类似物",
         "stageEvidenceIds": [
           "label-stage-insulin-degludec"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "insulin-glargine",
@@ -6523,7 +6605,9 @@
         "specificity": "胰岛素类似物；参考标签为glargine-aldy生物类似药。",
         "stageEvidenceIds": [
           "label-stage-insulin-glargine"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "krpep2",
@@ -6550,7 +6634,9 @@
         "specificity": "KRAS G12D",
         "stageEvidenceIds": [
           "krpep2-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "T7噬菌体展示研究的初始命中物。"
       },
       {
         "id": "krpep2d",
@@ -6577,7 +6663,9 @@
         "specificity": "KRAS G12D",
         "stageEvidenceIds": [
           "krpep2d-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "同篇研究经序列优化的生化与细胞实验分子。"
       },
       {
         "id": "lanreotide",
@@ -6607,7 +6695,9 @@
         "specificity": "生长抑素八肽类似物",
         "stageEvidenceIds": [
           "label-stage-lanreotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "leuprolide",
@@ -6637,7 +6727,9 @@
         "specificity": "GnRH激动九肽类似物",
         "stageEvidenceIds": [
           "label-stage-leuprolide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "linaclotide",
@@ -6667,7 +6759,9 @@
         "specificity": "局部GC-C激动肽",
         "stageEvidenceIds": [
           "label-stage-linaclotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "liraglutide",
@@ -6697,7 +6791,9 @@
         "specificity": "酰化GLP-1类似物",
         "stageEvidenceIds": [
           "label-stage-liraglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "lixisenatide",
@@ -6727,7 +6823,9 @@
         "specificity": "GLP-1受体激动肽；参考标签为与甘精胰岛素联合的制剂。",
         "stageEvidenceIds": [
           "label-stage-lixisenatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "luna18",
@@ -6757,7 +6855,9 @@
         "stageEvidenceIds": [
           "luna-phase1",
           "luna-stopped"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "lx2-kras6",
@@ -6784,7 +6884,9 @@
         "specificity": "KRAS G12D",
         "stageEvidenceIds": [
           "lx2-binding"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "motixafortide",
@@ -6814,7 +6916,9 @@
         "specificity": "CXCR4拮抗肽，阻断CXCL12结合",
         "stageEvidenceIds": [
           "label-stage-motixafortide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "nuzefatide-pevedotin",
@@ -6844,7 +6948,9 @@
         "specificity": "EPHA2结合双环肽经val-cit连接MMAE；官网列明胰腺癌II期。",
         "stageEvidenceIds": [
           "baseline-stage-nuzefatide-pevedotin"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "octreotide",
@@ -6874,7 +6980,9 @@
         "specificity": "环状八肽生长抑素类似物",
         "stageEvidenceIds": [
           "label-stage-octreotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "p630",
@@ -6900,7 +7008,9 @@
         "specificity": "人 IL23R；具体物种及实验构建体见证据",
         "stageEvidenceIds": [
           "p630-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "IL23R受体药理研究的未标记配体工具。"
       },
       {
         "id": "p630-tmr",
@@ -6926,7 +7036,9 @@
         "specificity": "人 IL23R；具体物种及实验构建体见证据",
         "stageEvidenceIds": [
           "p630-tmr-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "IL23R受体药理研究的荧光探针。"
       },
       {
         "id": "palopegteriparatide",
@@ -6956,7 +7068,9 @@
         "specificity": "释放PTH(1-34)的持续暴露前药",
         "stageEvidenceIds": [
           "label-stage-palopegteriparatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "pasireotide",
@@ -6986,7 +7100,9 @@
         "specificity": "多SSTR亚型激动环六肽，标签列明各亚型亲和力",
         "stageEvidenceIds": [
           "label-stage-pasireotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "pcsk9-c1",
@@ -7016,7 +7132,9 @@
         "specificity": "LDLR-FRET Ki =134 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c1-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c10",
@@ -7046,7 +7164,9 @@
         "specificity": "LDLR-FRET IC50 =525 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c10-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c11",
@@ -7076,7 +7196,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c11-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c12",
@@ -7106,7 +7228,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c12-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c13",
@@ -7136,7 +7260,9 @@
         "specificity": "LDLR-FRET IC50 =16232 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c13-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c14",
@@ -7166,7 +7292,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c14-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c15",
@@ -7196,7 +7324,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c15-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c16",
@@ -7226,7 +7356,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c16-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c17",
@@ -7256,7 +7388,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c17-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c18",
@@ -7286,7 +7420,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c18-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c19",
@@ -7316,7 +7452,9 @@
         "specificity": "LDLR-FRET IC50 >50000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c19-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c2",
@@ -7346,7 +7484,9 @@
         "specificity": "LDLR-FRET Ki =956 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c2-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c20",
@@ -7376,7 +7516,9 @@
         "specificity": "LDLR-FRET IC50 =2011 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c20-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c21",
@@ -7406,7 +7548,9 @@
         "specificity": "LDLR-FRET IC50 =342 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c21-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c22",
@@ -7436,7 +7580,9 @@
         "specificity": "LDLR-FRET IC50 =4090 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c22-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c23a",
@@ -7466,7 +7612,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。外消旋N-MeTrp形成的两种分离非对映异构体之一。",
         "stageEvidenceIds": [
           "pcsk9-c23a-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c23b",
@@ -7496,7 +7644,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。外消旋N-MeTrp形成的两种分离非对映异构体之一。",
         "stageEvidenceIds": [
           "pcsk9-c23b-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c24a",
@@ -7526,7 +7676,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。外消旋N-MeTrp形成的两种分离非对映异构体之一。",
         "stageEvidenceIds": [
           "pcsk9-c24a-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c24b",
@@ -7556,7 +7708,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。外消旋N-MeTrp形成的两种分离非对映异构体之一。",
         "stageEvidenceIds": [
           "pcsk9-c24b-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c25",
@@ -7586,7 +7740,9 @@
         "specificity": "LDLR-FRET IC50 =12867 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c25-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c26",
@@ -7616,7 +7772,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c26-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c27",
@@ -7646,7 +7804,9 @@
         "specificity": "LDLR-FRET IC50 =112 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c27-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c28",
@@ -7676,7 +7836,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c28-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c29",
@@ -7706,7 +7868,9 @@
         "specificity": "LDLR-FRET Ki =252 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c29-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c3",
@@ -7736,7 +7900,9 @@
         "specificity": "LDLR-FRET Ki =47.1 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c3-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c30",
@@ -7767,7 +7933,9 @@
         "stageEvidenceIds": [
           "pcsk9-c30-assay",
           "pcsk9-c30-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c31",
@@ -7797,7 +7965,9 @@
         "specificity": "LDLR-FRET Ki =103 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c31-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c32",
@@ -7827,7 +7997,9 @@
         "specificity": "LDLR-FRET Ki =1070 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c32-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c33",
@@ -7857,7 +8029,9 @@
         "specificity": "LDLR-FRET Ki =63 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c33-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c34",
@@ -7887,7 +8061,9 @@
         "specificity": "LDLR-FRET Ki =29345 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c34-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c35",
@@ -7917,7 +8093,9 @@
         "specificity": "LDLR-FRET Ki =2211 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c35-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c36",
@@ -7947,7 +8125,9 @@
         "specificity": "LDLR-FRET Ki =10740 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c36-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c37",
@@ -7977,7 +8157,9 @@
         "specificity": "LDLR-FRET Ki =67.5 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c37-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c38",
@@ -8007,7 +8189,9 @@
         "specificity": "LDLR-FRET Ki =969 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c38-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c39",
@@ -8037,7 +8221,9 @@
         "specificity": "Alexa-FRET Ki =4.3 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c39-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c4",
@@ -8068,7 +8254,9 @@
         "stageEvidenceIds": [
           "pcsk9-c4-assay",
           "pcsk9-c4-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c40",
@@ -8099,7 +8287,9 @@
         "stageEvidenceIds": [
           "pcsk9-c40-assay",
           "pcsk9-c40-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c41",
@@ -8129,7 +8319,9 @@
         "specificity": "Alexa-FRET Ki =1.5 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c41-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c42",
@@ -8159,7 +8351,9 @@
         "specificity": "Alexa-FRET Ki =3.9 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c42-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c43",
@@ -8189,7 +8383,9 @@
         "specificity": "Alexa-FRET Ki =2.7 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c43-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c44",
@@ -8220,7 +8416,9 @@
         "stageEvidenceIds": [
           "pcsk9-c44-assay",
           "pcsk9-c44-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c45",
@@ -8250,7 +8448,9 @@
         "specificity": "LDLR-FRET Ki =26.9 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c45-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c46",
@@ -8280,7 +8480,9 @@
         "specificity": "LDLR-FRET Ki =48.1 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c46-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c47",
@@ -8310,7 +8512,9 @@
         "specificity": "Alexa-FRET Ki =23.1 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c47-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c48",
@@ -8340,7 +8544,9 @@
         "specificity": "Alexa-FRET Ki =4.2 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c48-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c49",
@@ -8370,7 +8576,9 @@
         "specificity": "LDLR-FRET Ki =88.3 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c49-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c5",
@@ -8400,7 +8608,9 @@
         "specificity": "LDLR-FRET IC50 =392 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c5-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c50",
@@ -8430,7 +8640,9 @@
         "specificity": "Alexa-FRET Ki =11.7 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c50-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c51",
@@ -8462,7 +8674,9 @@
         "stageEvidenceIds": [
           "c51-structure",
           "pcsk9-c51-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c52",
@@ -8492,7 +8706,9 @@
         "specificity": "Alexa-FRET Ki =10.1 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c52-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c53",
@@ -8523,7 +8739,9 @@
         "stageEvidenceIds": [
           "pcsk9-c53-assay",
           "pcsk9-c53-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c54",
@@ -8553,7 +8771,9 @@
         "specificity": "LDLR-FRET Ki =202.2 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c54-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c55",
@@ -8583,7 +8803,9 @@
         "specificity": "Alexa-FRET Ki =14.3 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c55-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c56",
@@ -8613,7 +8835,9 @@
         "specificity": "Alexa-FRET Ki =35.2 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c56-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c57",
@@ -8643,7 +8867,9 @@
         "specificity": "Alexa-FRET Ki =39 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c57-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c58",
@@ -8673,7 +8899,9 @@
         "specificity": "Alexa-FRET Ki =85.8 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c58-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c59",
@@ -8703,7 +8931,9 @@
         "specificity": "Alexa-FRET Ki =80.7 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c59-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c6",
@@ -8733,7 +8963,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c6-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c60",
@@ -8764,7 +8996,9 @@
         "stageEvidenceIds": [
           "pcsk9-c60-assay",
           "pcsk9-c60-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c61",
@@ -8794,7 +9028,9 @@
         "specificity": "Alexa-FRET Ki =4.2 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c61-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c62",
@@ -8824,7 +9060,9 @@
         "specificity": "Alexa-FRET Ki =9.4 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c62-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c63",
@@ -8854,7 +9092,9 @@
         "specificity": "Alexa-FRET Ki =10.7 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c63-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c66",
@@ -8884,7 +9124,9 @@
         "specificity": "Alexa-FRET Ki =8.2 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c66-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c7",
@@ -8914,7 +9156,9 @@
         "specificity": "LDLR-FRET IC50 =656 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c7-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c75",
@@ -8945,7 +9189,9 @@
         "stageEvidenceIds": [
           "pcsk9-c75-assay",
           "pcsk9-c75-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c78",
@@ -8976,7 +9222,9 @@
         "stageEvidenceIds": [
           "pcsk9-c78-assay",
           "pcsk9-c78-ivpk"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c79",
@@ -9006,7 +9254,9 @@
         "specificity": "Alexa-FRET Ki =10.6 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c79-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c8",
@@ -9036,7 +9286,9 @@
         "specificity": "LDLR-FRET IC50 >48000 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c8-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c80",
@@ -9066,7 +9318,9 @@
         "specificity": "Alexa-FRET Ki =285 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c80-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c81",
@@ -9096,7 +9350,9 @@
         "specificity": "Alexa-FRET Ki =44.2 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c81-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c82",
@@ -9126,7 +9382,9 @@
         "specificity": "Alexa-FRET Ki =4 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c82-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c83",
@@ -9156,7 +9414,9 @@
         "specificity": "Alexa-FRET Ki =174.8 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c83-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c84",
@@ -9186,7 +9446,9 @@
         "specificity": "Alexa-FRET Ki =2.8 nM；体外研究编号。活性样品为喹啉氨基酸位点约1:2非对映异构体混合物；晶体为结合异构体。",
         "stageEvidenceIds": [
           "pcsk9-c84-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pcsk9-c9",
@@ -9216,7 +9478,9 @@
         "specificity": "LDLR-FRET IC50 =427 nM；体外研究编号。",
         "stageEvidenceIds": [
           "pcsk9-c9-assay"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "2020年发现论文中的SAR实验编号。"
       },
       {
         "id": "pegcetacoplan",
@@ -9246,7 +9510,9 @@
         "specificity": "结合C3/C3b的PEG化环肽",
         "stageEvidenceIds": [
           "label-stage-pegcetacoplan"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "petrelintide",
@@ -9277,7 +9543,9 @@
         "specificity": "长效胰淀素类似物；2026-09-22公告确认III期ZUPREME项目已启动；合作签约时为IIb期。",
         "stageEvidenceIds": [
           "baseline-stage-petrelintide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "plecanatide",
@@ -9307,7 +9575,9 @@
         "specificity": "GC-C激动肽",
         "stageEvidenceIds": [
           "label-stage-plecanatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "pn232",
@@ -9341,7 +9611,9 @@
         "stageEvidenceIds": [
           "pn232-phase1",
           "pn232-stop"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "pn943",
@@ -9373,7 +9645,9 @@
         "specificity": "口服肠道限制性α4β7拮抗肽；IDEAL II期纳入159人，450mg BID未达预设主要终点，低剂量组报告探索性信号。公司停止内部投入，保留合作开发可能。",
         "stageEvidenceIds": [
           "pn943-stage"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "pramlintide",
@@ -9403,7 +9677,9 @@
         "specificity": "人胰淀素类似物",
         "stageEvidenceIds": [
           "label-stage-pramlintide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "ptg200",
@@ -9437,7 +9713,9 @@
         "stageEvidenceIds": [
           "ptg200-phase2",
           "ptg200-stop"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "retatrutide",
@@ -9469,7 +9747,9 @@
         "specificity": "单一分子的GIP/GLP-1/GCGR三激动肽；截至2026年9月FAQ处于III期且尚未获批。",
         "stageEvidenceIds": [
           "baseline-stage-retatrutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "rfp-gab-d1",
@@ -9495,7 +9775,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度99%。",
         "stageEvidenceIds": [
           "rfp-gab-d1-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d19",
@@ -9521,7 +9803,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d19-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d2",
@@ -9547,7 +9831,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d2-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d20",
@@ -9573,7 +9859,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d20-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d22",
@@ -9599,7 +9887,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d22-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d23",
@@ -9626,7 +9916,9 @@
         "stageEvidenceIds": [
           "rfp-gab-d23-stage",
           "rfp-gab-d23-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d26",
@@ -9652,7 +9944,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度99%。",
         "stageEvidenceIds": [
           "rfp-gab-d26-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d27",
@@ -9678,7 +9972,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度95.87%。",
         "stageEvidenceIds": [
           "rfp-gab-d27-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d28",
@@ -9704,7 +10000,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度92.15%。",
         "stageEvidenceIds": [
           "rfp-gab-d28-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d31",
@@ -9730,7 +10028,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d31-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d5",
@@ -9756,7 +10056,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d5-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d6",
@@ -9782,7 +10084,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-gab-d6-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-gab-d8",
@@ -9810,7 +10114,9 @@
         "stageEvidenceIds": [
           "rfp-gab-d8-stage",
           "rfp-gab-d8-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d1",
@@ -9836,7 +10142,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度87.12%。",
         "stageEvidenceIds": [
           "rfp-mcb-d1-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d10",
@@ -9862,7 +10170,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d10-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d11",
@@ -9888,7 +10198,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d11-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d12",
@@ -9914,7 +10226,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度92.65%。",
         "stageEvidenceIds": [
           "rfp-mcb-d12-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d13",
@@ -9940,7 +10254,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度85.24%。",
         "stageEvidenceIds": [
           "rfp-mcb-d13-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d14",
@@ -9966,7 +10282,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d14-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d15",
@@ -9992,7 +10310,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度97.1%。",
         "stageEvidenceIds": [
           "rfp-mcb-d15-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d16",
@@ -10018,7 +10338,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d16-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d17",
@@ -10044,7 +10366,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d17-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d18",
@@ -10070,7 +10394,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度96%。",
         "stageEvidenceIds": [
           "rfp-mcb-d18-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d19",
@@ -10096,7 +10422,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d19-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d2",
@@ -10123,7 +10451,9 @@
         "stageEvidenceIds": [
           "rfp-mcb-d2-stage",
           "rfp-mcb-d2-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d20",
@@ -10149,7 +10479,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度96.87%。",
         "stageEvidenceIds": [
           "rfp-mcb-d20-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d21",
@@ -10175,7 +10507,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度92.38%。",
         "stageEvidenceIds": [
           "rfp-mcb-d21-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d22",
@@ -10201,7 +10535,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度96.84%。",
         "stageEvidenceIds": [
           "rfp-mcb-d22-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d23",
@@ -10227,7 +10563,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d23-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d24",
@@ -10253,7 +10591,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d24-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d25",
@@ -10279,7 +10619,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d25-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d26",
@@ -10305,7 +10647,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度96.32%。",
         "stageEvidenceIds": [
           "rfp-mcb-d26-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d27",
@@ -10331,7 +10675,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d27-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d3",
@@ -10357,7 +10703,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度96.5%。",
         "stageEvidenceIds": [
           "rfp-mcb-d3-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d4",
@@ -10383,7 +10731,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度96.1%。",
         "stageEvidenceIds": [
           "rfp-mcb-d4-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d5",
@@ -10409,7 +10759,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d5-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d6",
@@ -10435,7 +10787,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d6-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d7",
@@ -10461,7 +10815,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度99.1%。",
         "stageEvidenceIds": [
           "rfp-mcb-d7-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d8",
@@ -10487,7 +10843,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度91.23%。",
         "stageEvidenceIds": [
           "rfp-mcb-d8-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mcb-d9",
@@ -10513,7 +10871,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mcb-d9-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d1",
@@ -10539,7 +10899,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度95.04%。",
         "stageEvidenceIds": [
           "rfp-mdb-d1-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d10",
@@ -10565,7 +10927,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度90.64%。",
         "stageEvidenceIds": [
           "rfp-mdb-d10-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d11",
@@ -10591,7 +10955,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度96.51%。",
         "stageEvidenceIds": [
           "rfp-mdb-d11-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d2",
@@ -10617,7 +10983,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度97%。",
         "stageEvidenceIds": [
           "rfp-mdb-d2-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d3",
@@ -10643,7 +11011,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度88.06%。",
         "stageEvidenceIds": [
           "rfp-mdb-d3-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d4",
@@ -10669,7 +11039,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度95.14%。",
         "stageEvidenceIds": [
           "rfp-mdb-d4-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d5",
@@ -10695,7 +11067,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mdb-d5-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d6",
@@ -10721,7 +11095,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度91.19%。",
         "stageEvidenceIds": [
           "rfp-mdb-d6-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d7",
@@ -10747,7 +11123,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mdb-d7-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d8",
@@ -10774,7 +11152,9 @@
         "stageEvidenceIds": [
           "rfp-mdb-d8-stage",
           "rfp-mdb-d8-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-mdb-d9",
@@ -10800,7 +11180,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-mdb-d9-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d1",
@@ -10826,7 +11208,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度93.77%。",
         "stageEvidenceIds": [
           "rfp-rbb-d1-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d10",
@@ -10853,7 +11237,9 @@
         "stageEvidenceIds": [
           "rfp-rbb-d10-stage",
           "rfp-rbb-d10-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d11",
@@ -10879,7 +11265,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d11-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d12",
@@ -10905,7 +11293,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d12-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d13",
@@ -10931,7 +11321,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d13-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d14",
@@ -10957,7 +11349,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度98.08%。",
         "stageEvidenceIds": [
           "rfp-rbb-d14-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d15",
@@ -10983,7 +11377,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度94.52%。",
         "stageEvidenceIds": [
           "rfp-rbb-d15-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d16",
@@ -11009,7 +11405,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d16-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d17",
@@ -11035,7 +11433,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d17-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d18",
@@ -11061,7 +11461,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d18-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d19",
@@ -11087,7 +11489,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d19-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d2",
@@ -11113,7 +11517,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度92.43%。",
         "stageEvidenceIds": [
           "rfp-rbb-d2-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d20",
@@ -11139,7 +11545,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d20-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d21",
@@ -11165,7 +11573,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d21-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d22",
@@ -11191,7 +11601,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d22-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d23",
@@ -11217,7 +11629,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d23-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d24",
@@ -11243,7 +11657,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d24-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d25",
@@ -11269,7 +11685,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d25-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d26",
@@ -11295,7 +11713,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d26-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d3",
@@ -11321,7 +11741,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度92.43%。",
         "stageEvidenceIds": [
           "rfp-rbb-d3-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d4",
@@ -11347,7 +11769,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度98.04%。",
         "stageEvidenceIds": [
           "rfp-rbb-d4-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d5",
@@ -11373,7 +11797,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度93.22%。",
         "stageEvidenceIds": [
           "rfp-rbb-d5-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d6",
@@ -11399,7 +11825,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度92.11%。",
         "stageEvidenceIds": [
           "rfp-rbb-d6-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d7",
@@ -11425,7 +11853,9 @@
         "specificity": "SPR筛选在≤100 μM条件下检出结合。合成样品纯度94.63%。",
         "stageEvidenceIds": [
           "rfp-rbb-d7-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d8",
@@ -11451,7 +11881,9 @@
         "specificity": "SPR筛选在≤100 μM条件下未检出结合。合成样品纯度90.11%。",
         "stageEvidenceIds": [
           "rfp-rbb-d8-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rfp-rbb-d9",
@@ -11477,7 +11909,9 @@
         "specificity": "计算入选设计；环化合成产量或纯度不足，未进入SPR表征。",
         "stageEvidenceIds": [
           "rfp-rbb-d9-selection"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "论文中用于设计流程与靶点验证的研究分子。"
       },
       {
         "id": "rusfertide",
@@ -11507,7 +11941,9 @@
         "specificity": "Hepcidin模拟肽，阻断ferroportin",
         "stageEvidenceIds": [
           "label-stage-rusfertide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "semaglutide",
@@ -11537,7 +11973,9 @@
         "specificity": "天然GLP-1衍生的长效受体激动肽",
         "stageEvidenceIds": [
           "label-stage-semaglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "setmelanotide",
@@ -11567,7 +12005,9 @@
         "specificity": "MC4R激动肽；不同遗传亚群的获批用途以标签为准",
         "stageEvidenceIds": [
           "label-stage-setmelanotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "survodutide",
@@ -11600,7 +12040,9 @@
         "specificity": "GLP-1/GCGR双激动剂；官网列明肥胖和MASH的III期项目，尚未获批。",
         "stageEvidenceIds": [
           "baseline-stage-survodutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "syh2082",
@@ -11630,7 +12072,9 @@
         "specificity": "2026-01-30披露为临床就绪、推进I期；采用LiquidGel长效制剂，具体发现路线待核实。",
         "stageEvidenceIds": [
           "baseline-stage-syh2082"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "开发方披露具名项目、临床准备或持续开发安排。"
       },
       {
         "id": "teduglutide",
@@ -11660,7 +12104,9 @@
         "specificity": "GLP-2类似物",
         "stageEvidenceIds": [
           "label-stage-teduglutide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "teriparatide",
@@ -11690,7 +12136,9 @@
         "specificity": "PTH(1-34)类似物",
         "stageEvidenceIds": [
           "label-stage-teriparatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "tesamorelin",
@@ -11720,7 +12168,9 @@
         "specificity": "GHRH类似物，激活GRF受体",
         "stageEvidenceIds": [
           "label-stage-tesamorelin"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "tirzepatide",
@@ -11751,7 +12201,9 @@
         "specificity": "GIP/GLP-1双受体激动肽",
         "stageEvidenceIds": [
           "label-stage-tirzepatide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "tnik-tk7-2026",
@@ -11777,7 +12229,9 @@
         "specificity": "RaPID筛选的硫代异吲哚桥连双环肽；TK7激酶IC50为60 nM，五候选整体最佳Kd为12.3 nM，其编号对应待核实。",
         "stageEvidenceIds": [
           "tnik-tk7-2026-stage"
-        ]
+        ],
+        "trackingRole": "research",
+        "trackingRoleNote": "RaPID筛选与体外酶抑制研究分子。"
       },
       {
         "id": "ubt251",
@@ -11810,7 +12264,9 @@
         "specificity": "GLP-1/GIP/GCGR三激动肽；2026年公告确认中国II期结果，全球项目的阶段/适应证另查，不据“支持III期”当作III期已启动。",
         "stageEvidenceIds": [
           "ubt251-phase2"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "vosoritide",
@@ -11840,7 +12296,9 @@
         "specificity": "CNP类似物，结合NPR-B后影响FGFR3下游信号",
         "stageEvidenceIds": [
           "label-stage-vosoritide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "zelenectide-pevedotin",
@@ -11870,7 +12328,9 @@
         "specificity": "NECTIN4结合肽-MMAE偶联物；当前官网明确Duravelo-2随机II期并已降低项目优先级，不据此断言终止。与既往II/III期宣传口径差异待登记复核。",
         "stageEvidenceIds": [
           "baseline-stage-zelenectide-pevedotin"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "zenagamtide",
@@ -11901,7 +12361,9 @@
         "specificity": "单分子GLP-1/胰淀素受体激动肽；2026Q1披露AMAZE III期实际启动。口服与皮下制剂共用身份，适应证和给药途径进度需分别补查。",
         "stageEvidenceIds": [
           "baseline-stage-zenagamtide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "ziconotide",
@@ -11931,7 +12393,9 @@
         "specificity": "N型钙通道结合肽；标签明确人体镇痛机制尚未完全确立",
         "stageEvidenceIds": [
           "label-stage-ziconotide"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "zilucoplan",
@@ -11961,7 +12425,9 @@
         "specificity": "抑制C5裂解的环肽",
         "stageEvidenceIds": [
           "label-stage-zilucoplan"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "zp6590",
@@ -11989,7 +12455,9 @@
         "specificity": "GIP受体激动剂，I期；序列与发现方法待核实。",
         "stageEvidenceIds": [
           "baseline-stage-zp6590"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       },
       {
         "id": "zp9830",
@@ -12017,7 +12485,9 @@
         "specificity": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果。",
         "stageEvidenceIds": [
           "baseline-stage-zp9830"
-        ]
+        ],
+        "trackingRole": "program",
+        "trackingRoleNote": "原始登记、监管或开发方资料支持具名临床/注册研发项目。"
       }
     ],
     "evidence": [

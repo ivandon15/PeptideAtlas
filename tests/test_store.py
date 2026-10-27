@@ -56,6 +56,16 @@ class StoreTests(unittest.TestCase):
         with self.assertRaises(sqlite3.ProgrammingError):
             connection.execute("SELECT 1")
 
+    def test_tracking_role_requires_a_valid_role_and_basis(self):
+        molecule = copy.deepcopy(self.initial["molecules"][0])
+        for fields in (
+            {"trackingRole": "clinical-candidate"},
+            {"trackingRole": "research", "trackingRoleNote": ""},
+        ):
+            with self.assertRaisesRegex(Invalid, "追踪角色"):
+                self.patch({"molecules": [dict(molecule, **fields)]})
+        self.assertEqual(self.store.state(), self.initial)
+
     def test_stale_revision_and_atomic_rollback(self):
         with self.assertRaises(Conflict):
             self.patch({"targets": []}, rev=0)

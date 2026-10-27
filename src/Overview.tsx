@@ -54,7 +54,7 @@ export function Overview({
       <div className="overview-metrics">
         {[
           [s.targets.length, "靶点 / 靶点组"],
-          [data.development.molecules.length, "研发分子记录"],
+          [data.development.molecules.length, "研发项目"],
           [computationalPapers(calc).length, "计算设计论文"],
           [s.deals.length, "合作与商业事件"],
         ].map(([n, label]) => (
@@ -148,7 +148,7 @@ export function Overview({
         <section className="overview-panel">
           <div className="panel-title">
             <h2>靶点研发分布</h2>
-            <span>分子记录数</span>
+            <span>研发项目数</span>
           </div>
           <div className="stage-key">
             <span>
@@ -169,7 +169,7 @@ export function Overview({
               <button
                 onClick={() => onTarget(t.id)}
                 key={t.id}
-                aria-label={`查看${t.name}，${t.count}条分子记录`}
+                aria-label={`查看${t.name}，${t.count}个研发项目`}
               >
                 <span>{t.name}</span>
                 <div className="bar-track">

@@ -4,6 +4,7 @@ import {
   researchTrack,
   researchSources,
   researchState,
+  experimentalMolecules,
 } from "../src/research-view.ts";
 const original = JSON.parse(
   fs.readFileSync(new URL("../data/pilot.json", import.meta.url)),
@@ -107,3 +108,40 @@ assert.equal(
 );
 const { computationalPapers } = await import("../src/research-view.ts");
 assert.equal(computationalPapers(paperView, "t").length, 1);
+
+const programView = researchState(original, "development");
+assert.equal(
+  programView.molecules.filter((m) => m.targetIds.includes("pcsk9")).length,
+  1,
+);
+assert.ok(programView.molecules.some((m) => m.id === "enlicitide"));
+assert.ok(!programView.molecules.some((m) => m.id.startsWith("pcsk9-c")));
+assert.equal(experimentalMolecules(original, "pcsk9").length, 74);
+for (const id of [
+  "p630",
+  "p630-tmr",
+  "il23r-wo2022109328-seq1",
+  "ap8784-m",
+  "krpep2",
+  "krpep2d",
+  "tnik-tk7-2026",
+])
+  assert.ok(
+    !programView.molecules.some((m) => m.id === id),
+    `${id} is research context`,
+  );
+for (const id of ["syh2082", "atsp7041"])
+  assert.ok(
+    programView.molecules.some((m) => m.id === id),
+    "verified preclinical programs remain visible",
+  );
+assert.ok(
+  original.molecules.every((m) => m.trackingRole && m.trackingRoleNote),
+  "curated molecules require an explicit program/research classification",
+);
+assert.ok(
+  researchState(original, "development", true).molecules.some(
+    (m) => m.id === "tnik-tk7-2026",
+  ),
+  "research-only targets remain discoverable in the catalog",
+);

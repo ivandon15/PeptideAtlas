@@ -24,6 +24,8 @@ description: 核验用户提供的多肽论文、专利、公告链接、文字�
 
 一次 commit 提交相关 sources/evidence/reviews、被修订的 molecules/series/deals 等事实及原 gaps 的状态和结论。保留旧字段、ID与来源，先检查 baseRevision；冲突时重读合并，不覆盖用户其他改动。实验条件、样品形式、物种和计划/已实施分别记录。
 
+补充SI或专利时逐编号核对 trackingRole：实验类似物、探针及方法验证设计归研究详情；新增实验或动物PK仅更新验证阶段，有明确研发项目依据后再调整追踪角色。遵循共享协议“研发项目与研究分子”。
+
 - 充分解决：写明解决内容和依据，status=resolved，网页自动隐藏。
 - 不匹配、部分支持或冲突：保留问题，使用 needs-more/reviewing 等适用状态，写具体尚缺什么；不能为“清空列表”关闭。
 - 用户明确人工核查后无法获取：status=unobtainable，resolution 保存原因；这是获取归档，不是科学解决。网页隐藏，本地历史保留，不再重复索取。

@@ -8,6 +8,7 @@ import {
   computationalPapers,
   computationalResults,
   type ResearchTrack,
+  isProgram,
 } from "./research-view";
 import { targetIsRecent } from "./summary-data";
 import "./explore.css";
@@ -19,7 +20,7 @@ export function TargetCatalog({
   onSelect: (id: string, filters: Filters, track: ResearchTrack) => void;
 }) {
   const [track, setTrack] = useState<ResearchTrack>("development");
-  const visible = researchState(state, track);
+  const visible = researchState(state, track, true);
   const [filters, setFilters] = useState({ ...emptyFilters }),
     [sort, setSort] = useState("updated");
   const update = (key: keyof Filters, value: string) => {
@@ -28,7 +29,13 @@ export function TargetCatalog({
   const results =
     track === "computational"
       ? computationalResults(visible, filters.query, sort)
-      : targetResults(visible, filters, sort);
+      : targetResults(visible, filters, sort).sort((a, b) =>
+          sort === "count"
+            ? b.molecules.filter(isProgram).length -
+                a.molecules.filter(isProgram).length ||
+              a.target.name.localeCompare(b.target.name)
+            : 0,
+        );
   const filtered =
     track === "computational"
       ? !!filters.query
@@ -46,7 +53,7 @@ export function TargetCatalog({
           {visible.targets.length} 靶点 <i />{" "}
           {track === "computational"
             ? `${computationalPapers(visible).length} 篇论文${computationalPapers(visible).some((p) => p.disposition === "pending") ? "（含待核关联）" : ""}`
-            : `${visible.molecules.length} 分子记录`}
+            : `${visible.molecules.filter(isProgram).length} 研发项目`}
         </span>
       </div>
       <div className="research-tabs" role="tablist" aria-label="靶点研究分类">
@@ -152,7 +159,7 @@ export function TargetCatalog({
               <option value="count">
                 {track === "computational"
                   ? "论文数量 多→少"
-                  : "分子数量 多→少"}
+                  : "研发项目 多→少"}
               </option>
               <option value="name">名称 A–Z</option>
             </select>
@@ -164,7 +171,7 @@ export function TargetCatalog({
           {results.length} 个靶点
           {filtered &&
             track !== "computational" &&
-            ` · ${results.reduce((n, r) => n + r.molecules.length, 0)} 条匹配分子`}
+            ` · ${results.reduce((n, r) => n + r.molecules.filter(isProgram).length, 0)} 个匹配项目`}
         </span>
         {filtered ? (
           <button
@@ -188,7 +195,12 @@ export function TargetCatalog({
       </div>
       <div className="catalog-grid">
         {results.map(
-          ({ target, molecules, total, updated, filters: targetFilters }) => {
+          ({
+            target,
+            molecules: matches,
+            updated,
+            filters: targetFilters,
+          }) => {
             if (track === "computational") {
               const papers = computationalPapers(visible, target.id);
               return (
@@ -224,6 +236,8 @@ export function TargetCatalog({
                 </button>
               );
             }
+            const molecules = matches.filter(isProgram);
+            const researchCount = matches.length - molecules.length;
             const counts = [
               molecules.filter((m) =>
                 ["design", "in-vitro", "preclinical"].includes(m.stage),
@@ -256,7 +270,10 @@ export function TargetCatalog({
                 </div>
                 <div className="target-metric">
                   <strong>{molecules.length}</strong>
-                  <span>{filtered ? `匹配 / ${total} 收录` : "分子记录"}</span>
+                  <span>
+                    研发项目
+                    {researchCount > 0 && ` · ${researchCount} 研究分子`}
+                  </span>
                 </div>
                 <div
                   className="phase-distribution"

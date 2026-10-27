@@ -35,11 +35,13 @@ export function ProgressBoard({
   targetId,
   onOpen,
   initialFilters,
+  context = state,
 }: {
   state: State;
   targetId: string;
   onOpen: (m: Molecule) => void;
   initialFilters?: Filters;
+  context?: State;
 }) {
   const detailRef = useRef<HTMLDivElement>(null);
   const all = state.molecules.filter((m) => m.targetIds.includes(targetId));
@@ -628,8 +630,8 @@ export function ProgressBoard({
           .map((r) => (
             <article key={r.id}>
               <strong>
-                {state.molecules.find((m) => m.id === r.from)?.name} →{" "}
-                {state.molecules.find((m) => m.id === r.to)?.name}
+                {context.molecules.find((m) => m.id === r.from)?.name} →{" "}
+                {context.molecules.find((m) => m.id === r.to)?.name}
               </strong>
               <span className="tag">
                 {relationName(r.type)} ·{" "}

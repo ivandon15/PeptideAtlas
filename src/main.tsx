@@ -39,6 +39,7 @@ import {
   researchState,
   computationalPapers,
   researchSources,
+  experimentalMolecules,
   type ResearchTrack,
 } from "./research-view";
 import { emptyFilters, type Filters } from "./explore";
@@ -56,9 +57,7 @@ function App() {
     [readAt, setReadAt] = useState(""),
     [reading, setReading] = useState(false),
     [target, setTarget] = useState(""),
-    [targetTrack, setTargetTrack] = useState<ResearchTrack | "all">(
-      "development",
-    ),
+    [targetTrack, setTargetTrack] = useState<ResearchTrack>("development"),
     [targetFilters, setTargetFilters] = useState<Filters>({ ...emptyFilters }),
     [selected, setSelected] = useState<Molecule | null>(null),
     [history, setHistory] = useState<Revision[] | null>(null),
@@ -119,7 +118,15 @@ function App() {
         <button onClick={load}>重新连接</button>
       </main>
     );
-  const targetState = targetTrack === "all" ? s : researchState(s, targetTrack);
+  const targetState = researchState(s, targetTrack);
+  const experimental = experimentalMolecules(s, target);
+  const experimentalState = {
+    ...s,
+    molecules: experimental,
+    series: s.series.filter((x) =>
+      experimental.some((m) => m.seriesId === x.id),
+    ),
+  };
   const state = s,
     names = (ids: string[]) =>
       ids
@@ -418,7 +425,7 @@ function App() {
                 <span className="tag">
                   {targetTrack === "computational"
                     ? `${computationalPapers(targetState, activeTarget.id).length} 篇论文`
-                    : `${mols.length} 条分子记录`}
+                    : `${mols.length} 个研发项目`}
                 </span>
               </div>
               {targetTrack === "computational" ? (
@@ -427,14 +434,31 @@ function App() {
                   targetId={activeTarget.id}
                   onOpen={setSelected}
                 />
-              ) : (
+              ) : mols.length ? (
                 <ProgressBoard
                   key={activeTarget.id}
                   state={targetState}
+                  context={s}
                   targetId={activeTarget.id}
                   initialFilters={targetFilters}
                   onOpen={setSelected}
                 />
+              ) : null}
+              {targetTrack === "development" && experimental.length > 0 && (
+                <details
+                  className="research-archive"
+                  open={mols.length === 0 ? true : undefined}
+                >
+                  <summary>
+                    实验研究与 SAR · {experimental.length} 条分子记录
+                  </summary>
+                  <ComputationalTarget
+                    state={experimentalState}
+                    targetId={activeTarget.id}
+                    onOpen={setSelected}
+                    memberLabel="研究分子"
+                  />
+                </details>
               )}
               <button
                 className="target-gap-link"
@@ -454,7 +478,7 @@ function App() {
               state={s}
               onMolecule={setSelected}
               onTarget={(id) => {
-                setTargetTrack("all");
+                setTargetTrack("development");
                 setTargetFilters({ ...emptyFilters });
                 setTarget(id);
                 setTab("targets");
@@ -684,6 +708,12 @@ function App() {
               <span>{statusLabel[selected.status]}</span>
             </div>
             <p>{selected.description}</p>
+            {selected.trackingRole && (
+              <p className="muted">
+                {selected.trackingRole === "program" ? "研发项目" : "研究分子"}
+                {selected.trackingRoleNote && ` · ${selected.trackingRoleNote}`}
+              </p>
+            )}
             <h3>化学身份</h3>
             <div className="sequence">
               {selected.sequence || "精确序列 / 化学结构尚待原文核验"}

@@ -221,6 +221,12 @@ class Store:
                         "系列归组依据无效",
                     )
                 if kind == "molecules":
+                    if "trackingRole" in d:
+                        require(
+                            d["trackingRole"] in ("program", "research")
+                            and text(d.get("trackingRoleNote")),
+                            "分子追踪角色须为program/research并注明来源判定依据",
+                        )
                     refs(d, "targetIds", "targets", True)
                     refs(d, "sourceIds", "sources", True)
                     refs(d, "companyIds", "companies")

@@ -1,4 +1,5 @@
 import type { State, Deal } from "./model.ts";
+import { isProgram } from "./research-view.ts";
 export const eventLabels: Record<string, string> = {
   license: "资产许可",
   platform: "平台合作",
@@ -48,12 +49,13 @@ const searchNorm = (s: string) => norm(s).replace(/[\s\p{P}]/gu, "");
 export function companyAssets(s: State, id: string) {
   return s.molecules.filter(
     (m) =>
-      m.companyIds.includes(id) ||
-      s.deals.some(
-        (d) =>
-          (d.fromCompanyId === id || d.toCompanyId === id) &&
-          d.moleculeIds?.includes(m.id),
-      ),
+      isProgram(m) &&
+      (m.companyIds.includes(id) ||
+        s.deals.some(
+          (d) =>
+            (d.fromCompanyId === id || d.toCompanyId === id) &&
+            d.moleculeIds?.includes(m.id),
+        )),
   );
 }
 export function filterDeals(s: State, f: DealFilters, sort = "newest") {

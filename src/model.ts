@@ -33,6 +33,8 @@ export interface Series extends RecordBase {
   basis: string;
 }
 export interface Molecule extends RecordBase {
+  trackingRole?: "program" | "research";
+  trackingRoleNote?: string;
   targetIds: string[];
   seriesId: string;
   sourceIds: string[];

@@ -19,7 +19,7 @@ FIELDS = {
     "series": BASE_FIELDS
     + " targetIds sourceIds companyIds origin basis researchFocus researchFocusNote",
     "molecules": BASE_FIELDS
-    + " targetIds seriesId sourceIds companyIds origin stage status asOf modality recordLevel sequence sequenceNote specificity stageEvidenceIds",
+    + " targetIds seriesId sourceIds companyIds origin stage status asOf modality recordLevel sequence sequenceNote specificity stageEvidenceIds trackingRole trackingRoleNote",
     "evidence": "id title summary sourceId locator moleculeIds seriesIds companyIds dealIds date line verification outcome validationLevel topic shortLabel region indication stageClaim statusClaim statusAsOf candidateClaim assay",
     "relations": "id from to type sourceId locator reason verification",
     "deals": BASE_FIELDS

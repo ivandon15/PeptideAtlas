@@ -43,6 +43,11 @@ assert.ok(
   "region searches disclosed rights text including exclusions",
 );
 assert.equal(companyAssets(d, "gilead")[0].id, "hcxt2001");
+assert.ok(companyAssets(d, "merck").every((m) => m.trackingRole === "program"));
+assert.ok(
+  !companyAssets(d, "merck").some((m) => m.id.startsWith("pcsk9-c")),
+  "authored SAR analogues do not become a company's drug portfolio",
+);
 assert.equal(filterDeals(d, f({ query: "nonexistent" })).length, 0);
 assert.ok(
   filterDeals(d, f({ stage: "early" })).some((x) => x.id === "ra-merck-2013"),

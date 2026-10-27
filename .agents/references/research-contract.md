@@ -94,3 +94,11 @@ observations：id,title,asOf(实际截止日),author,basedOnRevision(读取时�
 - 保留有证据意义的阴性结果、未披露信息、给药条件及阶段限制，如“未达主要终点”“待交割”“中枢给药”；避免用泛泛提醒重复已有字段。
 - observations 的 summary 写事实，interpretation 写推断，uncertainty 写具体未知或反证。coverage 只写实际来源范围与截至日期。
 - 提交前逐条审阅展示文字。`server/editorial.py` 在 commit、公开导出及CI中拦截已知的过程性和防御性套话；新增变体须同时补规则与回归用例。校验失败时修改原文，禁止在渲染时隐去命中词或改写引用事实。
+
+## 研发项目与研究分子
+
+每条 molecules 标记 `trackingRole=program/research` 和 `trackingRoleNote`，依据沿原有sourceIds与evidence定位。program用于明确的具名研发项目：开发方管线、PCC/候选提名、持续成药开发安排、IND/临床或监管记录；历史停止项目仍保留。临床前项目可以进入主线，是否已进入临床不是唯一门槛。
+
+SAR编号、筛选命中、探针、专利实施例与模型验证设计通常为research。公司参与论文、存在动物PK/药效或同系列有临床项目，均不足以把全部成员标成program。需逐分子判断；早期命中与临床候选的关系仍保留，身份映射待核时保留研究角色。
+
+主时间轴、总览研发统计和公司资产组合只计program。实验研究保留在靶点详情可展开的“实验研究与SAR”，纯研究靶点仍可检索；计算方法维持论文归档。研究记录的实验阶段、序列、证据和谱系完整保留。`stage`描述实际验证/研发进度，`trackingRole`描述追踪角色，两者独立。

@@ -10,10 +10,12 @@ export function ComputationalTarget({
   state,
   targetId,
   onOpen,
+  memberLabel = "已收录设计与实验",
 }: {
   state: State;
   targetId: string;
   onOpen: (m: Molecule) => void;
+  memberLabel?: string;
 }) {
   const molecules = state.molecules.filter((m) =>
     m.targetIds.includes(targetId),
@@ -96,7 +98,9 @@ export function ComputationalTarget({
             </details>
             {members.length > 0 && (
               <details>
-                <summary>已收录设计与实验 · {members.length} 条</summary>
+                <summary>
+                  {memberLabel} · {members.length} 条
+                </summary>
                 <div className="paper-members">
                   {members.map((m) => (
                     <button key={m.id} onClick={() => onOpen(m)}>

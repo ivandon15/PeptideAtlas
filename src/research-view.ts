@@ -1,5 +1,15 @@
 import type { State, Molecule, Source, Series } from "./model.ts";
 export type ResearchTrack = "development" | "computational";
+export const isProgram = (m: Molecule) => m.trackingRole !== "research";
+
+export function experimentalMolecules(s: State, targetId?: string) {
+  return s.molecules.filter(
+    (m) =>
+      !isProgram(m) &&
+      researchTrack(s, m) === "development" &&
+      (!targetId || m.targetIds.includes(targetId)),
+  );
+}
 export function documentKey(s: Source): string {
   if (s.documentGroup) return s.documentGroup;
   if (s.kind === "paper")
@@ -82,10 +92,22 @@ export function computationalPapers(s: State, targetId?: string) {
         .filter((x) => x.kind === "paper" && x.disposition !== "excluded")
         .map((x) => [documentKey(x), x]),
     ).values(),
-  ].sort((a,b)=>(b.publishedAt||"").localeCompare(a.publishedAt||"") || a.title.localeCompare(b.title));
+  ].sort(
+    (a, b) =>
+      (b.publishedAt || "").localeCompare(a.publishedAt || "") ||
+      a.title.localeCompare(b.title),
+  );
 }
-export function researchState(s: State, track: ResearchTrack): State {
-  const molecules = s.molecules.filter((m) => researchTrack(s, m) === track);
+export function researchState(
+  s: State,
+  track: ResearchTrack,
+  includeResearch = false,
+): State {
+  const molecules = s.molecules.filter(
+    (m) =>
+      researchTrack(s, m) === track &&
+      (track === "computational" || includeResearch || isProgram(m)),
+  );
   const series = s.series.filter(
     (x) =>
       molecules.some((m) => m.seriesId === x.id) ||

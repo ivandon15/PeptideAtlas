@@ -35,6 +35,16 @@ assert.equal(
 );
 assert.equal(d.targets.find((t) => t.id === "glp1r").count, 15);
 assert.equal(
+  d.targets.find((t) => t.id === "pcsk9").count,
+  1,
+  "SAR analogues do not increase the drug-development count",
+);
+assert.equal(
+  d.targets.find((t) => t.id === "il23r").count,
+  5,
+  "probes and unmapped patent sequences are excluded from project counts",
+);
+assert.equal(
   d.targets.every(
     (t) => t.early + t.clinical + t.approved + t.unknown === t.count,
   ),
@@ -72,9 +82,40 @@ assert.equal(
 console.log(
   "Summary: Shanghai calendar, five-day boundaries, no future/planned/candidate highlights, complete grouping and stage sums passed.",
 );
-const scoped={...s,deals:[{...s.deals[0],date:'2026-10-24',targetIds:['il23r']}],evidence:[{...s.evidence[0],date:'2026-10-24',line:'regulatory',verification:'reviewed',outcome:'reported',moleculeIds:['icotrokinra'],seriesIds:[]}],sources:s.sources.map(p=>({...p,publishedAt:'2025-01-01'}))};
-assert.equal(targetIsRecent(scoped,'il23r',today,'development'),true);
-assert.equal(targetIsRecent(scoped,'il23r',today,'computational'),false,'drug approval and target-level business must not highlight model-validation papers');
-scoped.evidence.push({...scoped.evidence[0],line:'research',moleculeIds:['il23r-p4-2025']});
-assert.equal(targetIsRecent(scoped,'il23r',today,'computational'),true,'linked design research is eligible');
-assert.equal(targetIsRecent(s,'il23r',today,'computational'),false,'actual IL23R computation study is not a five-day update');
+const scoped = {
+  ...s,
+  deals: [{ ...s.deals[0], date: "2026-10-24", targetIds: ["il23r"] }],
+  evidence: [
+    {
+      ...s.evidence[0],
+      date: "2026-10-24",
+      line: "regulatory",
+      verification: "reviewed",
+      outcome: "reported",
+      moleculeIds: ["icotrokinra"],
+      seriesIds: [],
+    },
+  ],
+  sources: s.sources.map((p) => ({ ...p, publishedAt: "2025-01-01" })),
+};
+assert.equal(targetIsRecent(scoped, "il23r", today, "development"), true);
+assert.equal(
+  targetIsRecent(scoped, "il23r", today, "computational"),
+  false,
+  "drug approval and target-level business must not highlight model-validation papers",
+);
+scoped.evidence.push({
+  ...scoped.evidence[0],
+  line: "research",
+  moleculeIds: ["il23r-p4-2025"],
+});
+assert.equal(
+  targetIsRecent(scoped, "il23r", today, "computational"),
+  true,
+  "linked design research is eligible",
+);
+assert.equal(
+  targetIsRecent(s, "il23r", today, "computational"),
+  false,
+  "actual IL23R computation study is not a five-day update",
+);
