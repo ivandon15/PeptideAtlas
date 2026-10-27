@@ -39,9 +39,11 @@ class StoreTests(unittest.TestCase):
         self.assertEqual(
             len(self.initial["molecules"]),
             len(
-                json.loads((Path(__file__).resolve().parents[1] / "data/pilot.json").read_text(encoding="utf-8"))[
-                    "molecules"
-                ]
+                json.loads(
+                    (Path(__file__).resolve().parents[1] / "data/pilot.json").read_text(
+                        encoding="utf-8"
+                    )
+                )["molecules"]
             ),
         )
         r = self.patch({"molecules": self.initial["molecules"]})

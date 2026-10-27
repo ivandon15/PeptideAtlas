@@ -257,7 +257,9 @@ def collect(store, target_id, days=365, limit=30, pages=3):
         if responses:
             (store.root / "raw").mkdir(exist_ok=True)
             filename = rid + ".json"
-            (store.root / "raw" / filename).write_text(json.dumps(responses, ensure_ascii=False), encoding="utf-8")
+            (store.root / "raw" / filename).write_text(
+                json.dumps(responses, ensure_ascii=False), encoding="utf-8"
+            )
             receipt["rawFile"] = filename
         reports.append(receipt)
     return store.commit(

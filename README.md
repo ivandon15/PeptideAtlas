@@ -29,7 +29,7 @@ npm run build
 ATLAS_PYTHON=.venv/bin/python npm start
 ```
 
-打开 **http://127.0.0.1:8766/**。Windows PowerShell 的环境变量及虚拟环境写法见[运行说明](docs/operations.md)。
+打开 [http://127.0.0.1:8766/](http://127.0.0.1:8766/)。Windows PowerShell 的环境变量及虚拟环境写法见[运行说明](docs/operations.md)。
 
 首次启动从 [data/pilot.json](data/pilot.json) 建立本地数据库；以后启动保留现有数据。已有记录可离线浏览，检索新来源需要联网。浏览工作台不需要 OpenAI、Jev 或云服务密钥；使用 Codex 调研所需账户由使用者自行提供。
 
