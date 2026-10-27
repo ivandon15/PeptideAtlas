@@ -98,9 +98,9 @@
       "targetIds": [
         "il4ra"
       ],
-      "status": "association-pending",
-      "readScope": "abstract",
-      "method": "IL-4模拟肽 · 受体关联待核"
+      "status": "recalled",
+      "readScope": "partial",
+      "method": "IL-4片段模拟 · UNRES/MST"
     },
     {
       "doi": "10.1016/j.biochi.2024.11.012",
@@ -326,8 +326,8 @@
       "papers": [
         "10.1002/jbm.a.37898"
       ],
-      "status": "association-pending",
-      "note": "仅本次旧表计算线索比对结果，不代表该靶点没有计算研究。"
+      "status": "association-verified",
+      "note": "原始正文§2.5/3.5确认IL4Rα及MST：IL-4-Y弱结合，IL-4-X未检出结合。"
     },
     {
       "target": "α4β7",

@@ -51,8 +51,39 @@ assert.ok(
 );
 assert.ok(
   s.sources.some(
-    (p) => p.id === "compute-il4-mimic" && p.disposition === "pending",
+    (p) => p.id === "compute-il4-mimic" && p.disposition === "included",
   ),
+);
+const il4y = s.evidence.find((e) => e.id === "il4y-2025-mst");
+assert.equal(il4y.assay.value, 349);
+assert.equal(il4y.assay.unit, "µM");
+assert.equal(
+  s.evidence.find((e) => e.id === "il4x-2025-mst").validationLevel,
+  "not-detected",
+  "negative MST remains distinct from the calculated interaction",
+);
+const rfp = s.molecules.filter((m) => m.id.startsWith("rfp-"));
+assert.equal(rfp.length, 77, "RFpeptides Tables 1a–4a selected designs");
+assert.equal(rfp.filter((m) => m.stage === "in-vitro").length, 39);
+const screens = s.evidence.filter(
+  (e) => e.id.startsWith("rfp-") && e.id.endsWith("-selection"),
+);
+assert.equal(
+  screens.filter((e) => e.validationLevel === "in-vitro").length,
+  14,
+);
+assert.equal(
+  screens.filter((e) => e.validationLevel === "not-detected").length,
+  25,
+);
+assert.equal(
+  screens.filter((e) => e.validationLevel === "computational-only").length,
+  38,
+);
+assert.equal(
+  s.evidence.find((e) => e.id === "pcsk9-c75-assay").assay.metric,
+  "IC50",
+  "the 2020 paper labels this measurement IC50; other assays report Ki",
 );
 assert.ok(
   !s.molecules.some((m) => m.seriesId.startsWith("mlip-rfd3-")),
