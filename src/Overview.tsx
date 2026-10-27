@@ -67,7 +67,7 @@ export function Overview({
       <section className="overview-panel">
         <div className="panel-title">
           <h2>当前观察</h2>
-          <span>基于当前资料，不代表全行业</span>
+          <span>资料综合</span>
         </div>
         <div className="insight-grid">
           {observations.map((o) => (
@@ -245,7 +245,7 @@ export function Overview({
               </button>
             ))}
           </div>
-          <small>含修订、投资等不同事件；不代表独立交易数或市场排名。</small>
+          <small>按已收录商业事件统计。</small>
         </section>
       </div>
       <section className="overview-panel">
@@ -290,20 +290,13 @@ export function Overview({
             ))}
           </div>
         ) : (
-          <p className="muted">
-            当前库未收录近五天的已核实事件，不表示行业没有新进展。
-          </p>
+          <p className="muted">暂无近五天的已核实进展。</p>
         )}
       </section>
       <details className="overview-scope">
-        <summary>统计口径与总结模板</summary>
+        <summary>统计口径</summary>
         <p>
-          每次总结使用：① 截止日期与覆盖范围；② 靶点、技术和合作方向的变化；③
-          可追溯的依据与不确定性；④
-          下一轮需要验证的问题。没有时间对照的数据只描述当前分布，不写“增长”或“转向”。
-        </p>
-        <p>
-          研究核查时间不是事件日期。刚录入的旧事件不会标为近五天；仅知月份、计划事件和未核实线索不计入近期进展。数据库仍为部分覆盖，不据“零记录”宣称机会空白。
+          分子按已核实靶点归类；同篇论文按来源标识去重。近期进展按事件日期统计，范围为含今天在内的五天，计入日期明确的已核实事件。
         </p>
       </details>
     </section>

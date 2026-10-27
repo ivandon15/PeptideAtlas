@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 from .store import Invalid, now, stable
+from .editorial import violations
 
 BASELINE = Path(__file__).resolve().parents[1] / "data" / "pilot.json"
 BASE_FIELDS = "id name aliases description"
@@ -56,6 +57,9 @@ def project(record, fields):
 
 def check_public_text(records):
     """Fail with record IDs, never echo the possibly private matching text."""
+    copy_issues = violations(records)
+    if copy_issues:
+        raise Invalid("展示文案需直接陈述事实：" + ", ".join(copy_issues[:8]))
 
     def contains_private(value):
         if isinstance(value, str):

@@ -31,3 +31,7 @@ description: 核验用户提供的多肽论文、专利、公告链接、文字�
 公司/交易问题使用 companyIds/dealIds 关联的 business evidence；若问题已经指定分子/系列，不能只凭同公司无关证据关闭。问题关闭仍须该来源、相关对象及充分支持。
 
 相关事实变化会使已保存观察变为 needs-review。检查受影响的观察：需要修订推断时交给[情报综合](../peptide-intelligence-synthesis/SKILL.md)，未复核前不要恢复 active。完成后读 state/history 确认事实、问题状态与归档显示，报告改变了什么、还有什么未解决。归档、核验或重开均不删历史。
+
+## 展示文字
+
+遵循[共享协议的展示文案规则](../../references/research-contract.md#展示文案)：直接写事实与具体未知，检索过程保存在回执和历史。提交前检查标题、摘要、条款和观察，修正套话后再写入数据库。

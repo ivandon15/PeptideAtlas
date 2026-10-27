@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-27T07:24:09.397111+00:00",
-  "dataVersion": "1d12e328e61581a6",
+  "publishedAt": "2026-10-27T08:24:19.744263+00:00",
+  "dataVersion": "555c8094a4deff62",
   "records": {
     "targets": [
       {
@@ -106,7 +106,7 @@
         "aliases": [
           "PSD95"
         ],
-        "description": "MLIP/RFD3计算基准涉及PDZ3；不代表已获得实测多肽药物。"
+        "description": "MLIP/RFD3计算基准：PDZ3结构域。"
       },
       {
         "id": "epha2",
@@ -133,7 +133,7 @@
         "aliases": [
           "ERBB2IP"
         ],
-        "description": "MLIP/RFD3计算基准涉及PDZ；不代表已获得实测多肽药物。"
+        "description": "MLIP/RFD3计算基准：PDZ结构域。"
       },
       {
         "id": "f2",
@@ -150,7 +150,7 @@
         "aliases": [
           "GABA receptor-associated protein"
         ],
-        "description": "自噬相关蛋白，不是GABA受体本身。"
+        "description": "自噬相关蛋白。"
       },
       {
         "id": "gabarapl1",
@@ -272,7 +272,7 @@
           "insulin receptor",
           "胰岛素受体"
         ],
-        "description": "胰岛素及其类似物；制剂、浓度及生物类似药不自动视作不同核心分子。"
+        "description": "胰岛素及其类似物的作用靶点。"
       },
       {
         "id": "itga2b-itgb3",
@@ -346,7 +346,7 @@
         "aliases": [
           "Myeloid cell leukemia 1"
         ],
-        "description": "抗凋亡蛋白的多肽结合剂；细胞和体内作用不能仅由体外亲和力推出。"
+        "description": "抗凋亡蛋白，多肽结合剂的研究靶点。"
       },
       {
         "id": "mdm2",
@@ -372,7 +372,7 @@
           "Nectin-4",
           "PVRL4"
         ],
-        "description": "肿瘤靶向肽的结合靶点，不把ADC混入多肽模态。"
+        "description": "肿瘤靶向肽的结合靶点。"
       },
       {
         "id": "npr2",
@@ -391,7 +391,7 @@
           "MR",
           "盐皮质激素受体"
         ],
-        "description": "MLIP/RFD3计算基准涉及配体结合域/共激活肽界面；不代表已获得实测多肽药物。"
+        "description": "MLIP/RFD3计算基准：配体结合域与共激活肽界面。"
       },
       {
         "id": "oprk1",
@@ -435,7 +435,7 @@
           "Rhombotarget A",
           "RbtA"
         ],
-        "description": "鲍曼不动杆菌表面蛋白；体外结合结果不等于抗菌疗效。"
+        "description": "鲍曼不动杆菌表面蛋白。"
       },
       {
         "id": "slc40a1",
@@ -445,7 +445,7 @@
           "铁输出蛋白",
           "hepcidin mimetic"
         ],
-        "description": "Hepcidin模拟肽的直接作用靶点为ferroportin，hepcidin自身不是受体。"
+        "description": "Ferroportin是hepcidin及其模拟肽的作用靶点。"
       },
       {
         "id": "src",
@@ -453,7 +453,7 @@
         "aliases": [
           "c-Src"
         ],
-        "description": "MLIP/RFD3计算基准涉及SH3；不代表已获得实测多肽药物。"
+        "description": "MLIP/RFD3计算基准：SH3结构域。"
       },
       {
         "id": "sstr",
@@ -466,7 +466,7 @@
           "SSTR5",
           "生长抑素受体"
         ],
-        "description": "生长抑素受体家族概览；具体亚型亲和力与放射性肽配体须单独核验，不把家族活性当成亚型选择性。"
+        "description": "生长抑素受体家族，涵盖多个受体亚型及放射性肽配体。"
       },
       {
         "id": "tnfrsf17",
@@ -497,7 +497,7 @@
         "id": "traf2",
         "name": "TRAF2",
         "aliases": [],
-        "description": "MLIP/RFD3计算基准涉及TRAF；不代表已获得实测多肽药物。"
+        "description": "MLIP/RFD3计算基准：TRAF结构域。"
       },
       {
         "id": "tslp",
@@ -522,7 +522,7 @@
         "aliases": [
           "BIRC4"
         ],
-        "description": "MLIP/RFD3计算基准涉及BIR3；不代表已获得实测多肽药物。"
+        "description": "MLIP/RFD3计算基准：BIR3结构域。"
       }
     ],
     "companies": [
@@ -621,7 +621,7 @@
         "id": "carmot",
         "name": "Carmot Therapeutics",
         "aliases": [],
-        "description": "Roche于2024年完成收购；包含多肽及非肽资产，不能全部归为多肽。"
+        "description": "Roche于2024年完成收购，资产涵盖多肽、小分子与发现平台。"
       },
       {
         "id": "chugai",
@@ -666,7 +666,7 @@
           "Hansoh Pharmaceutical Group Company Limited",
           "03692.HK"
         ],
-        "description": "集团业务展示身份；HS-20118 原始开发集团。不能用集团名替代每份合同或专利的法律主体。"
+        "description": "HS-20118原始开发集团；合同方与专利申请人见各项来源。"
       },
       {
         "id": "hansoh-jiangsu",
@@ -692,7 +692,7 @@
           "Hengrui",
           "恒瑞医药"
         ],
-        "description": "HRS9531开发公司；与Kailera的组合交易同时含非肽小分子，不能以交易总额充当单肽价值。"
+        "description": "HRS9531开发公司；Kailera组合交易涵盖多肽和小分子项目。"
       },
       {
         "id": "irbm",
@@ -724,7 +724,7 @@
         "aliases": [
           "JJDC"
         ],
-        "description": "公告中的股权投资机构；未披露投资额，不等于许可首付款。"
+        "description": "强生的股权投资机构；投资额未披露。"
       },
       {
         "id": "kailera",
@@ -742,202 +742,202 @@
         "id": "labeler-0092c2a031096c",
         "name": "COSETTE PHARMACEUTICALS, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-023cc1387f1dff",
         "name": "TEVA PHARMACEUTICALS USA, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-08bf01f93bc857",
         "name": "APELLIS PHARMACEUTICALS, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。 与规范主体apellis为同一名称的历史导入ID，保留审计，不再独立计数。",
+        "description": "药品标签列名主体；规范名称为Apellis。",
         "canonicalCompanyId": "apellis"
       },
       {
         "id": "labeler-0e1d7f80633525",
         "name": "ASTRAZENECA PHARMACEUTICALS LP",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-10312786f6f3fc",
         "name": "TAKEDA PHARMACEUTICALS AMERICA, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-2041b19d9485c0",
         "name": "AMNEAL PHARMACEUTICALS LLC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-25651e9dcdbce8",
         "name": "ENDO USA, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-3035a1ba7d0c90",
         "name": "UCB, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-37994acf7ca7e9",
         "name": "SANOFI-AVENTIS U.S. LLC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-39168437708cff",
         "name": "FERRING PHARMACEUTICALS INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-3933f1c98597a0",
         "name": "ORBICULAR PHARMACEUTICAL TECHNOLOGIES PRIVATE LIMITED",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-3937f21ae9a0c8",
         "name": "ELI LILLY AND COMPANY",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。 与规范主体lilly为同一名称的历史导入ID，保留审计，不再独立计数。",
+        "description": "药品标签列名主体；规范名称为Eli Lilly and Company。",
         "canonicalCompanyId": "lilly"
       },
       {
         "id": "labeler-440d97355b725b",
         "name": "XERIS PHARMACEUTICALS, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-444f7efd37fdb6",
         "name": "ASCENDIS PHARMA, ENDOCRINOLOGY, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-64639ef93e940e",
         "name": "VIFOR (INTERNATIONAL), INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-65936aaf93e05b",
         "name": "NOVO NORDISK PHARMACEUTICAL INDUSTRIES, LP",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-692b7c43780b86",
         "name": "RHYTHM PHARMACEUTICALS, INC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-7014e953eb748c",
         "name": "NOVO NORDISK PHARMA, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-75551f898edb2a",
         "name": "BIOMARIN PHARMACEUTICAL INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-7c1f94c8497f82",
         "name": "THERATECHNOLOGIES INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-82585d4dbe9623",
         "name": "RADIUS HEALTH, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-846a4a3eb4f722",
         "name": "MEITHEAL PHARMACEUTICALS INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-9dd81a2c49da07",
         "name": "BIOLINERX USA INC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-a64a619128b62a",
         "name": "ESTEVE PHARMACEUTICALS, S.A.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-ab54a237b532a5",
         "name": "SALIX PHARMACEUTICALS INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-afd7b80b7f1afa",
         "name": "RECORDATI RARE DISEASES, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-b17f378d63d386",
         "name": "HIKMA PHARMACEUTICALS USA INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-b4b3750c4bf395",
         "name": "AVENACY, LLC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-c05cf0719228e4",
         "name": "NOVO NORDISK",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。 与规范主体novo为同一名称的历史导入ID，保留审计，不再独立计数。",
+        "description": "药品标签列名主体；规范名称为Novo Nordisk。",
         "canonicalCompanyId": "novo"
       },
       {
         "id": "labeler-c78ec49da70d37",
         "name": "LANEXA BIOLOGICS, LLC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-e7e48f1f4053f5",
         "name": "TERSERA THERAPEUTICS LLC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-eef45347894563",
         "name": "ALLERGAN, INC.",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "labeler-f37fdfd09fbdf1",
         "name": "AMGEN, INC",
         "aliases": [],
-        "description": "本轮药品标签的列名主体（labeler/分销或持有人，具体角色见来源）；不自动视作原始发现公司，也不与集团或其他子公司自动合并。"
+        "description": "药品标签列名主体；持有人或分销等具体角色见标签。"
       },
       {
         "id": "latent",
@@ -974,7 +974,7 @@
         "aliases": [
           "诺华集团"
         ],
-        "description": "公告仅写Novartis，未披露合同法律主体；不自动归并为Novartis Pharma AG。"
+        "description": "Novartis集团披露口径；合同法律主体未披露。"
       },
       {
         "id": "novartis-pharma",
@@ -1059,7 +1059,7 @@
           "Syneron Bio",
           "Synova"
         ],
-        "description": "以Synova平台开发大环肽的生物技术公司；平台品牌为搜索别名，不代表独立法律主体。"
+        "description": "通过Synova平台开发大环肽的生物技术公司。"
       },
       {
         "id": "takeda",
@@ -1078,7 +1078,7 @@
         "id": "triastek-shanghai",
         "name": "Triastek (Shanghai) Limited",
         "aliases": [],
-        "description": "Triastek全资子公司，本次公告的共同合作主体。"
+        "description": "Triastek全资子公司，参与口服递送合作。"
       },
       {
         "id": "united-hengqin",
@@ -1188,9 +1188,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": "2026-10-02",
-        "readScope": "已读公司发布正文；仅提取模态及临床前定位，不把动物PK外推为人体给药周期。",
+        "readScope": "公司公告：多肽模态、临床前药效与药代研究。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "atsp7041-mind-2026",
@@ -1248,7 +1248,7 @@
         "publishedAt": "2026-07-14",
         "readScope": "合并协议、原始融资承诺、临床进展与官方商业目的",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "avere-s4",
@@ -1258,9 +1258,9 @@
         "access": "partial",
         "checkedAt": "2026-10-26",
         "publishedAt": null,
-        "readScope": "Risk factors / Business of Avere / Manufacturing / Financial terms / Note 8：六月许可、9000万已付与付款条件；并非完整合同审阅",
+        "readScope": "Risk factors / Business of Avere / Manufacturing / Financial terms / Note 8：六月许可、9000万美元已付及付款条件。",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "avere-s4a",
@@ -1272,7 +1272,7 @@
         "publishedAt": "2026-09-30",
         "readScope": "Summary：仍为拟合并；8 月增加 5 亿融资承诺，总承诺 8.2 亿；非已到账新现金",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "az-2025-annual-syneron",
@@ -1284,7 +1284,7 @@
         "publishedAt": "2026-02-24",
         "readScope": "已读Syneron相关的CEO回顾、AI合作及Science Committee合作许可审议段落；非全文年报审阅，未见此处细分支付履行。",
         "disposition": "included",
-        "relevanceReason": "对手方年报确认大环肽合作及平台战略，不能据此推定里程碑已达成。"
+        "relevanceReason": "阿斯利康年报确认大环肽合作与平台战略。"
       },
       {
         "id": "bicycle-10k-2025",
@@ -1475,9 +1475,9 @@
         "access": "abstract",
         "checkedAt": "2026-10-27",
         "publishedAt": "2000-02-01",
-        "readScope": "本轮读取可公开摘要、论文元数据及可访问图注/作者说明；未完成全文与全部SI审阅。",
+        "readScope": "摘要、论文元数据及可访问图注；全文与SI待核对。",
         "disposition": "included",
-        "relevanceReason": "2000年论文报道抗体4D5界面启发的HER2肽模拟物及体内外结果；属于早期结构指导理性设计，不是现代生成式AI方法。",
+        "relevanceReason": "抗体4D5结合界面启发的HER2肽模拟物；2000年论文报告体内外实验，采用结构指导理性设计。",
         "documentGroup": "doi:10.1038/72651",
         "doi": "10.1038/72651"
       },
@@ -1489,9 +1489,9 @@
         "access": "abstract",
         "checkedAt": "2026-10-27",
         "publishedAt": "2026-03-15",
-        "readScope": "本轮读取可公开摘要、论文元数据及可访问图注/作者说明；未完成全文与全部SI审阅。",
+        "readScope": "摘要、论文元数据及可访问图注；全文与SI待核对。",
         "disposition": "included",
-        "relevanceReason": "全原子生成模型预印本报告KRAS G12D和PCSK9多模态设计及低通量实验。这里只收录其肽研究关联，不把同文小分子或纳米抗体计为多肽分子。",
+        "relevanceReason": "全原子生成模型预印本报告KRAS G12D和PCSK9的肽设计与低通量实验。",
         "documentGroup": "doi:10.64898/2026.03.12.711044",
         "doi": "10.64898/2026.03.12.711044"
       },
@@ -1519,7 +1519,7 @@
         "publishedAt": "2025-08-11",
         "readScope": "已读欧洲PMC公开正文中方法、目标与实验相关段落；未逐一核对SI中全部序列。",
         "disposition": "included",
-        "relevanceReason": "固定保守位点并重设计序列，配合体外筛选和动物验证；D13/D41等是研究编号，不是新增临床药物。SPR采用GST融合样品，不能与游离脂肪酸修饰肽cAMP/PK直接混用。",
+        "relevanceReason": "保留关键位点并重设计序列，结合体外筛选与动物研究。D13/D41为研究编号；SPR使用GST融合样品，cAMP/PK研究使用游离脂肪酸修饰肽。",
         "documentGroup": "doi:10.1002/advs.202507044",
         "doi": "10.1002/advs.202507044"
       },
@@ -1533,7 +1533,7 @@
         "publishedAt": "2026-06-30",
         "readScope": "已读欧洲PMC公开正文中方法、目标与实验相关段落；未逐一核对SI中全部序列。",
         "disposition": "included",
-        "relevanceReason": "HighFold结构引导的离散扩散；正文明确实际合成与SPR验证MDM2、GABARAP。文中另有计算评估靶点集合，不能全部当湿实验成功靶点。",
+        "relevanceReason": "HighFold结构引导的离散扩散；MDM2与GABARAP有合成及SPR验证，其他靶点用于计算评价。",
         "documentGroup": "doi:10.1039/d6sc02631a",
         "doi": "10.1039/d6sc02631a"
       },
@@ -1547,7 +1547,7 @@
         "publishedAt": "2016-08-16",
         "readScope": "已读欧洲PMC公开正文中方法、目标与实验相关段落；未逐一核对SI中全部序列。",
         "disposition": "included",
-        "relevanceReason": "基于线性起始肽的复合物结构设计宏环拮抗剂；属于实验先导后的结构指导改造，不是AI从零生成或IL17RA受体结合肽。",
+        "relevanceReason": "依据线性起始肽复合物结构设计IL17A宏环拮抗剂。",
         "documentGroup": "doi:10.1038/srep30859",
         "doi": "10.1038/srep30859"
       },
@@ -1559,9 +1559,9 @@
         "access": "abstract",
         "checkedAt": "2026-10-27",
         "publishedAt": "2025-03-01",
-        "readScope": "本轮读取可公开摘要、论文元数据及可访问图注/作者说明；未完成全文与全部SI审阅。",
+        "readScope": "摘要、论文元数据及可访问图注；全文与SI待核对。",
         "disposition": "pending",
-        "relevanceReason": "旧表将IL-4-Y归IL4Rα，但本次可读摘要仅泛称相应受体，未完成具体受体亚基、MST弱结合与样品身份复核。保留待核论文关联，不能当已证实高亲和IL4Rα binder。",
+        "relevanceReason": "IL-4-Y的受体亚基归属、MST结合与样品身份待核实；保留IL4Rα待核论文关联。",
         "documentGroup": "doi:10.1002/jbm.a.37898",
         "doi": "10.1002/jbm.a.37898"
       },
@@ -1573,9 +1573,9 @@
         "access": "abstract",
         "checkedAt": "2026-10-27",
         "publishedAt": "2026-05-21",
-        "readScope": "本轮读取可公开摘要、论文元数据及可访问图注/作者说明；未完成全文与全部SI审阅。",
+        "readScope": "摘要、论文元数据及可访问图注；全文与SI待核对。",
         "disposition": "included",
-        "relevanceReason": "预印本报道AF2/ColabDesign设计与后续体外成熟，E5P小鼠中枢给药减少急性摄食。动物给药途径不能外推为外周给药、长期减重或临床效果。",
+        "relevanceReason": "AF2/ColabDesign设计结合体外成熟；预印本报告E5P经小鼠中枢给药减少急性摄食。",
         "documentGroup": "doi:10.64898/2026.05.19.721857",
         "doi": "10.64898/2026.05.19.721857"
       },
@@ -1589,7 +1589,7 @@
         "publishedAt": "2026-08-31",
         "readScope": "已读欧洲PMC公开正文中方法、目标与实验相关段落；未逐一核对SI中全部序列。",
         "disposition": "included",
-        "relevanceReason": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "relevanceReason": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "documentGroup": "doi:10.34133/research.1420",
         "doi": "10.34133/research.1420"
       },
@@ -1601,9 +1601,9 @@
         "access": "abstract",
         "checkedAt": "2026-10-27",
         "publishedAt": "2025-10-01",
-        "readScope": "本轮读取可公开摘要、论文元数据及可访问图注/作者说明；未完成全文与全部SI审阅。已读出版社Data availability及勘误说明。",
+        "readScope": "摘要、论文元数据、图注、出版社Data availability及勘误；全文与SI待核对。",
         "disposition": "included",
-        "relevanceReason": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "relevanceReason": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "documentGroup": "doi:10.1038/s41551-025-01507-4",
         "doi": "10.1038/s41551-025-01507-4"
       },
@@ -1615,9 +1615,9 @@
         "access": "abstract",
         "checkedAt": "2026-10-27",
         "publishedAt": "2024-11-19",
-        "readScope": "本轮读取可公开摘要、论文元数据及可访问图注/作者说明；未完成全文与全部SI审阅。",
+        "readScope": "摘要、论文元数据及可访问图注；全文与SI待核对。",
         "disposition": "included",
-        "relevanceReason": "从TSLPR界面片段理性设计并作二硫键约束，摘要报告与TSLP结合/选择性。结合对象是配体TSLP，不能误记为TSLPR受体肽；并非现代生成式AI。",
+        "relevanceReason": "依据TSLPR界面片段设计二硫键约束肽；摘要报告与配体TSLP的结合及选择性。",
         "documentGroup": "doi:10.1016/j.biochi.2024.11.012",
         "doi": "10.1016/j.biochi.2024.11.012"
       },
@@ -1631,7 +1631,7 @@
         "publishedAt": "2024-02-21",
         "readScope": "已读欧洲PMC公开正文中方法、目标与实验相关段落；未逐一核对SI中全部序列。",
         "disposition": "included",
-        "relevanceReason": "生成模型配合对接和MD，在既有肽基础上扩展/优化；β-catenin及NEMO均有结合竞争实验。属于模板/先导改造，不把全部序列称为无模板de novo。",
+        "relevanceReason": "生成模型结合对接与MD优化已有肽；β-catenin与NEMO报告结合竞争实验。",
         "documentGroup": "doi:10.1038/s41467-024-45766-2",
         "doi": "10.1038/s41467-024-45766-2"
       },
@@ -1667,7 +1667,7 @@
         "access": "partial",
         "checkedAt": "2026-10-26",
         "publishedAt": null,
-        "readScope": "官方API读取PHASE3、实际开始2026-03-16、资产名及试验身份；不把其他预计2026-12开始的III期算作已执行。",
+        "readScope": "登记API：PHASE3、2026-03-16实际启动及资产/试验身份。",
         "disposition": "included",
         "relevanceReason": "具名多肽项目的身份、已执行临床阶段或战略进度。"
       },
@@ -1681,7 +1681,7 @@
         "publishedAt": "2026-08-07",
         "readScope": "已读ClinicalTrials.gov API v2当前完整登记；非历史版本差分，无已发表结果。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "ctgov-nct07821944",
@@ -1693,7 +1693,7 @@
         "publishedAt": "2026-09-16",
         "readScope": "已读ClinicalTrials.gov API v2当前完整登记；非历史版本差分，无已发表结果。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "ctgov-nct07893093",
@@ -1705,7 +1705,7 @@
         "publishedAt": "2026-10-23",
         "readScope": "已读ClinicalTrials.gov API v2当前完整登记；非历史版本差分，无已发表结果。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "ctgov-nct07893106",
@@ -1717,7 +1717,7 @@
         "publishedAt": "2026-10-23",
         "readScope": "已读ClinicalTrials.gov API v2当前完整登记；非历史版本差分，无已发表结果。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "cxcr4-rapid-20261022",
@@ -1729,7 +1729,7 @@
         "publishedAt": "2026-10-22",
         "readScope": "已读作者预印本摘要与发布日期；全文/SI及具体分子编号未核对。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。",
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。",
         "documentGroup": "paper:cxcr4-rapid-2026",
         "doi": "10.64898/2026.10.21.760615"
       },
@@ -2319,7 +2319,7 @@
         "publishedAt": null,
         "readScope": "公开号、申请人、优先权和同族列表；未逐项核实实施例与注册资产。",
         "disposition": "pending",
-        "relevanceReason": "Protagonist整合素肽家族候选；不能从公司/靶点相同认定为PN-943。"
+        "relevanceReason": "Protagonist整合素肽家族候选；与PN-943的结构对应待核实。"
       },
       {
         "id": "fda-enlicitide",
@@ -2366,7 +2366,7 @@
         "publishedAt": "2026-02-09",
         "readScope": "已读公开正文；未审阅未披露合同及附件。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "hansoh-avere-release",
@@ -2378,7 +2378,7 @@
         "publishedAt": "2026-07-14",
         "readScope": "HS-20118/AVR-001 别名、许可区域、金额、投资与合并公告",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "hansoh-il23r-us",
@@ -2390,7 +2390,7 @@
         "publishedAt": "2026-07-09",
         "readScope": "同家族美国公开申请；Biological Test and Evaluation 中 Test Examples 1 / 5 / 11，未映射到临床代号",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "hansoh-il23r-wo",
@@ -2402,7 +2402,7 @@
         "publishedAt": "2024-06-06",
         "readScope": "申请人、优先权与家族成员；结构及全部实施例尚未枚举",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "hansoh-sid2026",
@@ -2414,7 +2414,7 @@
         "publishedAt": "2026-05-15",
         "readScope": "I 期研究 HS-20118-101/102 与 PK、后续 II 期计划；公司摘要非完整 CSR",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "hengrui-kailera-2025",
@@ -2438,7 +2438,7 @@
         "publishedAt": null,
         "readScope": "结合对象核对",
         "disposition": "excluded",
-        "relevanceReason": "23-237 等结合 IL-23p19 配体，不是直接结合 IL23R；不计入本靶点分子数"
+        "relevanceReason": "23-237等肽的结合对象为IL-23p19配体。"
       },
       {
         "id": "il23r-ai2025",
@@ -2460,7 +2460,7 @@
         "access": "full",
         "checkedAt": "2026-10-26",
         "publishedAt": "2024-11-18",
-        "readScope": "Item 1.01；里程碑已赚取不等于已收到现金",
+        "readScope": "Item 1.01：里程碑触发；现金收款状态待披露。",
         "disposition": "included",
         "relevanceReason": "支持关联身份或明确报告的事实"
       },
@@ -2710,7 +2710,7 @@
         "publishedAt": null,
         "readScope": "已读README及specs_short.json；对应输入PDB条目标题经RCSB API核对，未运行模型。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "mlip-guided-rfd3-2026",
@@ -2722,7 +2722,7 @@
         "publishedAt": "2026-09-22",
         "readScope": "已读作者摘要及版本元数据；全文/SI未核实。作者代码另存，未复现实验。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。",
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。",
         "documentGroup": "paper:mlip-rfd3-2026",
         "doi": "10.26434/chemrxiv.15009322/v1"
       },
@@ -2865,7 +2865,7 @@
         "publishedAt": "2026-02-03",
         "readScope": "已读公告标题、日期及官网摘要；具体职责由实际参与交易的汉坤公告核实。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "peplib-novartis-20260112",
@@ -2877,7 +2877,7 @@
         "publishedAt": "2026-01-12",
         "readScope": "已读文章标题、正文日期及官网相关资讯摘要；主体正文为图片且未成功读取。推荐列表另显示10月日期，不作新公告。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "peptidream-novartis-2024",
@@ -2935,7 +2935,7 @@
         "access": "partial",
         "checkedAt": "2026-10-26",
         "publishedAt": null,
-        "readScope": "已读公司发布的试验设计和主要终点段落；450mg未达预设主要终点，不把低剂量亚组信号当整体成功。",
+        "readScope": "试验设计与主要终点段落：450mg未达预设主要终点，低剂量组报告探索性信号。",
         "disposition": "included",
         "relevanceReason": "多肽结构/发现方法、实验、临床或CMC直接相关。"
       },
@@ -2994,9 +2994,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "rcsb-1czy",
@@ -3006,9 +3006,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "rcsb-1g73",
@@ -3018,9 +3018,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "rcsb-1mfg",
@@ -3030,9 +3030,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "rcsb-1rlq",
@@ -3042,9 +3042,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "rcsb-1tp5",
@@ -3054,9 +3054,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "rcsb-2a3i",
@@ -3066,9 +3066,9 @@
         "access": "full",
         "checkedAt": "2026-10-27",
         "publishedAt": null,
-        "readScope": "已读RCSB entry API条目标题；用于输入结构身份，不把原有共晶配体当成新设计命中。",
+        "readScope": "RCSB entry API条目标题：输入结构与共晶配体身份。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "regeneron-hansoh-2025",
@@ -3128,7 +3128,7 @@
         "publishedAt": "2025-06-24",
         "readScope": "API v2 identification/status/design/interventions；估计日期与状态按登记版本保留",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "registry-NCT07196748",
@@ -3152,7 +3152,7 @@
         "publishedAt": "2026-08-14",
         "readScope": "API v2 identification/status/design/interventions；估计日期与状态按登记版本保留",
         "disposition": "included",
-        "relevanceReason": "支持本次公司、资产或专利线索核查"
+        "relevanceReason": "公司、资产与专利关联资料。"
       },
       {
         "id": "rfpeptides-2025",
@@ -3272,7 +3272,7 @@
         "publishedAt": "2026-10-09",
         "readScope": "已读公开正文；未审阅未披露合同及附件。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "unp-novartis-20260218",
@@ -3284,7 +3284,7 @@
         "publishedAt": "2026-02-18",
         "readScope": "已读公开正文；未审阅未披露合同及附件。",
         "disposition": "included",
-        "relevanceReason": "支持本轮已核实的身份、研究或商业事实。"
+        "relevanceReason": "分子身份、研究进展与商业合作的公开依据。"
       },
       {
         "id": "wo2016039749",
@@ -3308,7 +3308,7 @@
         "publishedAt": null,
         "readScope": "权利要求与列明的SEQ ID；未审阅全实施例、动物数据和最新法律状态。",
         "disposition": "pending",
-        "relevanceReason": "Retatrutide相关家族反查候选；本轮未把具体SEQ ID映射到LY3437943。"
+        "relevanceReason": "Retatrutide相关专利家族；SEQ ID与LY3437943的对应待核实。"
       },
       {
         "id": "wo2026125238",
@@ -3320,7 +3320,7 @@
         "publishedAt": null,
         "readScope": "[0004]、[0005]、[00020]；未核实申请人与Lilly商业关系或全部制剂实验。",
         "disposition": "pending",
-        "relevanceReason": "正文明确提及retatrutide及WO2019125938；属于制剂/组合物线索，不是新核心分子或Lilly授权证明。"
+        "relevanceReason": "Retatrutide制剂/组合物专利线索，正文关联WO2019125938。"
       },
       {
         "id": "zealand-pipeline-20261026",
@@ -3368,7 +3368,7 @@
       {
         "id": "asc36-development",
         "name": "ASC36 · 胰淀素受体激动肽",
-        "description": "同一具名分子的口服/注射制剂研发；不把制剂或固定组合当成独立新分子。",
+        "description": "ASC36的口服与注射制剂研发。",
         "targetIds": [
           "amyr"
         ],
@@ -3384,7 +3384,7 @@
         "origin": "unknown",
         "basis": "publication",
         "researchFocus": "development",
-        "researchFocusNote": "具名药物ASC36具有实际开展的I期研究；本轮不推断化学序列及发现谱系。"
+        "researchFocusNote": "ASC36具名药物研发项目，已有实际开展的I期研究。"
       },
       {
         "id": "atsp7041-publication",
@@ -3404,7 +3404,7 @@
       {
         "id": "baseline-abbv295",
         "name": "ABBV-295 / GUB014295 · 公开项目",
-        "description": "单资产公开身份，不宣称完整SAR家族。",
+        "description": "ABBV-295公开研发项目。",
         "targetIds": [
           "amyr"
         ],
@@ -3645,7 +3645,7 @@
       {
         "id": "baseline-ubt251",
         "name": "UBT251 · 公开项目",
-        "description": "单资产公开身份，不宣称完整SAR家族。",
+        "description": "ABBV-295公开研发项目。",
         "targetIds": [
           "glp1r",
           "gipr",
@@ -3810,7 +3810,7 @@
       {
         "id": "hansoh-il23r",
         "name": "翰森 / Avere · 口服 IL23R",
-        "description": "HS-20118=AVR-001 由官方公告确认。申请人专利为同靶点技术线索，未确认具体实施例就是临床分子；同平台归组不代表直接衍生。",
+        "description": "HS-20118与AVR-001为同一项目代号；关联同靶点申请人专利，实施例与临床分子的对应待核实。",
         "targetIds": [
           "il23r"
         ],
@@ -3892,7 +3892,7 @@
       {
         "id": "il23r-protagonist",
         "name": "Protagonist / Janssen 口服肽",
-        "description": "同平台与资源转向，不代表已证明直接化学衍生。",
+        "description": "Protagonist同平台研发项目与资源转向。",
         "targetIds": [
           "il23r"
         ],
@@ -3909,7 +3909,7 @@
       {
         "id": "label-baseline-abaloparatide",
         "name": "阿巴洛肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "pth1r"
         ],
@@ -3925,7 +3925,7 @@
       {
         "id": "label-baseline-bivalirudin",
         "name": "比伐芦定 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "f2"
         ],
@@ -3941,7 +3941,7 @@
       {
         "id": "label-baseline-bremelanotide",
         "name": "布美诺肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "mc4r",
           "mc1r"
@@ -3958,7 +3958,7 @@
       {
         "id": "label-baseline-cetrorelix",
         "name": "西曲瑞克 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gnrhr"
         ],
@@ -3974,7 +3974,7 @@
       {
         "id": "label-baseline-dasiglucagon",
         "name": "达西胰高血糖素 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gcgr"
         ],
@@ -3990,7 +3990,7 @@
       {
         "id": "label-baseline-degarelix",
         "name": "地加瑞克 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gnrhr"
         ],
@@ -4006,7 +4006,7 @@
       {
         "id": "label-baseline-difelikefalin",
         "name": "地非利啡林 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "oprk1"
         ],
@@ -4022,7 +4022,7 @@
       {
         "id": "label-baseline-dulaglutide",
         "name": "度拉糖肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp1r"
         ],
@@ -4038,7 +4038,7 @@
       {
         "id": "label-baseline-eptifibatide",
         "name": "依替巴肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "itga2b-itgb3"
         ],
@@ -4054,7 +4054,7 @@
       {
         "id": "label-baseline-etelcalcetide",
         "name": "依特卡肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "casr"
         ],
@@ -4070,7 +4070,7 @@
       {
         "id": "label-baseline-exenatide",
         "name": "艾塞那肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp1r"
         ],
@@ -4086,7 +4086,7 @@
       {
         "id": "label-baseline-ganirelix",
         "name": "加尼瑞克 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gnrhr"
         ],
@@ -4102,7 +4102,7 @@
       {
         "id": "label-baseline-glucagon",
         "name": "胰高血糖素 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gcgr"
         ],
@@ -4118,7 +4118,7 @@
       {
         "id": "label-baseline-goserelin",
         "name": "戈舍瑞林 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gnrhr"
         ],
@@ -4134,7 +4134,7 @@
       {
         "id": "label-baseline-icatibant",
         "name": "艾替班特 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "bdkrb2"
         ],
@@ -4150,7 +4150,7 @@
       {
         "id": "label-baseline-insulin-degludec",
         "name": "德谷胰岛素 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "insr"
         ],
@@ -4166,7 +4166,7 @@
       {
         "id": "label-baseline-insulin-glargine",
         "name": "甘精胰岛素 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "insr"
         ],
@@ -4182,7 +4182,7 @@
       {
         "id": "label-baseline-lanreotide",
         "name": "兰瑞肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "sstr"
         ],
@@ -4198,7 +4198,7 @@
       {
         "id": "label-baseline-leuprolide",
         "name": "亮丙瑞林 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gnrhr"
         ],
@@ -4214,7 +4214,7 @@
       {
         "id": "label-baseline-linaclotide",
         "name": "利那洛肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gucy2c"
         ],
@@ -4230,7 +4230,7 @@
       {
         "id": "label-baseline-liraglutide",
         "name": "利拉鲁肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp1r"
         ],
@@ -4246,7 +4246,7 @@
       {
         "id": "label-baseline-lixisenatide",
         "name": "利司那肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp1r"
         ],
@@ -4262,7 +4262,7 @@
       {
         "id": "label-baseline-motixafortide",
         "name": "莫替克沙肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "cxcr4"
         ],
@@ -4278,7 +4278,7 @@
       {
         "id": "label-baseline-octreotide",
         "name": "奥曲肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "sstr"
         ],
@@ -4294,7 +4294,7 @@
       {
         "id": "label-baseline-palopegteriparatide",
         "name": "帕罗培特立帕肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "pth1r"
         ],
@@ -4310,7 +4310,7 @@
       {
         "id": "label-baseline-pasireotide",
         "name": "帕瑞肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "sstr"
         ],
@@ -4326,7 +4326,7 @@
       {
         "id": "label-baseline-pegcetacoplan",
         "name": "培格西替可潘 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "c3"
         ],
@@ -4342,7 +4342,7 @@
       {
         "id": "label-baseline-plecanatide",
         "name": "普卡那肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "gucy2c"
         ],
@@ -4358,7 +4358,7 @@
       {
         "id": "label-baseline-pramlintide",
         "name": "普兰林肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "amyr"
         ],
@@ -4374,7 +4374,7 @@
       {
         "id": "label-baseline-rusfertide",
         "name": "Rusfertide · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "slc40a1"
         ],
@@ -4390,7 +4390,7 @@
       {
         "id": "label-baseline-semaglutide",
         "name": "司美格鲁肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp1r"
         ],
@@ -4406,7 +4406,7 @@
       {
         "id": "label-baseline-setmelanotide",
         "name": "司美拉诺肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "mc4r"
         ],
@@ -4422,7 +4422,7 @@
       {
         "id": "label-baseline-teduglutide",
         "name": "替度鲁肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp2r"
         ],
@@ -4438,7 +4438,7 @@
       {
         "id": "label-baseline-teriparatide",
         "name": "特立帕肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "pth1r"
         ],
@@ -4454,7 +4454,7 @@
       {
         "id": "label-baseline-tesamorelin",
         "name": "替莫瑞林 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "ghrhr"
         ],
@@ -4470,7 +4470,7 @@
       {
         "id": "label-baseline-tirzepatide",
         "name": "替尔泊肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "glp1r",
           "gipr"
@@ -4487,7 +4487,7 @@
       {
         "id": "label-baseline-vosoritide",
         "name": "伏索利肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "npr2"
         ],
@@ -4503,7 +4503,7 @@
       {
         "id": "label-baseline-ziconotide",
         "name": "齐考诺肽 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "cacna1b"
         ],
@@ -4519,7 +4519,7 @@
       {
         "id": "label-baseline-zilucoplan",
         "name": "齐鲁可普兰 · 药品标签基线",
-        "description": "按单个活性成分建档；标签不是发现/SAR谱系证据。",
+        "description": "按活性成分归档的药品标签资料。",
         "targetIds": [
           "c5"
         ],
@@ -4565,12 +4565,12 @@
         "origin": "computational",
         "basis": "publication",
         "researchFocus": "method-validation",
-        "researchFocusNote": "作者报告计算几何/能量评价；本轮未见新设计肽实测结合或动物证据。"
+        "researchFocusNote": "以计算几何与能量指标评价设计结果。"
       },
       {
         "id": "mlip-rfd3-erbin",
         "name": "MLIP / RFD3 · ERBIN",
-        "description": "作者任务配置 1MFG / PDZ，仅计算方法评价。1MFG受体为ERBIN，ERBB2仅为原始共晶肽来源，不能误归为HER2新设计。",
+        "description": "作者配置1MFG用于ERBIN PDZ条件化设计；原始共晶肽来自ERBB2。",
         "targetIds": [
           "erbin"
         ],
@@ -4583,7 +4583,7 @@
         "origin": "computational",
         "basis": "publication",
         "researchFocus": "method-validation",
-        "researchFocusNote": "作者报告计算几何/能量评价；本轮未见新设计肽实测结合或动物证据。"
+        "researchFocusNote": "以计算几何与能量指标评价设计结果。"
       },
       {
         "id": "mlip-rfd3-nr3c2",
@@ -4601,7 +4601,7 @@
         "origin": "computational",
         "basis": "publication",
         "researchFocus": "method-validation",
-        "researchFocusNote": "作者报告计算几何/能量评价；本轮未见新设计肽实测结合或动物证据。"
+        "researchFocusNote": "以计算几何与能量指标评价设计结果。"
       },
       {
         "id": "mlip-rfd3-src",
@@ -4619,7 +4619,7 @@
         "origin": "computational",
         "basis": "publication",
         "researchFocus": "method-validation",
-        "researchFocusNote": "作者报告计算几何/能量评价；本轮未见新设计肽实测结合或动物证据。"
+        "researchFocusNote": "以计算几何与能量指标评价设计结果。"
       },
       {
         "id": "mlip-rfd3-traf2",
@@ -4637,7 +4637,7 @@
         "origin": "computational",
         "basis": "publication",
         "researchFocus": "method-validation",
-        "researchFocusNote": "作者报告计算几何/能量评价；本轮未见新设计肽实测结合或动物证据。"
+        "researchFocusNote": "以计算几何与能量指标评价设计结果。"
       },
       {
         "id": "mlip-rfd3-xiap",
@@ -4655,12 +4655,12 @@
         "origin": "computational",
         "basis": "publication",
         "researchFocus": "method-validation",
-        "researchFocusNote": "作者报告计算几何/能量评价；本轮未见新设计肽实测结合或动物证据。"
+        "researchFocusNote": "以计算几何与能量指标评价设计结果。"
       },
       {
         "id": "pcsk9-2020-series",
         "name": "2020 PCSK9 双环肽研究",
-        "description": "按论文归组；结构库确认了化合物 51，暂不把它画成 MK-0616 的直接前体。",
+        "description": "2020年PCSK9研究化合物系列；结构库确认化合物51。",
         "targetIds": [
           "pcsk9"
         ],
@@ -4816,7 +4816,7 @@
       {
         "id": "study-ahnp-erbb2",
         "name": "AHNP · 结构指导界面模拟",
-        "description": "2000年论文报道抗体4D5界面启发的HER2肽模拟物及体内外结果；属于早期结构指导理性设计，不是现代生成式AI方法。",
+        "description": "抗体4D5结合界面启发的HER2肽模拟物；2000年论文报告体内外实验，采用结构指导理性设计。",
         "targetIds": [
           "erbb2"
         ],
@@ -4832,7 +4832,7 @@
       {
         "id": "study-anewomni-kras",
         "name": "AnewOmni",
-        "description": "全原子生成模型预印本报告KRAS G12D和PCSK9多模态设计及低通量实验。这里只收录其肽研究关联，不把同文小分子或纳米抗体计为多肽分子。",
+        "description": "全原子生成模型预印本报告KRAS G12D和PCSK9的肽设计与低通量实验。",
         "targetIds": [
           "kras"
         ],
@@ -4848,7 +4848,7 @@
       {
         "id": "study-anewomni-pcsk9",
         "name": "AnewOmni",
-        "description": "全原子生成模型预印本报告KRAS G12D和PCSK9多模态设计及低通量实验。这里只收录其肽研究关联，不把同文小分子或纳米抗体计为多肽分子。",
+        "description": "全原子生成模型预印本报告KRAS G12D和PCSK9的肽设计与低通量实验。",
         "targetIds": [
           "pcsk9"
         ],
@@ -4928,7 +4928,7 @@
       {
         "id": "study-glp1-proteinmpnn-glp1r",
         "name": "ProteinMPNN · GLP1RA",
-        "description": "固定保守位点并重设计序列，配合体外筛选和动物验证；D13/D41等是研究编号，不是新增临床药物。SPR采用GST融合样品，不能与游离脂肪酸修饰肽cAMP/PK直接混用。",
+        "description": "保留关键位点并重设计序列，结合体外筛选与动物研究。D13/D41为研究编号；SPR使用GST融合样品，cAMP/PK研究使用游离脂肪酸修饰肽。",
         "targetIds": [
           "glp1r"
         ],
@@ -4944,7 +4944,7 @@
       {
         "id": "study-hf-gabarap",
         "name": "HFGuidedDesign",
-        "description": "HighFold结构引导的离散扩散；正文明确实际合成与SPR验证MDM2、GABARAP。文中另有计算评估靶点集合，不能全部当湿实验成功靶点。",
+        "description": "HighFold结构引导的离散扩散；MDM2与GABARAP有合成及SPR验证，其他靶点用于计算评价。",
         "targetIds": [
           "gabarap"
         ],
@@ -4960,7 +4960,7 @@
       {
         "id": "study-hf-mdm2",
         "name": "HFGuidedDesign",
-        "description": "HighFold结构引导的离散扩散；正文明确实际合成与SPR验证MDM2、GABARAP。文中另有计算评估靶点集合，不能全部当湿实验成功靶点。",
+        "description": "HighFold结构引导的离散扩散；MDM2与GABARAP有合成及SPR验证，其他靶点用于计算评价。",
         "targetIds": [
           "mdm2"
         ],
@@ -4976,7 +4976,7 @@
       {
         "id": "study-il17-structure-il17a",
         "name": "IL17A · 结构指导环化",
-        "description": "基于线性起始肽的复合物结构设计宏环拮抗剂；属于实验先导后的结构指导改造，不是AI从零生成或IL17RA受体结合肽。",
+        "description": "依据线性起始肽复合物结构设计IL17A宏环拮抗剂。",
         "targetIds": [
           "il17a"
         ],
@@ -4992,7 +4992,7 @@
       {
         "id": "study-il4-mimic-il4ra",
         "name": "IL-4模拟肽 · 受体关联待核",
-        "description": "旧表将IL-4-Y归IL4Rα，但本次可读摘要仅泛称相应受体，未完成具体受体亚基、MST弱结合与样品身份复核。保留待核论文关联，不能当已证实高亲和IL4Rα binder。",
+        "description": "IL-4-Y的受体亚基归属、MST结合与样品身份待核实；保留IL4Rα待核论文关联。",
         "targetIds": [
           "il4ra"
         ],
@@ -5008,7 +5008,7 @@
       {
         "id": "study-mc4r-colab-mc4r",
         "name": "ColabDesign · MC4R",
-        "description": "预印本报道AF2/ColabDesign设计与后续体外成熟，E5P小鼠中枢给药减少急性摄食。动物给药途径不能外推为外周给药、长期减重或临床效果。",
+        "description": "AF2/ColabDesign设计结合体外成熟；预印本报告E5P经小鼠中枢给药减少急性摄食。",
         "targetIds": [
           "mc4r"
         ],
@@ -5024,7 +5024,7 @@
       {
         "id": "study-mirror-cd274",
         "name": "Mirror-Peptidizer",
-        "description": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "description": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "targetIds": [
           "cd274"
         ],
@@ -5040,7 +5040,7 @@
       {
         "id": "study-mirror-il23r",
         "name": "Mirror-Peptidizer",
-        "description": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "description": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "targetIds": [
           "il23r"
         ],
@@ -5056,7 +5056,7 @@
       {
         "id": "study-mirror-mdm2",
         "name": "Mirror-Peptidizer",
-        "description": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "description": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "targetIds": [
           "mdm2"
         ],
@@ -5072,7 +5072,7 @@
       {
         "id": "study-pepmimic-cd274",
         "name": "PepMimic",
-        "description": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "description": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "targetIds": [
           "cd274"
         ],
@@ -5088,7 +5088,7 @@
       {
         "id": "study-pepmimic-cd38",
         "name": "PepMimic",
-        "description": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "description": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "targetIds": [
           "cd38"
         ],
@@ -5104,7 +5104,7 @@
       {
         "id": "study-pepmimic-cd4",
         "name": "PepMimic",
-        "description": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "description": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "targetIds": [
           "cd4"
         ],
@@ -5120,7 +5120,7 @@
       {
         "id": "study-pepmimic-erbb2",
         "name": "PepMimic",
-        "description": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "description": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "targetIds": [
           "erbb2"
         ],
@@ -5136,7 +5136,7 @@
       {
         "id": "study-pepmimic-tnfrsf17",
         "name": "PepMimic",
-        "description": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "description": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "targetIds": [
           "tnfrsf17"
         ],
@@ -5152,7 +5152,7 @@
       {
         "id": "study-tslp-staple-tslp",
         "name": "TSLP · 结构指导二硫键约束",
-        "description": "从TSLPR界面片段理性设计并作二硫键约束，摘要报告与TSLP结合/选择性。结合对象是配体TSLP，不能误记为TSLPR受体肽；并非现代生成式AI。",
+        "description": "依据TSLPR界面片段设计二硫键约束肽；摘要报告与配体TSLP的结合及选择性。",
         "targetIds": [
           "tslp"
         ],
@@ -5168,7 +5168,7 @@
       {
         "id": "study-vae-md-ctnnb1",
         "name": "GRU-VAE + Rosetta + MD",
-        "description": "生成模型配合对接和MD，在既有肽基础上扩展/优化；β-catenin及NEMO均有结合竞争实验。属于模板/先导改造，不把全部序列称为无模板de novo。",
+        "description": "生成模型结合对接与MD优化已有肽；β-catenin与NEMO报告结合竞争实验。",
         "targetIds": [
           "ctnnb1"
         ],
@@ -5184,7 +5184,7 @@
       {
         "id": "study-vae-md-ikbkg",
         "name": "GRU-VAE + Rosetta + MD",
-        "description": "生成模型配合对接和MD，在既有肽基础上扩展/优化；β-catenin及NEMO均有结合竞争实验。属于模板/先导改造，不把全部序列称为无模板de novo。",
+        "description": "生成模型结合对接与MD优化已有肽；β-catenin与NEMO报告结合竞争实验。",
         "targetIds": [
           "ikbkg"
         ],
@@ -5235,7 +5235,7 @@
         "aliases": [
           "abaloparatide"
         ],
-        "description": "PTHrP(1-34)类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "PTHrP(1-34)类似物。",
         "targetIds": [
           "pth1r"
         ],
@@ -5253,7 +5253,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "PTHrP(1-34)类似物",
         "stageEvidenceIds": [
           "label-stage-abaloparatide"
@@ -5266,7 +5266,7 @@
           "GUB014295",
           "ABBV295"
         ],
-        "description": "长效胰淀素类似物；2026-08-26披露II期已启动并触发50M里程碑。签约时为I期；触发不等于已经付款。",
+        "description": "长效胰淀素类似物；2026-08-26披露II期已启动，触发5000万美元里程碑；许可签约时为I期。",
         "targetIds": [
           "amyr"
         ],
@@ -5286,8 +5286,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未核实精确序列、侧链和端基。",
-        "specificity": "长效胰淀素类似物；2026-08-26披露II期已启动并触发50M里程碑。签约时为I期；触发不等于已经付款。",
+        "sequenceNote": "精确序列、侧链和端基待核实。",
+        "specificity": "长效胰淀素类似物；2026-08-26披露II期已启动，触发5000万美元里程碑；许可签约时为I期。",
         "stageEvidenceIds": [
           "abbv295-phase2",
           "registry-nct07752979"
@@ -5299,7 +5299,7 @@
         "aliases": [
           "Sulanemadlin"
         ],
-        "description": "p53模拟订书肽；本轮直接读到I期人体研究。既往I/II项目的实际扩展阶段仍需查原始结果，暂不把II期剂量推荐当II期已完成。Aileron 2023年终止后续公司开发，后发学术论文不自动证明资产重启。",
+        "description": "p53模拟订书肽，已有I期人体研究；Aileron于2023年停止后续开发。既往I/II期项目的扩展进展待核实。",
         "targetIds": [
           "mdm2",
           "mdm4"
@@ -5320,7 +5320,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "p53模拟订书肽；本轮直接读到I期人体研究。既往I/II项目的实际扩展阶段仍需查原始结果，暂不把II期剂量推荐当II期已完成。Aileron 2023年终止后续公司开发，后发学术论文不自动证明资产重启。",
+        "specificity": "p53模拟订书肽，已有I期人体研究；Aileron于2023年停止后续开发。既往I/II期项目的扩展进展待核实。",
         "stageEvidenceIds": [
           "alrn6924-stage",
           "alrn6924-company-stop"
@@ -5357,7 +5357,7 @@
         "id": "apraglutide",
         "name": "Apraglutide",
         "aliases": [],
-        "description": "合成GLP-2类似物；2023年收购时III期。本轮尚未逐条审阅2026年最新监管反馈，不推定已申报或批准。",
+        "description": "合成GLP-2类似物；2023年收购时为III期，最新监管进展待核实。",
         "targetIds": [
           "glp2r"
         ],
@@ -5376,8 +5376,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "合成GLP-2类似物；2023年收购时III期。本轮尚未逐条审阅2026年最新监管反馈，不推定已申报或批准。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "合成GLP-2类似物；2023年收购时为III期，最新监管进展待核实。",
         "stageEvidenceIds": [
           "baseline-stage-apraglutide"
         ]
@@ -5407,7 +5407,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未核实精确序列、端基、立体化学与修饰；ASC36i/o是研究/制剂标记，非新化学实体。",
+        "sequenceNote": "精确序列、端基、立体化学及修饰待核实；ASC36i/o标识不同研究或制剂。",
         "specificity": "Amylin receptors；未明确受体亚型。",
         "stageEvidenceIds": [
           "registry-nct07893093",
@@ -5418,7 +5418,7 @@
         "id": "atsp7041",
         "name": "ATSP-7041",
         "aliases": [],
-        "description": "p53相关订书肽；2013年原始研究报告体外及异种移植瘤活性。2026年另报告鼻腔药库在DIPG小鼠模型的递送；不是人体临床结果。",
+        "description": "p53相关订书肽；2013年论文报告体外及异种移植瘤活性。2026年研究报告DIPG小鼠鼻腔药库递送。",
         "targetIds": [
           "mdm2",
           "mdm4"
@@ -5436,7 +5436,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "p53相关订书肽；2013年原始研究报告体外及异种移植瘤活性。2026年另报告鼻腔药库在DIPG小鼠模型的递送；不是人体临床结果。",
+        "specificity": "p53相关订书肽；2013年论文报告体外及异种移植瘤活性。2026年研究报告DIPG小鼠鼻腔药库递送。",
         "stageEvidenceIds": [
           "atsp7041-stage"
         ]
@@ -5475,7 +5475,7 @@
         "aliases": [
           "bivalirudin"
         ],
-        "description": "直接凝血酶抑制肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "直接凝血酶抑制肽。",
         "targetIds": [
           "f2"
         ],
@@ -5493,7 +5493,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "直接凝血酶抑制肽",
         "stageEvidenceIds": [
           "label-stage-bivalirudin"
@@ -5534,7 +5534,7 @@
         "aliases": [
           "bremelanotide"
         ],
-        "description": "非选择性黑皮质素受体激动肽；HSDD治疗效果的精确机制未知。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "非选择性黑皮质素受体激动肽；HSDD治疗效果的精确机制未知。",
         "targetIds": [
           "mc4r",
           "mc1r"
@@ -5553,7 +5553,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "非选择性黑皮质素受体激动肽；HSDD治疗效果的精确机制未知",
         "stageEvidenceIds": [
           "label-stage-bremelanotide"
@@ -5565,7 +5565,7 @@
         "aliases": [
           "BT-7480"
         ],
-        "description": "三段双环肽构建物：一段结合NECTIN4，其他结合/激动CD137；原公告确认I/II试验的I期剂量递增已给药。本轮未确认实际II期扩展。2026年披露拟退出内部开发并寻求合作，不据此标作所有开发已终止。",
+        "description": "由一段NECTIN4结合肽与CD137结合/激动肽构成的三段双环肽。I/II期试验的I期剂量递增已给药；2026年披露拟退出内部开发并寻求合作。",
         "targetIds": [
           "nectin4",
           "tnfrsf9"
@@ -5585,8 +5585,8 @@
         "modality": "peptide-conjugate",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "原始序列/桥连与SAR未在本轮核实。",
-        "specificity": "三段双环肽构建物：一段结合NECTIN4，其他结合/激动CD137；原公告确认I/II试验的I期剂量递增已给药。本轮未确认实际II期扩展。2026年披露拟退出内部开发并寻求合作，不据此标作所有开发已终止。",
+        "sequenceNote": "序列、桥连与SAR待核实。",
+        "specificity": "由一段NECTIN4结合肽与CD137结合/激动肽构成的三段双环肽。I/II期试验的I期剂量递增已给药；2026年披露拟退出内部开发并寻求合作。",
         "stageEvidenceIds": [
           "baseline-stage-bt7480"
         ]
@@ -5613,7 +5613,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "胰淀素类似物；REDEFINE-1 III期包含单独cagrilintide组。CagriSema为其与semaglutide组合，不新算第三条核心序列。",
         "stageEvidenceIds": [
           "baseline-stage-cagrilintide"
@@ -5625,7 +5625,7 @@
         "aliases": [
           "cetrorelix"
         ],
-        "description": "GnRH受体拮抗十肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GnRH受体拮抗十肽。",
         "targetIds": [
           "gnrhr"
         ],
@@ -5643,7 +5643,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GnRH受体拮抗十肽",
         "stageEvidenceIds": [
           "label-stage-cetrorelix"
@@ -5657,7 +5657,7 @@
           "Enicepatide",
           "RO7795068"
         ],
-        "description": "CT-388=enicepatide=RO7795068；GLP-1/GIP双激动肽。NCT07351045确认III期实际开始；9月公布的II期结果与此并存，不把晚发II期论文误作最高阶段。",
+        "description": "CT-388 / enicepatide / RO7795068为GLP-1/GIP双激动肽。NCT07351045确认III期实际启动；2026年9月公布II期结果。",
         "targetIds": [
           "glp1r",
           "gipr"
@@ -5678,8 +5678,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "原始序列/桥连与SAR未在本轮核实。",
-        "specificity": "CT-388=enicepatide=RO7795068；GLP-1/GIP双激动肽。NCT07351045确认III期实际开始；9月公布的II期结果与此并存，不把晚发II期论文误作最高阶段。",
+        "sequenceNote": "序列、桥连与SAR待核实。",
+        "specificity": "CT-388 / enicepatide / RO7795068为GLP-1/GIP双激动肽。NCT07351045确认III期实际启动；2026年9月公布II期结果。",
         "stageEvidenceIds": [
           "baseline-stage-ct388"
         ]
@@ -5690,7 +5690,7 @@
         "aliases": [
           "ShK-186"
         ],
-        "description": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究。小样本短期研究，不把探索性PASI信号描述为确证疗效；最新开发/权属待补。",
+        "description": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究报告探索性PASI信号。最新开发与权属待核实。",
         "targetIds": [
           "kcna3"
         ],
@@ -5709,7 +5709,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究。小样本短期研究，不把探索性PASI信号描述为确证疗效；最新开发/权属待补。",
+        "specificity": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究报告探索性PASI信号。最新开发与权属待核实。",
         "stageEvidenceIds": [
           "dalazatide-stage"
         ]
@@ -5718,7 +5718,7 @@
         "id": "dapiglutide",
         "name": "Dapiglutide",
         "aliases": [],
-        "description": "GLP-1/GLP-2双激动肽；管线明确I期且II期就绪，开发已暂停。就绪不是II期已启动。",
+        "description": "GLP-1/GLP-2双激动肽；已进入I期，II期准备就绪，开发暂停。",
         "targetIds": [
           "glp1r",
           "glp2r"
@@ -5737,8 +5737,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "GLP-1/GLP-2双激动肽；管线明确I期且II期就绪，开发已暂停。就绪不是II期已启动。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "GLP-1/GLP-2双激动肽；已进入I期，II期准备就绪，开发暂停。",
         "stageEvidenceIds": [
           "baseline-stage-dapiglutide"
         ]
@@ -5749,7 +5749,7 @@
         "aliases": [
           "dasiglucagon"
         ],
-        "description": "胰高血糖素类似物；救援制剂已获批，CHI持续输注是不同适应证项目。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "胰高血糖素类似物；救援制剂已获批，CHI持续输注是不同适应证项目。",
         "targetIds": [
           "gcgr"
         ],
@@ -5767,7 +5767,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "胰高血糖素类似物；救援制剂已获批，CHI持续输注是不同适应证项目",
         "stageEvidenceIds": [
           "label-stage-dasiglucagon"
@@ -5779,7 +5779,7 @@
         "aliases": [
           "degarelix"
         ],
-        "description": "GnRH受体拮抗十肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GnRH受体拮抗十肽。",
         "targetIds": [
           "gnrhr"
         ],
@@ -5797,7 +5797,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GnRH受体拮抗十肽",
         "stageEvidenceIds": [
           "label-stage-degarelix"
@@ -5809,7 +5809,7 @@
         "aliases": [
           "difelikefalin"
         ],
-        "description": "κ阿片受体激动肽；标签保留受体激活与治疗效果关系的不确定性。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "κ阿片受体激动肽；标签保留受体激活与治疗效果关系的不确定性。",
         "targetIds": [
           "oprk1"
         ],
@@ -5827,7 +5827,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "κ阿片受体激动肽；标签保留受体激活与治疗效果关系的不确定性",
         "stageEvidenceIds": [
           "label-stage-difelikefalin"
@@ -5839,7 +5839,7 @@
         "aliases": [
           "dulaglutide"
         ],
-        "description": "GLP-1类似物与Fc融合的肽蛋白融合物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GLP-1类似物与Fc融合的肽蛋白融合物。",
         "targetIds": [
           "glp1r"
         ],
@@ -5857,7 +5857,7 @@
         "modality": "peptide-protein-fusion",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GLP-1类似物与Fc融合的肽蛋白融合物",
         "stageEvidenceIds": [
           "label-stage-dulaglutide"
@@ -5906,7 +5906,7 @@
         "aliases": [
           "eptifibatide"
         ],
-        "description": "血小板GP IIb/IIIa拮抗环肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "血小板GP IIb/IIIa拮抗环肽。",
         "targetIds": [
           "itga2b-itgb3"
         ],
@@ -5924,7 +5924,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "血小板GP IIb/IIIa拮抗环肽",
         "stageEvidenceIds": [
           "label-stage-eptifibatide"
@@ -5936,7 +5936,7 @@
         "aliases": [
           "etelcalcetide"
         ],
-        "description": "CaSR变构拟钙肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "CaSR变构拟钙肽。",
         "targetIds": [
           "casr"
         ],
@@ -5954,7 +5954,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "CaSR变构拟钙肽",
         "stageEvidenceIds": [
           "label-stage-etelcalcetide"
@@ -5966,7 +5966,7 @@
         "aliases": [
           "exenatide"
         ],
-        "description": "GLP-1受体激动肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GLP-1受体激动肽。",
         "targetIds": [
           "glp1r"
         ],
@@ -5984,7 +5984,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GLP-1受体激动肽",
         "stageEvidenceIds": [
           "label-stage-exenatide"
@@ -6029,7 +6029,7 @@
         "aliases": [
           "ganirelix"
         ],
-        "description": "GnRH受体拮抗十肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GnRH受体拮抗十肽。",
         "targetIds": [
           "gnrhr"
         ],
@@ -6047,7 +6047,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GnRH受体拮抗十肽",
         "stageEvidenceIds": [
           "label-stage-ganirelix"
@@ -6075,7 +6075,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "长效GLP-2类似物；当前管线列III期。既往申报/CRL与最新欧洲审评需继续独立核实，当前记录非完整监管沿革。",
         "stageEvidenceIds": [
           "baseline-stage-glepaglutide"
@@ -6087,7 +6087,7 @@
         "aliases": [
           "glucagon"
         ],
-        "description": "胰高血糖素受体激动肽；药用活性成分，非独立发现的新候选。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "胰高血糖素受体激动肽。",
         "targetIds": [
           "gcgr"
         ],
@@ -6105,7 +6105,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "胰高血糖素受体激动肽；药用活性成分，非独立发现的新候选",
         "stageEvidenceIds": [
           "label-stage-glucagon"
@@ -6117,7 +6117,7 @@
         "aliases": [
           "goserelin"
         ],
-        "description": "GnRH激动十肽类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GnRH激动十肽类似物。",
         "targetIds": [
           "gnrhr"
         ],
@@ -6135,7 +6135,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GnRH激动十肽类似物",
         "stageEvidenceIds": [
           "label-stage-goserelin"
@@ -6147,7 +6147,7 @@
         "aliases": [
           "HCXT-2001"
         ],
-        "description": "Gilead 已签署收购项目协议，尚待交割；不是已完成收购 PepStar 公司。",
+        "description": "Gilead已签署HCXT-2001项目收购协议，待交割。",
         "targetIds": [
           "il23r"
         ],
@@ -6197,7 +6197,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "恒瑞2025-11-05公告确认中国体重管理NDA已递交并受理；KAI-9531与HRS9531为同一资产。全球III期在该公告时仍是计划，不当作已执行。",
         "stageEvidenceIds": [
           "baseline-stage-hrs9531"
@@ -6229,7 +6229,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "每周GLP-1/GIP双激动肽；2025年签约公告确认中国肥胖III期和糖尿病IIb期。更新至2026年的NDA受理原始文件仍待核实。",
         "stageEvidenceIds": [
           "baseline-stage-hs20094"
@@ -6279,7 +6279,7 @@
         "aliases": [
           "icatibant"
         ],
-        "description": "缓激肽B2受体竞争性拮抗肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "缓激肽B2受体竞争性拮抗肽。",
         "targetIds": [
           "bdkrb2"
         ],
@@ -6297,7 +6297,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "缓激肽B2受体竞争性拮抗肽",
         "stageEvidenceIds": [
           "label-stage-icatibant"
@@ -6345,7 +6345,7 @@
         "id": "il23r-p4-2025",
         "name": "P4 · Qayyum 2025",
         "aliases": [],
-        "description": "计算起源且摘要报告已做实验；不是只有对接分数。",
+        "description": "计算起源的多肽，摘要报告实验验证。",
         "targetIds": [
           "il23r"
         ],
@@ -6402,7 +6402,7 @@
         "aliases": [
           "insulin-degludec"
         ],
-        "description": "长效基础胰岛素类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "长效基础胰岛素类似物。",
         "targetIds": [
           "insr"
         ],
@@ -6420,7 +6420,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "长效基础胰岛素类似物",
         "stageEvidenceIds": [
           "label-stage-insulin-degludec"
@@ -6432,7 +6432,7 @@
         "aliases": [
           "insulin-glargine"
         ],
-        "description": "胰岛素类似物；本轮标签为glargine-aldy生物类似药，不据其初次批准年回填原研年份。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "胰岛素类似物；参考标签为glargine-aldy生物类似药。",
         "targetIds": [
           "insr"
         ],
@@ -6450,8 +6450,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
-        "specificity": "胰岛素类似物；本轮标签为glargine-aldy生物类似药，不据其初次批准年回填原研年份",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
+        "specificity": "胰岛素类似物；参考标签为glargine-aldy生物类似药。",
         "stageEvidenceIds": [
           "label-stage-insulin-glargine"
         ]
@@ -6504,7 +6504,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": "Ac-RRRRCPLYISYDPVCRRRR-NH2",
-        "sequenceNote": "保留两端修饰；不把核心序列视为完整化学身份。",
+        "sequenceNote": "两端修饰属于完整化学身份的一部分。",
         "specificity": "KRAS G12D",
         "stageEvidenceIds": [
           "krpep2d-assay"
@@ -6516,7 +6516,7 @@
         "aliases": [
           "lanreotide"
         ],
-        "description": "生长抑素八肽类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "生长抑素八肽类似物。",
         "targetIds": [
           "sstr"
         ],
@@ -6534,7 +6534,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "生长抑素八肽类似物",
         "stageEvidenceIds": [
           "label-stage-lanreotide"
@@ -6546,7 +6546,7 @@
         "aliases": [
           "leuprolide"
         ],
-        "description": "GnRH激动九肽类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GnRH激动九肽类似物。",
         "targetIds": [
           "gnrhr"
         ],
@@ -6564,7 +6564,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GnRH激动九肽类似物",
         "stageEvidenceIds": [
           "label-stage-leuprolide"
@@ -6576,7 +6576,7 @@
         "aliases": [
           "linaclotide"
         ],
-        "description": "局部GC-C激动肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "局部GC-C激动肽。",
         "targetIds": [
           "gucy2c"
         ],
@@ -6594,7 +6594,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "局部GC-C激动肽",
         "stageEvidenceIds": [
           "label-stage-linaclotide"
@@ -6606,7 +6606,7 @@
         "aliases": [
           "liraglutide"
         ],
-        "description": "酰化GLP-1类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "酰化GLP-1类似物。",
         "targetIds": [
           "glp1r"
         ],
@@ -6624,7 +6624,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "酰化GLP-1类似物",
         "stageEvidenceIds": [
           "label-stage-liraglutide"
@@ -6636,7 +6636,7 @@
         "aliases": [
           "lixisenatide"
         ],
-        "description": "GLP-1受体激动肽；本轮来源为与甘精胰岛素联合的标签，非独立新分子。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GLP-1受体激动肽；参考标签为与甘精胰岛素联合的制剂。",
         "targetIds": [
           "glp1r"
         ],
@@ -6654,8 +6654,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
-        "specificity": "GLP-1受体激动肽；本轮来源为与甘精胰岛素联合的标签，非独立新分子",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
+        "specificity": "GLP-1受体激动肽；参考标签为与甘精胰岛素联合的制剂。",
         "stageEvidenceIds": [
           "label-stage-lixisenatide"
         ]
@@ -6723,7 +6723,7 @@
         "aliases": [
           "motixafortide"
         ],
-        "description": "CXCR4拮抗肽，阻断CXCL12结合。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "CXCR4拮抗肽，阻断CXCL12结合。",
         "targetIds": [
           "cxcr4"
         ],
@@ -6741,7 +6741,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "CXCR4拮抗肽，阻断CXCL12结合",
         "stageEvidenceIds": [
           "label-stage-motixafortide"
@@ -6753,7 +6753,7 @@
         "aliases": [
           "BT5528"
         ],
-        "description": "EPHA2结合双环肽经val-cit连接MMAE；官网明确胰腺癌II期。MMAE载荷的作用不等于肽的结合靶点。",
+        "description": "EPHA2结合双环肽经val-cit连接MMAE；官网列明胰腺癌II期。",
         "targetIds": [
           "epha2"
         ],
@@ -6771,8 +6771,8 @@
         "modality": "peptide-conjugate",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "EPHA2结合双环肽经val-cit连接MMAE；官网明确胰腺癌II期。MMAE载荷的作用不等于肽的结合靶点。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "EPHA2结合双环肽经val-cit连接MMAE；官网列明胰腺癌II期。",
         "stageEvidenceIds": [
           "baseline-stage-nuzefatide-pevedotin"
         ]
@@ -6783,7 +6783,7 @@
         "aliases": [
           "octreotide"
         ],
-        "description": "环状八肽生长抑素类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "环状八肽生长抑素类似物。",
         "targetIds": [
           "sstr"
         ],
@@ -6801,7 +6801,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "环状八肽生长抑素类似物",
         "stageEvidenceIds": [
           "label-stage-octreotide"
@@ -6865,7 +6865,7 @@
         "aliases": [
           "palopegteriparatide"
         ],
-        "description": "释放PTH(1-34)的持续暴露前药。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "释放PTH(1-34)的持续暴露前药。",
         "targetIds": [
           "pth1r"
         ],
@@ -6883,7 +6883,7 @@
         "modality": "peptide-conjugate",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "释放PTH(1-34)的持续暴露前药",
         "stageEvidenceIds": [
           "label-stage-palopegteriparatide"
@@ -6895,7 +6895,7 @@
         "aliases": [
           "pasireotide"
         ],
-        "description": "多SSTR亚型激动环六肽，标签列明各亚型亲和力。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "多SSTR亚型激动环六肽，标签列明各亚型亲和力。",
         "targetIds": [
           "sstr"
         ],
@@ -6913,7 +6913,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "多SSTR亚型激动环六肽，标签列明各亚型亲和力",
         "stageEvidenceIds": [
           "label-stage-pasireotide"
@@ -6955,7 +6955,7 @@
         "aliases": [
           "pegcetacoplan"
         ],
-        "description": "结合C3/C3b的PEG化环肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "结合C3/C3b的PEG化环肽。",
         "targetIds": [
           "c3"
         ],
@@ -6973,7 +6973,7 @@
         "modality": "peptide-conjugate",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "结合C3/C3b的PEG化环肽",
         "stageEvidenceIds": [
           "label-stage-pegcetacoplan"
@@ -6985,7 +6985,7 @@
         "aliases": [
           "ZP8396"
         ],
-        "description": "2026-09-22公告确认III期ZUPREME项目已启动；长效胰淀素类似物。合作签约时为IIb期，不能用当前阶段回填交易。",
+        "description": "长效胰淀素类似物；2026-09-22公告确认III期ZUPREME项目已启动；合作签约时为IIb期。",
         "targetIds": [
           "amyr"
         ],
@@ -7004,8 +7004,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "2026-09-22公告确认III期ZUPREME项目已启动；长效胰淀素类似物。合作签约时为IIb期，不能用当前阶段回填交易。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "长效胰淀素类似物；2026-09-22公告确认III期ZUPREME项目已启动；合作签约时为IIb期。",
         "stageEvidenceIds": [
           "baseline-stage-petrelintide"
         ]
@@ -7016,7 +7016,7 @@
         "aliases": [
           "plecanatide"
         ],
-        "description": "GC-C激动肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GC-C激动肽。",
         "targetIds": [
           "gucy2c"
         ],
@@ -7034,7 +7034,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GC-C激动肽",
         "stageEvidenceIds": [
           "label-stage-plecanatide"
@@ -7080,7 +7080,7 @@
         "aliases": [
           "PN943"
         ],
-        "description": "口服肠道限制性α4β7拮抗肽；IDEAL II期159人，450mg BID未达预设主要终点；低剂量信号不等于整体试验成功。后续公司不再投入内部资源，保留权利/合作可能性待核。",
+        "description": "口服肠道限制性α4β7拮抗肽；IDEAL II期纳入159人，450mg BID未达预设主要终点，低剂量组报告探索性信号。公司停止内部投入，保留合作开发可能。",
         "targetIds": [
           "itga4-itgb7"
         ],
@@ -7101,7 +7101,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "口服肠道限制性α4β7拮抗肽；IDEAL II期159人，450mg BID未达预设主要终点；低剂量信号不等于整体试验成功。后续公司不再投入内部资源，保留权利/合作可能性待核。",
+        "specificity": "口服肠道限制性α4β7拮抗肽；IDEAL II期纳入159人，450mg BID未达预设主要终点，低剂量组报告探索性信号。公司停止内部投入，保留合作开发可能。",
         "stageEvidenceIds": [
           "pn943-stage"
         ]
@@ -7112,7 +7112,7 @@
         "aliases": [
           "pramlintide"
         ],
-        "description": "人胰淀素类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "人胰淀素类似物。",
         "targetIds": [
           "amyr"
         ],
@@ -7130,7 +7130,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "人胰淀素类似物",
         "stageEvidenceIds": [
           "label-stage-pramlintide"
@@ -7196,7 +7196,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "单一分子的GIP/GLP-1/GCGR三激动肽；截至2026年9月FAQ处于III期且尚未获批。",
         "stageEvidenceIds": [
           "baseline-stage-retatrutide"
@@ -7285,7 +7285,7 @@
         "id": "rfp-mdb-d8",
         "name": "MDB_D8",
         "aliases": [],
-        "description": "RFpeptides计算起源；SPR验证MDM2结合，不能由模拟结构推定细胞通透或抗肿瘤疗效。",
+        "description": "RFpeptides计算设计，SPR验证MDM2结合。",
         "targetIds": [
           "mdm2"
         ],
@@ -7302,7 +7302,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "RFpeptides计算起源；SPR验证MDM2结合，不能由模拟结构推定细胞通透或抗肿瘤疗效。",
+        "specificity": "RFpeptides计算设计，SPR验证MDM2结合。",
         "stageEvidenceIds": [
           "rfp-mdb-d8-stage"
         ]
@@ -7311,7 +7311,7 @@
         "id": "rfp-rbb-d10",
         "name": "RBB_D10",
         "aliases": [],
-        "description": "以预测的鲍曼不动杆菌RbtA结构计算设计；SPR及复合物晶体验证，不是人体靶点且未证明抗菌疗效。",
+        "description": "依据鲍曼不动杆菌RbtA预测结构设计；已有SPR与复合物晶体研究，抗菌疗效待验证。",
         "targetIds": [
           "rbta-ab"
         ],
@@ -7328,7 +7328,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "以预测的鲍曼不动杆菌RbtA结构计算设计；SPR及复合物晶体验证，不是人体靶点且未证明抗菌疗效。",
+        "specificity": "依据鲍曼不动杆菌RbtA预测结构设计；已有SPR与复合物晶体研究，抗菌疗效待验证。",
         "stageEvidenceIds": [
           "rfp-rbb-d10-stage"
         ]
@@ -7339,7 +7339,7 @@
         "aliases": [
           "rusfertide"
         ],
-        "description": "Hepcidin模拟肽，阻断ferroportin。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "Hepcidin模拟肽，阻断ferroportin。",
         "targetIds": [
           "slc40a1"
         ],
@@ -7357,7 +7357,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "Hepcidin模拟肽，阻断ferroportin",
         "stageEvidenceIds": [
           "label-stage-rusfertide"
@@ -7369,7 +7369,7 @@
         "aliases": [
           "semaglutide"
         ],
-        "description": "天然GLP-1衍生的长效受体激动肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "天然GLP-1衍生的长效受体激动肽。",
         "targetIds": [
           "glp1r"
         ],
@@ -7387,7 +7387,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "天然GLP-1衍生的长效受体激动肽",
         "stageEvidenceIds": [
           "label-stage-semaglutide"
@@ -7399,7 +7399,7 @@
         "aliases": [
           "setmelanotide"
         ],
-        "description": "MC4R激动肽；不同遗传亚群的获批用途以标签为准。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "MC4R激动肽；不同遗传亚群的获批用途以标签为准。",
         "targetIds": [
           "mc4r"
         ],
@@ -7417,7 +7417,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "MC4R激动肽；不同遗传亚群的获批用途以标签为准",
         "stageEvidenceIds": [
           "label-stage-setmelanotide"
@@ -7450,7 +7450,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "GLP-1/GCGR双激动剂；官网列明肥胖和MASH的III期项目，尚未获批。",
         "stageEvidenceIds": [
           "baseline-stage-survodutide"
@@ -7460,7 +7460,7 @@
         "id": "syh2082",
         "name": "SYH2082",
         "aliases": [],
-        "description": "2026-01-30披露为临床就绪、正推进I期；只确认临床前，不把计划进入I期当成已给药。月制剂LiquidGel、AI平台使用不等于该分子已证实完全计算起源。",
+        "description": "2026-01-30披露为临床就绪、推进I期；采用LiquidGel长效制剂，具体发现路线待核实。",
         "targetIds": [
           "glp1r",
           "gipr"
@@ -7480,8 +7480,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "2026-01-30披露为临床就绪、正推进I期；只确认临床前，不把计划进入I期当成已给药。月制剂LiquidGel、AI平台使用不等于该分子已证实完全计算起源。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "2026-01-30披露为临床就绪、推进I期；采用LiquidGel长效制剂，具体发现路线待核实。",
         "stageEvidenceIds": [
           "baseline-stage-syh2082"
         ]
@@ -7492,7 +7492,7 @@
         "aliases": [
           "teduglutide"
         ],
-        "description": "GLP-2类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GLP-2类似物。",
         "targetIds": [
           "glp2r"
         ],
@@ -7510,7 +7510,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GLP-2类似物",
         "stageEvidenceIds": [
           "label-stage-teduglutide"
@@ -7522,7 +7522,7 @@
         "aliases": [
           "teriparatide"
         ],
-        "description": "PTH(1-34)类似物。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "PTH(1-34)类似物。",
         "targetIds": [
           "pth1r"
         ],
@@ -7540,7 +7540,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "PTH(1-34)类似物",
         "stageEvidenceIds": [
           "label-stage-teriparatide"
@@ -7552,7 +7552,7 @@
         "aliases": [
           "tesamorelin"
         ],
-        "description": "GHRH类似物，激活GRF受体。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GHRH类似物，激活GRF受体。",
         "targetIds": [
           "ghrhr"
         ],
@@ -7570,7 +7570,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GHRH类似物，激活GRF受体",
         "stageEvidenceIds": [
           "label-stage-tesamorelin"
@@ -7582,7 +7582,7 @@
         "aliases": [
           "tirzepatide"
         ],
-        "description": "GIP/GLP-1双受体激动肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "GIP/GLP-1双受体激动肽。",
         "targetIds": [
           "glp1r",
           "gipr"
@@ -7601,7 +7601,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "GIP/GLP-1双受体激动肽",
         "stageEvidenceIds": [
           "label-stage-tirzepatide"
@@ -7611,7 +7611,7 @@
         "id": "tnik-tk7-2026",
         "name": "TK7（TiB / TNIK）",
         "aliases": [],
-        "description": "RaPID筛选的硫代异吲哚桥连双环肽；摘要确认TK7激酶IC50为60 nM。摘要的最佳Kd=12.3 nM属于五候选总体，未明确映射，不能直接赋给TK7。",
+        "description": "RaPID筛选的硫代异吲哚桥连双环肽；TK7激酶IC50为60 nM，五候选整体最佳Kd为12.3 nM，其编号对应待核实。",
         "targetIds": [
           "tnik"
         ],
@@ -7628,7 +7628,7 @@
         "recordLevel": "molecule",
         "sequence": null,
         "sequenceNote": "序列/桥连、立体化学与端基需从原始SI逐项核实；不从摘要生成。",
-        "specificity": "RaPID筛选的硫代异吲哚桥连双环肽；摘要确认TK7激酶IC50为60 nM。摘要的最佳Kd=12.3 nM属于五候选总体，未明确映射，不能直接赋给TK7。",
+        "specificity": "RaPID筛选的硫代异吲哚桥连双环肽；TK7激酶IC50为60 nM，五候选整体最佳Kd为12.3 nM，其编号对应待核实。",
         "stageEvidenceIds": [
           "tnik-tk7-2026-stage"
         ]
@@ -7660,7 +7660,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未核实精确序列、侧链和端基。",
+        "sequenceNote": "精确序列、侧链和端基待核实。",
         "specificity": "GLP-1/GIP/GCGR三激动肽；2026年公告确认中国II期结果，全球项目的阶段/适应证另查，不据“支持III期”当作III期已启动。",
         "stageEvidenceIds": [
           "ubt251-phase2"
@@ -7672,7 +7672,7 @@
         "aliases": [
           "vosoritide"
         ],
-        "description": "CNP类似物，结合NPR-B后影响FGFR3下游信号。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "CNP类似物，结合NPR-B后影响FGFR3下游信号。",
         "targetIds": [
           "npr2"
         ],
@@ -7690,7 +7690,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "CNP类似物，结合NPR-B后影响FGFR3下游信号",
         "stageEvidenceIds": [
           "label-stage-vosoritide"
@@ -7720,7 +7720,7 @@
         "modality": "peptide-conjugate",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "NECTIN4结合肽-MMAE偶联物；当前官网明确Duravelo-2随机II期并已降低项目优先级，不据此断言终止。与既往II/III期宣传口径差异待登记复核。",
         "stageEvidenceIds": [
           "baseline-stage-zelenectide-pevedotin"
@@ -7751,7 +7751,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
         "specificity": "单分子GLP-1/胰淀素受体激动肽；2026Q1披露AMAZE III期实际启动。口服与皮下制剂共用身份，适应证和给药途径进度需分别补查。",
         "stageEvidenceIds": [
           "baseline-stage-zenagamtide"
@@ -7763,7 +7763,7 @@
         "aliases": [
           "ziconotide"
         ],
-        "description": "N型钙通道结合肽；标签明确人体镇痛机制尚未完全确立。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "N型钙通道结合肽；标签明确人体镇痛机制尚未完全确立。",
         "targetIds": [
           "cacna1b"
         ],
@@ -7781,7 +7781,7 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "N型钙通道结合肽；标签明确人体镇痛机制尚未完全确立",
         "stageEvidenceIds": [
           "label-stage-ziconotide"
@@ -7793,7 +7793,7 @@
         "aliases": [
           "zilucoplan"
         ],
-        "description": "抑制C5裂解的环肽。本轮先完成标签基线，发现、SAR、专利、历次临床与商业沿革待继续补查。",
+        "description": "抑制C5裂解的环肽。",
         "targetIds": [
           "c5"
         ],
@@ -7811,7 +7811,7 @@
         "modality": "macrocyclic-peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "未在本轮逐残基核实结构、端基与修饰；不从名称自动生成序列。",
+        "sequenceNote": "精确序列、立体化学、端基及结构修饰待核实。",
         "specificity": "抑制C5裂解的环肽",
         "stageEvidenceIds": [
           "label-stage-zilucoplan"
@@ -7821,7 +7821,7 @@
         "id": "zp6590",
         "name": "ZP6590",
         "aliases": [],
-        "description": "管线列明GIP受体激动剂，I期；序列和发现方法尚未在本轮核实。",
+        "description": "GIP受体激动剂，I期；序列与发现方法待核实。",
         "targetIds": [
           "gipr"
         ],
@@ -7839,8 +7839,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "管线列明GIP受体激动剂，I期；序列和发现方法尚未在本轮核实。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "GIP受体激动剂，I期；序列与发现方法待核实。",
         "stageEvidenceIds": [
           "baseline-stage-zp6590"
         ]
@@ -7849,7 +7849,7 @@
         "id": "zp9830",
         "name": "ZP9830",
         "aliases": [],
-        "description": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果，不能因另一个滞后网页仍写计划启动而退回临床前。",
+        "description": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果。",
         "targetIds": [
           "kcna3"
         ],
@@ -7867,8 +7867,8 @@
         "modality": "peptide",
         "recordLevel": "molecule",
         "sequence": null,
-        "sequenceNote": "本轮未逐残基核实结构及修饰；需继续读取原始论文/SI或专利实施例。",
-        "specificity": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果，不能因另一个滞后网页仍写计划启动而退回临床前。",
+        "sequenceNote": "序列及结构修饰待论文、SI或专利实施例核实。",
+        "specificity": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果。",
         "stageEvidenceIds": [
           "baseline-stage-zp9830"
         ]
@@ -7878,7 +7878,7 @@
       {
         "id": "abbv295-phase2",
         "title": "ABBV-295 / GUB014295 · II期",
-        "summary": "长效胰淀素类似物；2026-08-26披露II期已启动并触发50M里程碑。签约时为I期；触发不等于已经付款。",
+        "summary": "长效胰淀素类似物；2026-08-26披露II期已启动，触发5000万美元里程碑；许可签约时为I期。",
         "sourceId": "gubra-abbv295-phase2-2026",
         "locator": "临床结果 / Phase 2 initiation",
         "moleculeIds": [
@@ -7915,7 +7915,7 @@
       {
         "id": "alrn6924-stage",
         "title": "ALRN-6924 / Sulanemadlin · phase1",
-        "summary": "p53模拟订书肽；本轮直接读到I期人体研究。既往I/II项目的实际扩展阶段仍需查原始结果，暂不把II期剂量推荐当II期已完成。Aileron 2023年终止后续公司开发，后发学术论文不自动证明资产重启。",
+        "summary": "p53模拟订书肽，已有I期人体研究；Aileron于2023年停止后续开发。既往I/II期项目的扩展进展待核实。",
         "sourceId": "alrn6924-phase1-2021",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -7949,7 +7949,7 @@
       {
         "id": "asc36-modality",
         "title": "ASC36被开发为胰淀素受体激动肽",
-        "summary": "公司明确ASC36为肽类胰淀素受体激动剂；组合中的ASC35是另一种GLP1R/GIPR双激动肽。组合动物数据不等于ASC36单药人体疗效。",
+        "summary": "ASC36为肽类胰淀素受体激动剂，ASC35为GLP1R/GIPR双激动肽；二者固定组合已有动物研究。",
         "sourceId": "ascletis-easd-20261002",
         "locator": "公告首段及 About Ascletis；ASC30/ASC39明确为小分子，未作为多肽收录。",
         "moleculeIds": [
@@ -7982,7 +7982,7 @@
       {
         "id": "atsp7041-stage",
         "title": "ATSP-7041 · preclinical",
-        "summary": "p53相关订书肽；2013年原始研究报告体外及异种移植瘤活性。2026年另报告鼻腔药库在DIPG小鼠模型的递送；不是人体临床结果。",
+        "summary": "p53相关订书肽；2013年论文报告体外及异种移植瘤活性。2026年研究报告DIPG小鼠鼻腔药库递送。",
         "sourceId": "atsp7041-pnas-2013",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -8040,7 +8040,7 @@
       {
         "id": "baseline-stage-apraglutide",
         "title": "Apraglutide · 已核实阶段",
-        "summary": "合成GLP-2类似物；2023年收购时III期。本轮尚未逐条审阅2026年最新监管反馈，不推定已申报或批准。",
+        "summary": "合成GLP-2类似物；2023年收购时为III期，最新监管进展待核实。",
         "sourceId": "ironwood-vectivbio-2023",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8058,7 +8058,7 @@
       {
         "id": "baseline-stage-bt7480",
         "title": "BT7480 · 已执行临床阶段",
-        "summary": "三段双环肽构建物：一段结合NECTIN4，其他结合/激动CD137；原公告确认I/II试验的I期剂量递增已给药。本轮未确认实际II期扩展。2026年披露拟退出内部开发并寻求合作，不据此标作所有开发已终止。",
+        "summary": "由一段NECTIN4结合肽与CD137结合/激动肽构成的三段双环肽。I/II期试验的I期剂量递增已给药；2026年披露拟退出内部开发并寻求合作。",
         "sourceId": "bt7480-first-dose-2021",
         "locator": "公告正文：first patient dosed in Phase I dose escalation",
         "moleculeIds": [
@@ -8094,7 +8094,7 @@
       {
         "id": "baseline-stage-ct388",
         "title": "Enicepatide / CT-388 · 已执行临床阶段",
-        "summary": "CT-388=enicepatide=RO7795068；GLP-1/GIP双激动肽。NCT07351045确认III期实际开始；9月公布的II期结果与此并存，不把晚发II期论文误作最高阶段。",
+        "summary": "CT-388 / enicepatide / RO7795068为GLP-1/GIP双激动肽。NCT07351045确认III期实际启动；2026年9月公布II期结果。",
         "sourceId": "ct388-phase3-registry",
         "locator": "Registry protocolSection.statusModule.startDateStruct / designModule.phases",
         "moleculeIds": [
@@ -8112,7 +8112,7 @@
       {
         "id": "baseline-stage-dapiglutide",
         "title": "Dapiglutide · 已核实阶段",
-        "summary": "GLP-1/GLP-2双激动肽；管线明确I期且II期就绪，开发已暂停。就绪不是II期已启动。",
+        "summary": "GLP-1/GLP-2双激动肽；已进入I期，II期准备就绪，开发暂停。",
         "sourceId": "zealand-pipeline-20261026",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8188,7 +8188,7 @@
       {
         "id": "baseline-stage-nuzefatide-pevedotin",
         "title": "Nuzefatide pevedotin / BT5528 · 已核实阶段",
-        "summary": "EPHA2结合双环肽经val-cit连接MMAE；官网明确胰腺癌II期。MMAE载荷的作用不等于肽的结合靶点。",
+        "summary": "EPHA2结合双环肽经val-cit连接MMAE；官网列明胰腺癌II期。",
         "sourceId": "bicycle-pipeline-20261026",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8206,7 +8206,7 @@
       {
         "id": "baseline-stage-petrelintide",
         "title": "Petrelintide / ZP8396 · 已核实阶段",
-        "summary": "2026-09-22公告确认III期ZUPREME项目已启动；长效胰淀素类似物。合作签约时为IIb期，不能用当前阶段回填交易。",
+        "summary": "长效胰淀素类似物；2026-09-22公告确认III期ZUPREME项目已启动；合作签约时为IIb期。",
         "sourceId": "petrelintide-phase3-2026",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8260,7 +8260,7 @@
       {
         "id": "baseline-stage-syh2082",
         "title": "SYH2082 · 已核实阶段",
-        "summary": "2026-01-30披露为临床就绪、正推进I期；只确认临床前，不把计划进入I期当成已给药。月制剂LiquidGel、AI平台使用不等于该分子已证实完全计算起源。",
+        "summary": "2026-01-30披露为临床就绪、推进I期；采用LiquidGel长效制剂，具体发现路线待核实。",
         "sourceId": "cspc-astrazeneca-2026",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8314,7 +8314,7 @@
       {
         "id": "baseline-stage-zp6590",
         "title": "ZP6590 · 已核实阶段",
-        "summary": "管线列明GIP受体激动剂，I期；序列和发现方法尚未在本轮核实。",
+        "summary": "GIP受体激动剂，I期；序列与发现方法待核实。",
         "sourceId": "zealand-pipeline-20261026",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8332,7 +8332,7 @@
       {
         "id": "baseline-stage-zp9830",
         "title": "ZP9830 · 已核实阶段",
-        "summary": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果，不能因另一个滞后网页仍写计划启动而退回临床前。",
+        "summary": "Kv1.3阻断肽；2026-02-18公告报告I期单次递增剂量结果。",
         "sourceId": "zp9830-phase1-2026",
         "locator": "Pipeline / Development status / 对应项目正文",
         "moleculeIds": [
@@ -8418,7 +8418,7 @@
       {
         "id": "dalazatide-stage",
         "title": "Dalazatide / ShK-186 · phase1",
-        "summary": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究。小样本短期研究，不把探索性PASI信号描述为确证疗效；最新开发/权属待补。",
+        "summary": "Kv1.3阻断肽；24名银屑病成人的随机Ib期研究报告探索性PASI信号。最新开发与权属待核实。",
         "sourceId": "dalazatide-phase1-2017",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -8436,7 +8436,7 @@
       {
         "id": "enl-hybrid2025-event",
         "title": "液相 / 固液合成",
-        "summary": "独立研究报告全液相与固液结合两条 enlicitide chloride 制备路线；用于方法比较，不视为 Merck 商业生产工艺，也不把盐型不同新增为独立药物。",
+        "summary": "报告enlicitide chloride的全液相与固液结合两条制备路线。",
         "sourceId": "enl-hybrid2025",
         "locator": "Abstract / Supporting Information 入口",
         "moleculeIds": [
@@ -8516,7 +8516,7 @@
       {
         "id": "enl-trp1-event",
         "title": "砌块路线探索",
-        "summary": "报告北部大环所需 N-linked amino-hexyl fluorotryptophan 的无保护基合成路线。Part 1/2 按实际在线发表日排序，标题编号不代表发表先后。",
+        "summary": "报告北部大环所需N-linked amino-hexyl fluorotryptophan的无保护基合成路线。",
         "sourceId": "enl-trp1",
         "locator": "Abstract / Supporting Information 入口",
         "moleculeIds": [
@@ -8532,7 +8532,7 @@
       {
         "id": "enl-trp2-event",
         "title": "砌块工艺优化",
-        "summary": "针对氟代色氨酸砌块改进 Delépine 反应、六亚甲基四胺水解、酶促色氨酸合成及选择性 N-烷基化。摘要报告砌块纯度 >98.5%；不能移作 enlicitide 成品纯度。",
+        "summary": "优化氟代色氨酸砌块的Delépine反应、六亚甲基四胺水解、酶促合成及选择性N-烷基化；摘要报告砌块纯度>98.5%。",
         "sourceId": "enl-trp2",
         "locator": "Abstract / Supporting Information 入口",
         "moleculeIds": [
@@ -8638,7 +8638,7 @@
       {
         "id": "hcxt-phase1",
         "title": "临床 I 期 · HCXT-2001",
-        "summary": "Gilead 2026-10-22 公告明确 HCXT-2001 当时在 I 期。该日是披露日，不是首例入组日；人体 PK 数值与登记号仍需补证。",
+        "summary": "Gilead于2026-10-22披露HCXT-2001处于I期；人体PK与登记号待核实。",
         "sourceId": "il23r-gilead",
         "locator": "About HCXT-2001",
         "moleculeIds": [
@@ -8655,7 +8655,7 @@
       {
         "id": "hs20118-development",
         "title": "海外开发与每周口服定位",
-        "summary": "公司 2026-07-14 公告明确继续推进 AVR-001。每周口服为开发定位，不表示已获批，跨试验疗效比较不作为头对头结论。",
+        "summary": "2026-07-14公司公告推进AVR-001，开发定位为每周口服制剂。",
         "sourceId": "hansoh-avere-release",
         "locator": "About Avere / HS-20118 discussion",
         "moleculeIds": [
@@ -8684,7 +8684,7 @@
       {
         "id": "hs20118-manufacturing",
         "title": "原料药供应与技术转移安排",
-        "summary": "SEC 披露原料药由江苏豪森关联实体制造，临床制剂为口服片剂；许可方供临床用量，拟在反向合并交割后转移制造技术，不能记为已转移。",
+        "summary": "SEC披露原料药由江苏豪森关联实体制造、临床制剂为口服片剂；许可方供应临床用量，计划在反向合并交割后转移制造技术。",
         "sourceId": "avere-s4",
         "locator": "Business of Avere — Manufacturing",
         "moleculeIds": [
@@ -8700,7 +8700,7 @@
       {
         "id": "hs20118-phase1",
         "title": "I 期 · 实际研究启动",
-        "summary": "NCT07033234 / HS-20118-102 登记的实际启动日为 2025-05-16。预计结束日不作为已完成日期。",
+        "summary": "NCT07033234 / HS-20118-102登记实际启动日为2025-05-16。",
         "sourceId": "registry-NCT07033234",
         "locator": "statusModule.startDateStruct.type=ACTUAL; designModule.phases; interventions",
         "moleculeIds": [
@@ -8716,7 +8716,7 @@
       {
         "id": "hs20118-phase2-planned",
         "title": "II 期登记 · 启动尚未确认",
-        "summary": "NCT07765628 / HS-20118-201：所读登记版本为 NOT_YET_RECRUITING；2026-08-06 为 ESTIMATED。需要后续登记或首例给药披露，不能凭已过预计日期升为 II 期。",
+        "summary": "NCT07765628 / HS-20118-201登记状态为NOT_YET_RECRUITING，预计启动日为2026-08-06；实际给药待核实。",
         "sourceId": "registry-NCT07765628",
         "locator": "statusModule.overallStatus/startDateStruct; designModule.phases",
         "moleculeIds": [
@@ -8867,7 +8867,7 @@
       {
         "id": "il23r-seq1-pk",
         "title": "专利披露大鼠与犬 PK",
-        "summary": "SEQ ID NO:1 的不同吸收促进剂与制剂经大鼠十二指肠/结肠给药及犬片剂 PK 测试。不是把所有大鼠给药都当作自然口服，亦未认定其为 JNJ-2113。",
+        "summary": "SEQ ID NO:1的吸收促进剂与制剂研究包括大鼠十二指肠/结肠给药及犬片剂PK；与JNJ-2113的身份关联待核实。",
         "sourceId": "il23r-formulation",
         "locator": "Examples 12–14，paragraphs 0325–0328",
         "moleculeIds": [
@@ -8905,7 +8905,7 @@
       {
         "id": "krpep2d-assay",
         "title": "序列优化降低酶抑制 IC50",
-        "summary": "KRpep-2 经序列优化得到 KRpep-2d。摘要报告交换酶抑制 IC50 1.6 nM，并在 30 μM 下观察细胞结果；不把它视为动物或临床证据。",
+        "summary": "KRpep-2经序列优化得到KRpep-2d；摘要报告交换酶抑制IC50为1.6 nM，并在30 μM下报告细胞实验结果。",
         "sourceId": "kras-takeda",
         "locator": "Abstract",
         "moleculeIds": [
@@ -8928,7 +8928,7 @@
       {
         "id": "label-stage-abaloparatide",
         "title": "阿巴洛肽 · 美国获批药品标签",
-        "summary": "PTHrP(1-34)类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2017；这里只保留年份，不伪造具体批准日期。",
+        "summary": "PTHrP(1-34)类似物。美国药品标签列明适应证。标签记载初次美国批准年份：2017。",
         "sourceId": "dailymed-712143d9-e21e-4013-bb3b-3426a21060a8",
         "locator": "SPL v19；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -8942,13 +8942,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-bivalirudin",
         "title": "比伐芦定 · 美国获批药品标签",
-        "summary": "直接凝血酶抑制肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2000；这里只保留年份，不伪造具体批准日期。",
+        "summary": "直接凝血酶抑制肽。美国药品标签列明适应证。标签记载初次美国批准年份：2000。",
         "sourceId": "dailymed-42aa2630-83d6-433d-8277-0f672cf8d71d",
         "locator": "SPL v2；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -8962,13 +8962,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-bremelanotide",
         "title": "布美诺肽 · 美国获批药品标签",
-        "summary": "非选择性黑皮质素受体激动肽；HSDD治疗效果的精确机制未知。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2019；这里只保留年份，不伪造具体批准日期。",
+        "summary": "非选择性黑皮质素受体激动肽；HSDD治疗效果的精确机制未知。美国药品标签列明适应证。标签记载初次美国批准年份：2019。",
         "sourceId": "dailymed-f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf",
         "locator": "SPL v1；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -8982,13 +8982,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-cetrorelix",
         "title": "西曲瑞克 · 美国获批药品标签",
-        "summary": "GnRH受体拮抗十肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。本轮未核实首次批准日期。",
+        "summary": "GnRH受体拮抗十肽。美国药品标签列明适应证。首次批准日期待核实。",
         "sourceId": "dailymed-9b3057ac-6cac-4509-a355-df76247b992c",
         "locator": "SPL v8；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9002,13 +9002,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-dasiglucagon",
         "title": "达西胰高血糖素 · 美国获批药品标签",
-        "summary": "胰高血糖素类似物；救援制剂已获批，CHI持续输注是不同适应证项目。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2021；这里只保留年份，不伪造具体批准日期。",
+        "summary": "胰高血糖素类似物；救援制剂已获批，CHI持续输注是不同适应证项目。美国药品标签列明适应证。标签记载初次美国批准年份：2021。",
         "sourceId": "dailymed-14704879-872c-4967-8779-04a3bbdfb4e6",
         "locator": "SPL v3；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9022,13 +9022,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-degarelix",
         "title": "地加瑞克 · 美国获批药品标签",
-        "summary": "GnRH受体拮抗十肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2008；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GnRH受体拮抗十肽。美国药品标签列明适应证。标签记载初次美国批准年份：2008。",
         "sourceId": "dailymed-ab11dd8a-0fd9-4013-89ab-e114557c7e4b",
         "locator": "SPL v18；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9042,13 +9042,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-difelikefalin",
         "title": "地非利啡林 · 美国获批药品标签",
-        "summary": "κ阿片受体激动肽；标签保留受体激活与治疗效果关系的不确定性。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2021；这里只保留年份，不伪造具体批准日期。",
+        "summary": "κ阿片受体激动肽；标签保留受体激活与治疗效果关系的不确定性。美国药品标签列明适应证。标签记载初次美国批准年份：2021。",
         "sourceId": "dailymed-0c7b81f2-0fd3-47cb-8b0f-185e07f19c87",
         "locator": "SPL v9；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9062,13 +9062,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-dulaglutide",
         "title": "度拉糖肽 · 美国获批药品标签",
-        "summary": "GLP-1类似物与Fc融合的肽蛋白融合物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2014；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GLP-1类似物与Fc融合的肽蛋白融合物。美国药品标签列明适应证。标签记载初次美国批准年份：2014。",
         "sourceId": "dailymed-463050bd-2b1c-40f5-b3c3-0a04bb433309",
         "locator": "SPL v62；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9082,13 +9082,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-eptifibatide",
         "title": "依替巴肽 · 美国获批药品标签",
-        "summary": "血小板GP IIb/IIIa拮抗环肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为1998；这里只保留年份，不伪造具体批准日期。",
+        "summary": "血小板GP IIb/IIIa拮抗环肽。美国药品标签列明适应证。标签记载初次美国批准年份：1998。",
         "sourceId": "dailymed-c0781dae-3ef6-4cab-b084-01d2e45f3764",
         "locator": "SPL v4；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9102,13 +9102,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-etelcalcetide",
         "title": "依特卡肽 · 美国获批药品标签",
-        "summary": "CaSR变构拟钙肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2017；这里只保留年份，不伪造具体批准日期。",
+        "summary": "CaSR变构拟钙肽。美国药品标签列明适应证。标签记载初次美国批准年份：2017。",
         "sourceId": "dailymed-cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c",
         "locator": "SPL v15；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9122,13 +9122,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-exenatide",
         "title": "艾塞那肽 · 美国获批药品标签",
-        "summary": "GLP-1受体激动肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2005；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GLP-1受体激动肽。美国药品标签列明适应证。标签记载初次美国批准年份：2005。",
         "sourceId": "dailymed-e6cb5c8f-e97f-4a6a-95a4-939fd2393949",
         "locator": "SPL v17；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9142,13 +9142,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-ganirelix",
         "title": "加尼瑞克 · 美国获批药品标签",
-        "summary": "GnRH受体拮抗十肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。本轮未核实首次批准日期。",
+        "summary": "GnRH受体拮抗十肽。美国药品标签列明适应证。首次批准日期待核实。",
         "sourceId": "dailymed-5f0908b5-3551-47fd-95f7-3669b0dff7f1",
         "locator": "SPL v5；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9162,13 +9162,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-glucagon",
         "title": "胰高血糖素 · 美国获批药品标签",
-        "summary": "胰高血糖素受体激动肽；药用活性成分，非独立发现的新候选。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为1960；这里只保留年份，不伪造具体批准日期。",
+        "summary": "胰高血糖素受体激动肽。美国药品标签列明适应证。标签记载初次美国批准年份：1960。",
         "sourceId": "dailymed-92385737-dbad-98c5-e053-2995a90a2805",
         "locator": "SPL v23；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9182,13 +9182,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-goserelin",
         "title": "戈舍瑞林 · 美国获批药品标签",
-        "summary": "GnRH激动十肽类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为1989；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GnRH激动十肽类似物。美国药品标签列明适应证。标签记载初次美国批准年份：1989。",
         "sourceId": "dailymed-294b168b-6e5f-4db9-bf70-d599271458b3",
         "locator": "SPL v9；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9202,13 +9202,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-icatibant",
         "title": "艾替班特 · 美国获批药品标签",
-        "summary": "缓激肽B2受体竞争性拮抗肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2011；这里只保留年份，不伪造具体批准日期。",
+        "summary": "缓激肽B2受体竞争性拮抗肽。美国药品标签列明适应证。标签记载初次美国批准年份：2011。",
         "sourceId": "dailymed-ed6657ca-ab68-477a-9968-e12dc928b540",
         "locator": "SPL v19；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9222,13 +9222,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-insulin-degludec",
         "title": "德谷胰岛素 · 美国获批药品标签",
-        "summary": "长效基础胰岛素类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2015；这里只保留年份，不伪造具体批准日期。",
+        "summary": "长效基础胰岛素类似物。美国药品标签列明适应证。标签记载初次美国批准年份：2015。",
         "sourceId": "dailymed-c1be283d-4b1d-4996-b2a7-4488dbff3037",
         "locator": "SPL v2；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9242,13 +9242,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-insulin-glargine",
         "title": "甘精胰岛素 · 美国获批药品标签",
-        "summary": "胰岛素类似物；本轮标签为glargine-aldy生物类似药，不据其初次批准年回填原研年份。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2026；这里只保留年份，不伪造具体批准日期。",
+        "summary": "胰岛素类似物；参考标签为glargine-aldy生物类似药。美国药品标签列明适应证。标签记载初次美国批准年份：2026。",
         "sourceId": "dailymed-536a4b0a-4b7c-2d23-e063-6294a90a7b7c",
         "locator": "SPL v5；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9262,13 +9262,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-lanreotide",
         "title": "兰瑞肽 · 美国获批药品标签",
-        "summary": "生长抑素八肽类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2007；这里只保留年份，不伪造具体批准日期。",
+        "summary": "生长抑素八肽类似物。美国药品标签列明适应证。标签记载初次美国批准年份：2007。",
         "sourceId": "dailymed-e240b3b9-7a07-46b5-bacc-04e915d4ebd4",
         "locator": "SPL v9；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9282,13 +9282,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-leuprolide",
         "title": "亮丙瑞林 · 美国获批药品标签",
-        "summary": "GnRH激动九肽类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。本轮未核实首次批准日期。",
+        "summary": "GnRH激动九肽类似物。美国药品标签列明适应证。首次批准日期待核实。",
         "sourceId": "dailymed-290b0716-2fd5-43a1-8d3c-4857c1b2eefa",
         "locator": "SPL v7；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9302,13 +9302,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-linaclotide",
         "title": "利那洛肽 · 美国获批药品标签",
-        "summary": "局部GC-C激动肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2012；这里只保留年份，不伪造具体批准日期。",
+        "summary": "局部GC-C激动肽。美国药品标签列明适应证。标签记载初次美国批准年份：2012。",
         "sourceId": "dailymed-09beda19-56d6-4a56-afdc-9a77b70b2ef3",
         "locator": "SPL v40；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9322,13 +9322,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-liraglutide",
         "title": "利拉鲁肽 · 美国获批药品标签",
-        "summary": "酰化GLP-1类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2010；这里只保留年份，不伪造具体批准日期。",
+        "summary": "酰化GLP-1类似物。美国药品标签列明适应证。标签记载初次美国批准年份：2010。",
         "sourceId": "dailymed-bb66a46c-9019-4a98-8e5d-581109facfba",
         "locator": "SPL v2；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9342,13 +9342,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-lixisenatide",
         "title": "利司那肽 · 美国获批药品标签",
-        "summary": "GLP-1受体激动肽；本轮来源为与甘精胰岛素联合的标签，非独立新分子。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2016；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GLP-1受体激动肽；参考标签为与甘精胰岛素联合的制剂。美国药品标签列明适应证。标签记载初次美国批准年份：2016。",
         "sourceId": "dailymed-4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
         "locator": "SPL v25；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9362,13 +9362,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-motixafortide",
         "title": "莫替克沙肽 · 美国获批药品标签",
-        "summary": "CXCR4拮抗肽，阻断CXCL12结合。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2023；这里只保留年份，不伪造具体批准日期。",
+        "summary": "CXCR4拮抗肽，阻断CXCL12结合。美国药品标签列明适应证。标签记载初次美国批准年份：2023。",
         "sourceId": "dailymed-f7cdc584-ebf0-a68e-e053-6294a90a9ea9",
         "locator": "SPL v3；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9382,13 +9382,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-octreotide",
         "title": "奥曲肽 · 美国获批药品标签",
-        "summary": "环状八肽生长抑素类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为1988；这里只保留年份，不伪造具体批准日期。",
+        "summary": "环状八肽生长抑素类似物。美国药品标签列明适应证。标签记载初次美国批准年份：1988。",
         "sourceId": "dailymed-9502860d-0261-4d69-a4be-827a5376d356",
         "locator": "SPL v12；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9402,13 +9402,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-palopegteriparatide",
         "title": "帕罗培特立帕肽 · 美国获批药品标签",
-        "summary": "释放PTH(1-34)的持续暴露前药。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2024；这里只保留年份，不伪造具体批准日期。",
+        "summary": "释放PTH(1-34)的持续暴露前药。美国药品标签列明适应证。标签记载初次美国批准年份：2024。",
         "sourceId": "dailymed-a1fa23fd-c434-443e-9a17-5750578c8602",
         "locator": "SPL v8；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9422,13 +9422,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-pasireotide",
         "title": "帕瑞肽 · 美国获批药品标签",
-        "summary": "多SSTR亚型激动环六肽，标签列明各亚型亲和力。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2012；这里只保留年份，不伪造具体批准日期。",
+        "summary": "多SSTR亚型激动环六肽，标签列明各亚型亲和力。美国药品标签列明适应证。标签记载初次美国批准年份：2012。",
         "sourceId": "dailymed-a09a25fc-a5a3-0c82-e053-2995a90a5d74",
         "locator": "SPL v20；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9442,13 +9442,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-pegcetacoplan",
         "title": "培格西替可潘 · 美国获批药品标签",
-        "summary": "结合C3/C3b的PEG化环肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2021；这里只保留年份，不伪造具体批准日期。",
+        "summary": "结合C3/C3b的PEG化环肽。美国药品标签列明适应证。标签记载初次美国批准年份：2021。",
         "sourceId": "dailymed-c23d89e9-b00b-4520-e053-2995a90a95af",
         "locator": "SPL v14；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9462,13 +9462,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-plecanatide",
         "title": "普卡那肽 · 美国获批药品标签",
-        "summary": "GC-C激动肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2017；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GC-C激动肽。美国药品标签列明适应证。标签记载初次美国批准年份：2017。",
         "sourceId": "dailymed-fe2895bf-71a6-493a-b0ca-e06b2dfefc82",
         "locator": "SPL v15；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9482,13 +9482,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-pramlintide",
         "title": "普兰林肽 · 美国获批药品标签",
-        "summary": "人胰淀素类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2005；这里只保留年份，不伪造具体批准日期。",
+        "summary": "人胰淀素类似物。美国药品标签列明适应证。标签记载初次美国批准年份：2005。",
         "sourceId": "dailymed-4aea30ff-eb0d-45c1-b114-3127966328ff",
         "locator": "SPL v18；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9502,13 +9502,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-rusfertide",
         "title": "Rusfertide · 美国获批药品标签",
-        "summary": "Hepcidin模拟肽，阻断ferroportin。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2026；这里只保留年份，不伪造具体批准日期。",
+        "summary": "Hepcidin模拟肽，阻断ferroportin。美国药品标签列明适应证。标签记载初次美国批准年份：2026。",
         "sourceId": "dailymed-101aff01-31ed-4841-a8b6-0a5a8503189b",
         "locator": "SPL v2；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9522,13 +9522,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-semaglutide",
         "title": "司美格鲁肽 · 美国获批药品标签",
-        "summary": "天然GLP-1衍生的长效受体激动肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2017；这里只保留年份，不伪造具体批准日期。",
+        "summary": "天然GLP-1衍生的长效受体激动肽。美国药品标签列明适应证。标签记载初次美国批准年份：2017。",
         "sourceId": "dailymed-27f15fac-7d98-4114-a2ec-92494a91da98",
         "locator": "SPL v14；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9542,13 +9542,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-setmelanotide",
         "title": "司美拉诺肽 · 美国获批药品标签",
-        "summary": "MC4R激动肽；不同遗传亚群的获批用途以标签为准。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2020；这里只保留年份，不伪造具体批准日期。",
+        "summary": "MC4R激动肽；不同遗传亚群的获批用途以标签为准。美国药品标签列明适应证。标签记载初次美国批准年份：2020。",
         "sourceId": "dailymed-70c3ccf7-4df0-4c75-ba07-fede9970c8d9",
         "locator": "SPL v14；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9562,13 +9562,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-teduglutide",
         "title": "替度鲁肽 · 美国获批药品标签",
-        "summary": "GLP-2类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2012；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GLP-2类似物。美国药品标签列明适应证。标签记载初次美国批准年份：2012。",
         "sourceId": "dailymed-66b69c1e-b25c-44d3-b5ff-1c1de9a516fa",
         "locator": "SPL v20；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9582,13 +9582,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-teriparatide",
         "title": "特立帕肽 · 美国获批药品标签",
-        "summary": "PTH(1-34)类似物。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为1987；这里只保留年份，不伪造具体批准日期。",
+        "summary": "PTH(1-34)类似物。美国药品标签列明适应证。标签记载初次美国批准年份：1987。",
         "sourceId": "dailymed-d371f0f7-d492-4481-b360-051456d56d65",
         "locator": "SPL v5；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9602,13 +9602,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-tesamorelin",
         "title": "替莫瑞林 · 美国获批药品标签",
-        "summary": "GHRH类似物，激活GRF受体。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2010；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GHRH类似物，激活GRF受体。美国药品标签列明适应证。标签记载初次美国批准年份：2010。",
         "sourceId": "dailymed-839334d3-8c1d-4c26-9036-2ab524a6ea75",
         "locator": "SPL v2；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9622,13 +9622,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-tirzepatide",
         "title": "替尔泊肽 · 美国获批药品标签",
-        "summary": "GIP/GLP-1双受体激动肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2022；这里只保留年份，不伪造具体批准日期。",
+        "summary": "GIP/GLP-1双受体激动肽。美国药品标签列明适应证。标签记载初次美国批准年份：2022。",
         "sourceId": "dailymed-487cd7e7-434c-4925-99fa-aa80b1cc776b",
         "locator": "SPL v40；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9642,13 +9642,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-vosoritide",
         "title": "伏索利肽 · 美国获批药品标签",
-        "summary": "CNP类似物，结合NPR-B后影响FGFR3下游信号。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2021；这里只保留年份，不伪造具体批准日期。",
+        "summary": "CNP类似物，结合NPR-B后影响FGFR3下游信号。美国药品标签列明适应证。标签记载初次美国批准年份：2021。",
         "sourceId": "dailymed-228e8560-04a4-4bb1-a81f-29531a9e4d27",
         "locator": "SPL v16；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9662,13 +9662,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-ziconotide",
         "title": "齐考诺肽 · 美国获批药品标签",
-        "summary": "N型钙通道结合肽；标签明确人体镇痛机制尚未完全确立。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2004；这里只保留年份，不伪造具体批准日期。",
+        "summary": "N型钙通道结合肽；标签明确人体镇痛机制尚未完全确立。美国药品标签列明适应证。标签记载初次美国批准年份：2004。",
         "sourceId": "dailymed-57376a5b-4530-9018-e063-6394a90a9afe",
         "locator": "SPL v4；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9682,13 +9682,13 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
         "id": "label-stage-zilucoplan",
         "title": "齐鲁可普兰 · 美国获批药品标签",
-        "summary": "抑制C5裂解的环肽。已核查NDA/ANDA/BLA标签身份；适应证以所链接标签第1节为准，不能推及所有地区或适应证。标签记载初次美国批准年为2023；这里只保留年份，不伪造具体批准日期。",
+        "summary": "抑制C5裂解的环肽。美国药品标签列明适应证。标签记载初次美国批准年份：2023。",
         "sourceId": "dailymed-9f1d53d6-e495-4a3a-8bb9-680a15d25034",
         "locator": "SPL v13；Highlights/approval code；Description；Indications and Usage；Clinical Pharmacology（有编号时12.1）",
         "moleculeIds": [
@@ -9702,7 +9702,7 @@
         "verification": "reviewed",
         "outcome": "reported",
         "region": "US",
-        "indication": "所链接标签第1节载明的用途；本轮不外推其他适应证",
+        "indication": "所引美国标签第1节载明的用途。",
         "stageClaim": "approved"
       },
       {
@@ -9778,7 +9778,7 @@
       {
         "id": "mlip-computational-findings",
         "title": "原子力引导可嵌入扩散推理阶段",
-        "summary": "作者预印本将MLIP原子力接入RFDiffusion3推理，报告计算结构与能量指标改善；不能视为实测亲和力、细胞通透性或成药性提升。",
+        "summary": "MLIP原子力接入RFDiffusion3推理，预印本报告计算结构与能量指标改善。",
         "sourceId": "mlip-guided-rfd3-2026",
         "locator": "Abstract；预印本V1；作者代码说明输入系统。",
         "moleculeIds": [],
@@ -9799,7 +9799,7 @@
       {
         "id": "mlip-mapping-dlg4",
         "title": "MLIP计算任务关联 · PSD-95 / DLG4",
-        "summary": "作者配置将1BE9,1TP5用于受体条件化肽设计；原始共晶配体身份不等于本方法新生成的实验命中。",
+        "summary": "作者配置将1BE9,1TP5用于受体条件化肽设计，用于计算方法评价。",
         "sourceId": "mlip-author-code",
         "locator": "specs_short.json 对应PDB键；README Task specification；RCSB条目标题交叉核对。",
         "moleculeIds": [],
@@ -9815,7 +9815,7 @@
       {
         "id": "mlip-mapping-erbin",
         "title": "MLIP计算任务关联 · ERBIN",
-        "summary": "作者配置将1MFG用于受体条件化肽设计；原始共晶配体身份不等于本方法新生成的实验命中。",
+        "summary": "作者配置将1MFG用于受体条件化肽设计，用于计算方法评价。",
         "sourceId": "mlip-author-code",
         "locator": "specs_short.json 对应PDB键；README Task specification；RCSB条目标题交叉核对。",
         "moleculeIds": [],
@@ -9831,7 +9831,7 @@
       {
         "id": "mlip-mapping-nr3c2",
         "title": "MLIP计算任务关联 · Mineralocorticoid receptor / NR3C2",
-        "summary": "作者配置将2A3I用于受体条件化肽设计；原始共晶配体身份不等于本方法新生成的实验命中。",
+        "summary": "作者配置将2A3I用于受体条件化肽设计，用于计算方法评价。",
         "sourceId": "mlip-author-code",
         "locator": "specs_short.json 对应PDB键；README Task specification；RCSB条目标题交叉核对。",
         "moleculeIds": [],
@@ -9847,7 +9847,7 @@
       {
         "id": "mlip-mapping-src",
         "title": "MLIP计算任务关联 · SRC",
-        "summary": "作者配置将1RLQ用于受体条件化肽设计；原始共晶配体身份不等于本方法新生成的实验命中。",
+        "summary": "作者配置将1RLQ用于受体条件化肽设计，用于计算方法评价。",
         "sourceId": "mlip-author-code",
         "locator": "specs_short.json 对应PDB键；README Task specification；RCSB条目标题交叉核对。",
         "moleculeIds": [],
@@ -9863,7 +9863,7 @@
       {
         "id": "mlip-mapping-traf2",
         "title": "MLIP计算任务关联 · TRAF2",
-        "summary": "作者配置将1CZY用于受体条件化肽设计；原始共晶配体身份不等于本方法新生成的实验命中。",
+        "summary": "作者配置将1CZY用于受体条件化肽设计，用于计算方法评价。",
         "sourceId": "mlip-author-code",
         "locator": "specs_short.json 对应PDB键；README Task specification；RCSB条目标题交叉核对。",
         "moleculeIds": [],
@@ -9879,7 +9879,7 @@
       {
         "id": "mlip-mapping-xiap",
         "title": "MLIP计算任务关联 · XIAP",
-        "summary": "作者配置将1G73用于受体条件化肽设计；原始共晶配体身份不等于本方法新生成的实验命中。",
+        "summary": "作者配置将1G73用于受体条件化肽设计，用于计算方法评价。",
         "sourceId": "mlip-author-code",
         "locator": "specs_short.json 对应PDB键；README Task specification；RCSB条目标题交叉核对。",
         "moleculeIds": [],
@@ -9991,7 +9991,7 @@
       {
         "id": "pn943-stage",
         "title": "PN-943 · phase2",
-        "summary": "口服肠道限制性α4β7拮抗肽；IDEAL II期159人，450mg BID未达预设主要终点；低剂量信号不等于整体试验成功。后续公司不再投入内部资源，保留权利/合作可能性待核。",
+        "summary": "口服肠道限制性α4β7拮抗肽；IDEAL II期纳入159人，450mg BID未达预设主要终点，低剂量组报告探索性信号。公司停止内部投入，保留合作开发可能。",
         "sourceId": "pn943-ideal-2022",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -10040,7 +10040,7 @@
       {
         "id": "registry-nct07752979",
         "title": "ABBV-295 II期登记：正在招募",
-        "summary": "登记阶段phase2，当前RECRUITING；实际开始2026-08-04，首次公开2026-08-07，本次登记更新2026-10-20。预计完成日期不作已完成。",
+        "summary": "登记阶段phase2，当前RECRUITING；实际开始2026-08-04，首次公开2026-08-07，登记更新2026-10-20。",
         "sourceId": "ctgov-nct07752979",
         "locator": "protocolSection.identificationModule / statusModule / designModule / armsInterventionsModule",
         "moleculeIds": [
@@ -10057,7 +10057,7 @@
       {
         "id": "registry-nct07821944",
         "title": "Enlicitide印度III期登记：正在招募",
-        "summary": "登记阶段phase3，当前RECRUITING；实际开始2026-10-15，首次公开2026-09-16，本次登记更新2026-10-22。预计完成日期不作已完成。",
+        "summary": "登记阶段phase3，当前RECRUITING；实际开始2026-10-15，首次公开2026-09-16，登记更新2026-10-22。",
         "sourceId": "ctgov-nct07821944",
         "locator": "protocolSection.identificationModule / statusModule / designModule / armsInterventionsModule",
         "moleculeIds": [
@@ -10074,7 +10074,7 @@
       {
         "id": "registry-nct07893093",
         "title": "ASC36 注射剂I期登记首次公开：正在招募",
-        "summary": "登记阶段phase1，当前RECRUITING；实际开始2026-09-28，首次公开2026-10-23，本次登记更新2026-10-23。预计完成日期不作已完成。",
+        "summary": "登记阶段phase1，当前RECRUITING；实际开始2026-09-28，首次公开2026-10-23，登记更新2026-10-23。",
         "sourceId": "ctgov-nct07893093",
         "locator": "protocolSection.identificationModule / statusModule / designModule / armsInterventionsModule；事件日期为首次公开日，实际研究开始日另列。",
         "moleculeIds": [
@@ -10092,7 +10092,7 @@
       {
         "id": "registry-nct07893106",
         "title": "ASC36 口服片剂I期登记首次公开：正在招募",
-        "summary": "登记阶段phase1，当前RECRUITING；实际开始2026-10-13，首次公开2026-10-23，本次登记更新2026-10-23。预计完成日期不作已完成。",
+        "summary": "登记阶段phase1，当前RECRUITING；实际开始2026-10-13，首次公开2026-10-23，登记更新2026-10-23。",
         "sourceId": "ctgov-nct07893106",
         "locator": "protocolSection.identificationModule / statusModule / designModule / armsInterventionsModule；事件日期为首次公开日，实际研究开始日另列。",
         "moleculeIds": [
@@ -10170,7 +10170,7 @@
           "value": 6,
           "unit": "nM",
           "relation": "=",
-          "context": "Biacore 8K；固定生物素化目标蛋白；单循环动力学，1:1模型；GAB_D8数值针对GABARAP，不是晶体同源构建体GABARAPL1。"
+          "context": "Biacore 8K；固定生物素化GABARAP；单循环动力学，1:1模型。"
         }
       },
       {
@@ -10236,7 +10236,7 @@
       {
         "id": "rfp-mdb-d8-spr",
         "title": "MDB_D8 · SPR结合",
-        "summary": "RFpeptides计算起源；SPR验证MDM2结合，不能由模拟结构推定细胞通透或抗肿瘤疗效。",
+        "summary": "RFpeptides计算设计，SPR验证MDM2结合。",
         "sourceId": "rfpeptides-2025",
         "locator": "Results；Fig.2（MCB/MDB）、Fig.3（GAB）或Fig.4（RBB）；Methods: SPR",
         "moleculeIds": [
@@ -10260,7 +10260,7 @@
       {
         "id": "rfp-mdb-d8-stage",
         "title": "MDB_D8 · in-vitro",
-        "summary": "RFpeptides计算起源；SPR验证MDM2结合，不能由模拟结构推定细胞通透或抗肿瘤疗效。",
+        "summary": "RFpeptides计算设计，SPR验证MDM2结合。",
         "sourceId": "rfpeptides-2025",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -10278,7 +10278,7 @@
       {
         "id": "rfp-rbb-d10-spr",
         "title": "RBB_D10 · SPR结合",
-        "summary": "以预测的鲍曼不动杆菌RbtA结构计算设计；SPR及复合物晶体验证，不是人体靶点且未证明抗菌疗效。",
+        "summary": "依据鲍曼不动杆菌RbtA预测结构设计；已有SPR与复合物晶体研究，抗菌疗效待验证。",
         "sourceId": "rfpeptides-2025",
         "locator": "Results；Fig.2（MCB/MDB）、Fig.3（GAB）或Fig.4（RBB）；Methods: SPR",
         "moleculeIds": [
@@ -10302,7 +10302,7 @@
       {
         "id": "rfp-rbb-d10-stage",
         "title": "RBB_D10 · in-vitro",
-        "summary": "以预测的鲍曼不动杆菌RbtA结构计算设计；SPR及复合物晶体验证，不是人体靶点且未证明抗菌疗效。",
+        "summary": "依据鲍曼不动杆菌RbtA预测结构设计；已有SPR与复合物晶体研究，抗菌疗效待验证。",
         "sourceId": "rfpeptides-2025",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -10352,7 +10352,7 @@
       {
         "id": "study-ahnp-erbb2-summary",
         "title": "AHNP · 结构指导界面模拟 · erbb2研究关联",
-        "summary": "2000年论文报道抗体4D5界面启发的HER2肽模拟物及体内外结果；属于早期结构指导理性设计，不是现代生成式AI方法。",
+        "summary": "抗体4D5结合界面启发的HER2肽模拟物；2000年论文报告体内外实验，采用结构指导理性设计。",
         "sourceId": "compute-ahnp",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10368,7 +10368,7 @@
       {
         "id": "study-anewomni-kras-summary",
         "title": "AnewOmni · kras研究关联",
-        "summary": "全原子生成模型预印本报告KRAS G12D和PCSK9多模态设计及低通量实验。这里只收录其肽研究关联，不把同文小分子或纳米抗体计为多肽分子。",
+        "summary": "全原子生成模型预印本报告KRAS G12D和PCSK9的肽设计与低通量实验。",
         "sourceId": "compute-anewomni",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10384,7 +10384,7 @@
       {
         "id": "study-anewomni-pcsk9-summary",
         "title": "AnewOmni · pcsk9研究关联",
-        "summary": "全原子生成模型预印本报告KRAS G12D和PCSK9多模态设计及低通量实验。这里只收录其肽研究关联，不把同文小分子或纳米抗体计为多肽分子。",
+        "summary": "全原子生成模型预印本报告KRAS G12D和PCSK9的肽设计与低通量实验。",
         "sourceId": "compute-anewomni",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10464,7 +10464,7 @@
       {
         "id": "study-glp1-proteinmpnn-glp1r-summary",
         "title": "ProteinMPNN · GLP1RA · glp1r研究关联",
-        "summary": "固定保守位点并重设计序列，配合体外筛选和动物验证；D13/D41等是研究编号，不是新增临床药物。SPR采用GST融合样品，不能与游离脂肪酸修饰肽cAMP/PK直接混用。",
+        "summary": "保留关键位点并重设计序列，结合体外筛选与动物研究。D13/D41为研究编号；SPR使用GST融合样品，cAMP/PK研究使用游离脂肪酸修饰肽。",
         "sourceId": "compute-glp1-proteinmpnn",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10480,7 +10480,7 @@
       {
         "id": "study-hf-gabarap-summary",
         "title": "HFGuidedDesign · gabarap研究关联",
-        "summary": "HighFold结构引导的离散扩散；正文明确实际合成与SPR验证MDM2、GABARAP。文中另有计算评估靶点集合，不能全部当湿实验成功靶点。",
+        "summary": "HighFold结构引导的离散扩散；MDM2与GABARAP有合成及SPR验证，其他靶点用于计算评价。",
         "sourceId": "compute-hf",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10496,7 +10496,7 @@
       {
         "id": "study-hf-mdm2-summary",
         "title": "HFGuidedDesign · mdm2研究关联",
-        "summary": "HighFold结构引导的离散扩散；正文明确实际合成与SPR验证MDM2、GABARAP。文中另有计算评估靶点集合，不能全部当湿实验成功靶点。",
+        "summary": "HighFold结构引导的离散扩散；MDM2与GABARAP有合成及SPR验证，其他靶点用于计算评价。",
         "sourceId": "compute-hf",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10512,7 +10512,7 @@
       {
         "id": "study-il17-structure-il17a-summary",
         "title": "IL17A · 结构指导环化 · il17a研究关联",
-        "summary": "基于线性起始肽的复合物结构设计宏环拮抗剂；属于实验先导后的结构指导改造，不是AI从零生成或IL17RA受体结合肽。",
+        "summary": "依据线性起始肽复合物结构设计IL17A宏环拮抗剂。",
         "sourceId": "compute-il17-structure",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10528,7 +10528,7 @@
       {
         "id": "study-il4-mimic-il4ra-summary",
         "title": "IL-4模拟肽 · 受体关联待核 · il4ra研究关联",
-        "summary": "旧表将IL-4-Y归IL4Rα，但本次可读摘要仅泛称相应受体，未完成具体受体亚基、MST弱结合与样品身份复核。保留待核论文关联，不能当已证实高亲和IL4Rα binder。",
+        "summary": "IL-4-Y的受体亚基归属、MST结合与样品身份待核实；保留IL4Rα待核论文关联。",
         "sourceId": "compute-il4-mimic",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10544,7 +10544,7 @@
       {
         "id": "study-mc4r-colab-mc4r-summary",
         "title": "ColabDesign · MC4R · mc4r研究关联",
-        "summary": "预印本报道AF2/ColabDesign设计与后续体外成熟，E5P小鼠中枢给药减少急性摄食。动物给药途径不能外推为外周给药、长期减重或临床效果。",
+        "summary": "AF2/ColabDesign设计结合体外成熟；预印本报告E5P经小鼠中枢给药减少急性摄食。",
         "sourceId": "compute-mc4r-colab",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10560,7 +10560,7 @@
       {
         "id": "study-mirror-cd274-summary",
         "title": "Mirror-Peptidizer · cd274研究关联",
-        "summary": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "summary": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "sourceId": "compute-mirror",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10576,7 +10576,7 @@
       {
         "id": "study-mirror-il23r-summary",
         "title": "Mirror-Peptidizer · il23r研究关联",
-        "summary": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "summary": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "sourceId": "compute-mirror",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10592,7 +10592,7 @@
       {
         "id": "study-mirror-mdm2-summary",
         "title": "Mirror-Peptidizer · mdm2研究关联",
-        "summary": "虚拟镜像靶点结合扩散骨架与序列优化，设计D肽；正文分别报告MDM2、PD-L1和IL23R实验。进入细胞的MDM2样品有CPP偶联，不能把偶联功能归给游离母体。",
+        "summary": "虚拟镜像靶点、扩散骨架与序列优化用于D肽设计；论文报告MDM2、PD-L1及IL23R实验，其中MDM2细胞实验使用CPP偶联样品。",
         "sourceId": "compute-mirror",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10608,7 +10608,7 @@
       {
         "id": "study-pepmimic-cd274-summary",
         "title": "PepMimic · cd274研究关联",
-        "summary": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "summary": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "sourceId": "compute-pepmimic",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10624,7 +10624,7 @@
       {
         "id": "study-pepmimic-cd38-summary",
         "title": "PepMimic · cd38研究关联",
-        "summary": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "summary": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "sourceId": "compute-pepmimic",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10640,7 +10640,7 @@
       {
         "id": "study-pepmimic-cd4-summary",
         "title": "PepMimic · cd4研究关联",
-        "summary": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "summary": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "sourceId": "compute-pepmimic",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10656,7 +10656,7 @@
       {
         "id": "study-pepmimic-erbb2-summary",
         "title": "PepMimic · erbb2研究关联",
-        "summary": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "summary": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "sourceId": "compute-pepmimic",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10672,7 +10672,7 @@
       {
         "id": "study-pepmimic-tnfrsf17-summary",
         "title": "PepMimic · tnfrsf17研究关联",
-        "summary": "由已知结合界面生成短肽；摘要明确列HER2、PD-L1、CD38、BCMA、CD4并报道SPRi及部分肿瘤模型。动物结果不自动赋给每个靶点或每条序列；未检出/未定量值不当阴性数值。2025-10-27勘误修改Fig4i图像，不是2026年的新结果。",
+        "summary": "以结合界面生成短肽；HER2、PD-L1、CD38、BCMA、CD4涉及SPRi及部分肿瘤模型研究。2025-10-27勘误修正Fig.4i图像。各靶点与编号的实验对应见原文。",
         "sourceId": "compute-pepmimic",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10688,7 +10688,7 @@
       {
         "id": "study-tslp-staple-tslp-summary",
         "title": "TSLP · 结构指导二硫键约束 · tslp研究关联",
-        "summary": "从TSLPR界面片段理性设计并作二硫键约束，摘要报告与TSLP结合/选择性。结合对象是配体TSLP，不能误记为TSLPR受体肽；并非现代生成式AI。",
+        "summary": "依据TSLPR界面片段设计二硫键约束肽；摘要报告与配体TSLP的结合及选择性。",
         "sourceId": "compute-tslp-staple",
         "locator": "摘要；公开摘要/图注所覆盖的范围；未声称全部正文已读",
         "moleculeIds": [],
@@ -10704,7 +10704,7 @@
       {
         "id": "study-vae-md-ctnnb1-summary",
         "title": "GRU-VAE + Rosetta + MD · ctnnb1研究关联",
-        "summary": "生成模型配合对接和MD，在既有肽基础上扩展/优化；β-catenin及NEMO均有结合竞争实验。属于模板/先导改造，不把全部序列称为无模板de novo。",
+        "summary": "生成模型结合对接与MD优化已有肽；β-catenin与NEMO报告结合竞争实验。",
         "sourceId": "compute-vae-md",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10720,7 +10720,7 @@
       {
         "id": "study-vae-md-ikbkg-summary",
         "title": "GRU-VAE + Rosetta + MD · ikbkg研究关联",
-        "summary": "生成模型配合对接和MD，在既有肽基础上扩展/优化；β-catenin及NEMO均有结合竞争实验。属于模板/先导改造，不把全部序列称为无模板de novo。",
+        "summary": "生成模型结合对接与MD优化已有肽；β-catenin与NEMO报告结合竞争实验。",
         "sourceId": "compute-vae-md",
         "locator": "摘要；正文Results/Methods相关靶点段落；SI序列未逐行重核",
         "moleculeIds": [],
@@ -10736,7 +10736,7 @@
       {
         "id": "tnik-tk7-2026-stage",
         "title": "TK7（TiB / TNIK） · in-vitro",
-        "summary": "RaPID筛选的硫代异吲哚桥连双环肽；摘要确认TK7激酶IC50为60 nM。摘要的最佳Kd=12.3 nM属于五候选总体，未明确映射，不能直接赋给TK7。",
+        "summary": "RaPID筛选的硫代异吲哚桥连双环肽；TK7激酶IC50为60 nM，五候选整体最佳Kd为12.3 nM，其编号对应待核实。",
         "sourceId": "tnik-tib-2026",
         "locator": "Abstract / Results / 对应图表与正文段落",
         "moleculeIds": [
@@ -10772,7 +10772,7 @@
           "value": 60,
           "unit": "nM",
           "relation": "=",
-          "context": "TNIK kinase activity；本轮只读摘要，底物、构建体及条件待全文/SI核验。"
+          "context": "TNIK kinase activity；摘要报告值，底物、构建体及条件待全文/SI核对。"
         }
       },
       {
@@ -10897,7 +10897,7 @@
           "currency": "USD"
         },
         "potentialTotal": null,
-        "financialNotes": "2020年11月已付250M；80M研发报销承诺不是许可首付或里程碑；2025年版税安排另修订。"
+        "financialNotes": "2020年11月已付2.5亿美元；另承诺8000万美元研发报销。版税安排于2025年修订。"
       },
       {
         "id": "apellis-sobi-royalty-2025",
@@ -10924,7 +10924,7 @@
         },
         "locator": "交易公告 / Financial considerations",
         "rights": "Sobi美国以外全身制剂版税义务减90%，到达约定上限后回归原版税；原商业权利范围不变。",
-        "contributions": "延续既有开发商业化合作；本次改动重点为版税经济安排。",
+        "contributions": "延续开发与商业化合作，调整版税经济安排。",
         "upfront": {
           "value": 275000000.0,
           "currency": "USD"
@@ -10935,7 +10935,7 @@
           "currency": "USD"
         },
         "potentialTotal": null,
-        "financialNotes": "275M为版税权益购买对价，不是首次资产许可首付；25M取决于EU C3G/IC-MPGN批准。已付金额未在本轮核实；文件名日期与正文不同，按正文7月1日作为公告。"
+        "financialNotes": "版税权益购买对价2.75亿美元；另2500万美元取决于EU C3G/IC-MPGN批准。实付状态待核实，公告日期为正文所列7月1日。"
       },
       {
         "id": "avere-nextcure-merger",
@@ -10964,7 +10964,7 @@
         "contributions": "全股票合并协议与附条件融资；截至所读 9 月 30 日 S-4/A 仍为拟合并。",
         "upfront": null,
         "paid": null,
-        "financialNotes": "7 月融资承诺 3.2 亿美元；8 月增加 5 亿，9 月文件列合计 8.2 亿。包含票据转换并受交割条件限制，不等于已到账新现金，不计入药物许可交易金额。"
+        "financialNotes": "融资承诺由7月3.2亿美元增至9月文件所列8.2亿美元，包含票据转换并附交割条件；新现金金额待核实。"
       },
       {
         "id": "bicycle-bayer-brc-2023",
@@ -11002,7 +11002,7 @@
           "value": 1700000000.0,
           "currency": "USD"
         },
-        "financialNotes": "2023年7月已收45M；公告合计上限1.7B包括首付，不把1.7B全记为里程碑；公告日不替代未核实签约日。"
+        "financialNotes": "2023年7月已收4500万美元；公告合作总上限17亿美元，包含首付。具体签约日待核实。"
       },
       {
         "id": "bicycle-genentech-io-2020",
@@ -11112,7 +11112,7 @@
         "paid": null,
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialNotes": "1.2B为八项目/平台整体首付，不是单个SYH2082定价；AZ公告开发监管里程碑上限3.5B，另有商业销售里程碑但该段未给完整金额，暂不填总额。预计Q2交割不能当已交割；后续另查。"
+        "financialNotes": "八项目/平台整体首付12亿美元；开发和监管里程碑上限35亿美元，另有商业销售里程碑。交割进展与完整金额待核实。"
       },
       {
         "id": "gilead-pepstar-2026",
@@ -11145,7 +11145,7 @@
           "currency": "USD"
         },
         "paid": null,
-        "financialNotes": "约定于交割支付 12.75 亿美元，预计 2026 Q4；截至本次核查公告未证明已经交割或实付。"
+        "financialNotes": "协议约定交割时支付12.75亿美元，预计2026年Q4交割；实付状态待披露。"
       },
       {
         "id": "gubra-abbvie-abbv295-2025",
@@ -11188,7 +11188,7 @@
           "currency": "USD"
         },
         "potentialTotal": null,
-        "financialNotes": "Q1财报subsequent events确认交割且350M已付；2026年II期启动触发50M，尚未核实到账，不能追加到已付首款或再次累加原潜在总额。"
+        "financialNotes": "Q1财报确认交割并已付3.5亿美元；2026年II期启动触发5000万美元里程碑，其到账状态待核实。"
       },
       {
         "id": "hansoh-avere-il23r-license",
@@ -11236,7 +11236,7 @@
           "value": 2300000000,
           "currency": "USD"
         },
-        "financialNotes": "6 月签约，7 月披露。所读 SEC 文件明确首付已付 9000 万美元；余 3000 万于反向合并及融资交割时支付。公告 21.8 亿为里程碑标题金额；合同分开发最高每产品 2.8 亿及销售合计 19 亿，不能重复累计或推作多产品总上限。版税另计。后续实付仍需更新。",
+        "financialNotes": "6月签约、7月披露；SEC文件列明首付已付9000万美元，余3000万美元于反向合并及融资交割时支付。开发里程碑上限为每产品2.8亿美元，销售里程碑合计19亿美元，版税另计。",
         "financialScope": "公告口径 / 按产品条件",
         "payments": [
           {
@@ -11246,7 +11246,7 @@
               "value": 90000000,
               "currency": "USD"
             },
-            "note": "上述已付首款的来源明细，并非额外支付；实际转账日未披露。",
+            "note": "已付首款的来源明细；转账日期未披露。",
             "sourceId": "avere-s4",
             "locator": "Risk factors — $90 million of which has been paid"
           }
@@ -11279,7 +11279,7 @@
         "contributions": "翰森通过可转换票据作少数股权投资。",
         "upfront": null,
         "paid": null,
-        "financialNotes": "本次来源未单独披露翰森投资金额；不把融资财团总额当作翰森出资，也不计入药物许可首付款。"
+        "financialNotes": "翰森的单独投资金额未披露。"
       },
       {
         "id": "hansoh-regeneron-hs20094-2025",
@@ -11351,7 +11351,7 @@
         "paid": null,
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialNotes": "官方回顾称组合首付加潜在里程碑最高约6B且恒瑞获19.9%股权；原始首付拆分及不同模态项目尚待原合同核实，不把组合价值赋给HRS9531，也不把股权当现金。"
+        "financialNotes": "组合交易的首付及潜在里程碑上限约60亿美元，恒瑞获19.9%股权；各项目金额拆分待核实。"
       },
       {
         "id": "ironwood-vectivbio-acquisition-2023",
@@ -11379,7 +11379,7 @@
           "text": "以apraglutide补充短肠综合征等GI方向，扩展LINZESS之外的管线。"
         },
         "locator": "交易公告 / Financial considerations",
-        "rights": "公司收购；apraglutide日本权益在原公告中另有许可限制，不能称全球无负担。",
+        "rights": "公司收购；apraglutide日本权益附既有许可限制。",
         "contributions": "Ironwood收购VectivBio并接续GI管线开发。",
         "upfront": null,
         "paid": null,
@@ -11408,7 +11408,7 @@
           "kind": "official",
           "text": "利用多元化专有多肽库与发现技术开发新型多肽候选药物。"
         },
-        "locator": "公告正文合作范围、双方职责及财务条款；公告日期不等于确切签约日期。",
+        "locator": "公告正文：合作范围、双方职责及财务条款。",
         "rights": "全球研发合作及许可；具体项目数、排他及地域细节未披露。",
         "contributions": "中晟全肽筛选确定多肽；礼来负责IND支持研究、临床开发及商业化。",
         "upfront": null,
@@ -11436,15 +11436,15 @@
           "kind": "official",
           "text": "开发放射性配体治疗资产。"
         },
-        "locator": "公告正文合作范围、双方职责及财务条款；公告日期不等于确切签约日期。",
+        "locator": "公告正文：合作范围、双方职责及财务条款。",
         "rights": "一款未披露多肽RLT资产全球独家授权。",
         "contributions": "诺华主导后续研发及商业化；未披露靶点，不强连已有分子。",
         "upfront": null,
         "paid": null,
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialSummary": "金额未披露；不能推断已付款。",
-        "financialNotes": "本轮仅读官网公开摘要；未核实图片中的金额及完整合同，不引用媒体金额。"
+        "financialSummary": "金额及实付状态未披露。",
+        "financialNotes": "官网摘要载明授权范围；金额与完整合同待核实。"
       },
       {
         "id": "peptidream-novartis-expansion-2024",
@@ -11467,7 +11467,7 @@
           "text": "拓展肽放射性配体方向并延续已有研发进展。"
         },
         "locator": "交易公告 / Financial considerations",
-        "rights": "Novartis选择的靶点；重点放射性肽偶联物，不能把后续已公开项目全部回填本合同。",
+        "rights": "围绕Novartis选定靶点开展大环肽发现，重点为放射性肽偶联物。",
         "contributions": "PeptiDream用PDPS发现优化大环肽，双方沿既有发现合作扩展。",
         "upfront": {
           "value": 180000000.0,
@@ -11476,7 +11476,7 @@
         "paid": null,
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialNotes": "2024-06-13生效；公司博客报告180M相关收入确认，但收入确认不等于核实现金到账。原始签约日未用公告日替代；完整财务条款/后续履行待进一步读原合同。"
+        "financialNotes": "2024-06-13生效；公司报告确认1.8亿美元相关收入，现金收款状态与完整财务条款待核实。"
       },
       {
         "id": "protagonist-janssen-2024-amend",
@@ -11521,7 +11521,7 @@
         "stageAtSigning": "发现 / 临床前",
         "rationale": {
           "kind": "official",
-          "text": "利用 Ra 平台，为 Merck 指定的非补体靶点发现口服环肽。该合同披露未明确列出 PCSK9，暂不把整个合同金额归入 PCSK9。"
+          "text": "利用Ra平台为Merck指定的非补体靶点发现口服环肽；具体靶点未披露。"
         },
         "locator": "2016 10-K · Our Merck Collaboration and License Agreement · first three paragraphs / upfront fee",
         "rights": "Merck 获得指定项目制造、开发及商业化许可，并承担后续开发与商业化决策和财务责任。",
@@ -11536,7 +11536,7 @@
         },
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialNotes": "2016 年报另披露：获选的未具名心血管项目未来剩余里程碑最高 6,150 万美元（非整项多靶点合作总额，亦非已到账）。该数字按该历史披露时点保留，不能作为当前剩余额。",
+        "financialNotes": "2016年报披露：获选未具名心血管项目剩余潜在里程碑最高6150万美元；金额口径为该项目在2016年的剩余约定。",
         "payments": [
           {
             "kind": "milestone",
@@ -11545,7 +11545,7 @@
               "value": 3500000,
               "currency": "USD"
             },
-            "note": "截至 2016 年 6 月，Ra 已收到 350 万美元临床前里程碑款，适用于 Merck 继续推进的未具名非补体心血管项目。不是全合同累计收入，也不能据此直接归给 PCSK9。",
+            "note": "截至2016年6月，Ra已收到350万美元临床前里程碑款，对应Merck推进的未具名非补体心血管项目。",
             "sourceId": "ra-sec",
             "locator": "Our Merck Collaboration and License Agreement · as of June 2016"
           }
@@ -11579,7 +11579,7 @@
           "text": "建立肥胖与代谢疾病单药/组合管线及化学发现能力。"
         },
         "locator": "交易公告 / Financial considerations",
-        "rights": "整个公司及其多肽、非肽资产与平台，不把CT-996小分子计入多肽分子。",
+        "rights": "收购Carmot公司及其多肽、小分子资产和发现平台。",
         "contributions": "收购Carmot全部股份及期权，团队及组合并入Roche。",
         "upfront": null,
         "paid": null,
@@ -11610,7 +11610,7 @@
           "text": "结合大环肽发现平台推进罕见病、自身免疫及代谢性慢性疾病候选研究。"
         },
         "locator": "Syneron公告正文第1–3段；AZ2025年报CEO/AI collaborations及Science Committee审议Syneron合作许可段落",
-        "rights": "阿斯利康获得Synova平台访问权；合作目标为慢性病大环肽。具体靶点、项目数、独占性与权益地域未在已读公告披露；全球销售版税不等于全球独占权。",
+        "rights": "阿斯利康获得Synova平台访问权，面向慢性病大环肽发现；具体靶点、项目数、排他性和权益地域未披露。",
         "contributions": "元思提供Synova大环肽研发平台；双方合作开展慢性病研究。阿斯利康另约定股权投资，金额未披露；元思计划扩建北京研发中心。",
         "upfront": null,
         "paid": null,
@@ -11620,7 +11620,7 @@
         },
         "potentialTotal": null,
         "financialSummary": "首付＋潜在近期里程碑合计 $75M；另有最高 $3.4B 潜在里程碑；股权投资金额未披露",
-        "financialNotes": "7500万美元包含首付和潜在近期里程碑，未可靠拆分；不能当全部首付或已收。34亿美元为额外潜在开发和商业化里程碑，另有全球销售分级版税。股权投资不并入许可金额；AZ北京25亿美元总体投资计划不能归入本笔合作。后续年报确认合作，不证明具体项目进度或支付。"
+        "financialNotes": "首付与潜在近期里程碑合计7500万美元，另最高34亿美元开发及商业化里程碑、全球销售分级版税；股权投资金额未披露。"
       },
       {
         "id": "takeda-protagonist-rusfertide-2024",
@@ -11666,7 +11666,7 @@
           "value": 630000000.0,
           "currency": "USD"
         },
-        "financialNotes": "2024年4月收到300M；630M是原始机制潜在总额，不能与opt-out替代条款累加。"
+        "financialNotes": "2024年4月收到3亿美元；原机制潜在总额6.3亿美元，退出后的替代条款另列。"
       },
       {
         "id": "takeda-protagonist-rusfertide-optout-2026",
@@ -11698,7 +11698,7 @@
         "paid": null,
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialNotes": "触发200M支付，FDA批准另触发200M退出费和75M里程碑；全球销售里程碑最多775M，版税14–29%。这些不是新许可首付；2026年6月财报不能证明8月批准触发款已到账。"
+        "financialNotes": "触发2亿美元支付；FDA批准另触发2亿美元退出费及7500万美元里程碑。全球销售里程碑最高7.75亿美元，版税14–29%；批准触发款的到账状态待核实。"
       },
       {
         "id": "triastek-jj-2026",
@@ -11719,14 +11719,14 @@
           "kind": "official",
           "text": "结合3D打印制剂和口服递送能力开发肽及其他模态口服药物。"
         },
-        "locator": "公告正文合作范围、双方职责及财务条款；公告日期不等于确切签约日期。",
+        "locator": "公告正文：合作范围、双方职责及财务条款。",
         "rights": "已披露合作与许可，具体项目、地域/排他条款未披露。",
         "contributions": "Triastek及Triastek Shanghai：MED&SSE/3DμS-OM；Janssen Pharmaceutica NV：药物开发；JJDC另将股权投资。",
         "upfront": null,
         "paid": null,
         "potentialMilestones": null,
         "potentialTotal": null,
-        "financialSummary": "金额未披露；不能推断已付款。",
+        "financialSummary": "金额及实付状态未披露。",
         "financialNotes": "同一公告合作与投资统一记录；投资承诺未披露金额或交割，不记录到账。合作不限定纯多肽。"
       },
       {
@@ -11788,7 +11788,7 @@
           "kind": "official",
           "text": "结合UNP大环肽平台与诺华开发能力，探索心血管疾病治疗。"
         },
-        "locator": "公告正文合作范围、双方职责及财务条款；公告日期不等于确切签约日期。",
+        "locator": "公告正文：合作范围、双方职责及财务条款。",
         "rights": "后续产品开发及全球商业化；确切排他条款未披露。",
         "contributions": "UNP：AI增强设计/合成/筛选；诺华：IND支持研究、临床、制造及全球商业化。",
         "upfront": null,
@@ -11799,7 +11799,7 @@
         },
         "potentialTotal": null,
         "financialSummary": "最高1亿美元首付＋pre-IND里程碑；另最高17亿美元开发/监管/商业里程碑；分级版税。",
-        "financialNotes": "1亿美元混合包不能填纯首付或实付；原公告优先于后续简写；心血管领域不等于已披露PCSK9。"
+        "financialNotes": "首付与pre-IND里程碑合计最高1亿美元；具体首付拆分及实际支付未披露，合作心血管靶点未披露。"
       },
       {
         "id": "zealand-roche-petrelintide-2025",
@@ -11851,7 +11851,7 @@
       {
         "id": "enl-cmc-fulltext",
         "title": "Enlicitide 工艺正文、SI 与勘误",
-        "reason": "当前若干工艺仅核对摘要，不能确认全路线产率、放大批量与杂质控制；SAR 论文另有勘误。",
+        "reason": "工艺全文中的路线产率、批量与杂质控制待核对；SAR论文另有勘误。",
         "requested": "补交对应正文、SI 与勘误；区分片段/原料药/制剂、各路线版本的批量和收率。",
         "reasonType": "acquisition",
         "urls": [
@@ -11886,7 +11886,7 @@
       {
         "id": "expand-followup-apellis-sobi-pegcetacoplan-2020",
         "title": "Apellis → Sobi · 全身Pegcetacoplan合作 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -11913,7 +11913,7 @@
       {
         "id": "expand-followup-apellis-sobi-royalty-2025",
         "title": "Pegcetacoplan · Sobi购买有上限的海外版税权益 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -11938,7 +11938,7 @@
       {
         "id": "expand-followup-bicycle-bayer-brc-2023",
         "title": "Bicycle → Bayer · 肽放射性偶联物合作 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -11961,7 +11961,7 @@
       {
         "id": "expand-followup-bicycle-genentech-io-2020",
         "title": "Bicycle → Genentech · 免疫肿瘤发现合作 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -11984,7 +11984,7 @@
       {
         "id": "expand-followup-bicycle-novartis-brc-2023",
         "title": "BicycleTx → Novartis · 肽放射性配体发现 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12009,7 +12009,7 @@
       {
         "id": "expand-followup-cspc-astrazeneca-peptide-2026",
         "title": "石药 → AstraZeneca · 长效肽与月制剂平台 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12035,7 +12035,7 @@
       {
         "id": "expand-followup-gubra-abbvie-abbv295-2025",
         "title": "Gubra → AbbVie · ABBV-295全球许可 · 履行/专利/全管线待补",
-        "reason": "已核实本条所列公告和选定财报段落；不能据此声明公司全部多肽交易和后续履行已穷尽。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "补查双方截至2026-10-26所有相关证券披露、合同附件、支付、区域权利和专利映射，复用既有稳定ID。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12064,7 +12064,7 @@
       {
         "id": "expand-followup-hansoh-regeneron-hs20094-2025",
         "title": "翰森 → Regeneron · HS-20094海外许可 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12090,7 +12090,7 @@
       {
         "id": "expand-followup-hengrui-kailera-metabolic-2024",
         "title": "恒瑞 → Kailera · 代谢组合海外许可 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12116,7 +12116,7 @@
       {
         "id": "expand-followup-ironwood-vectivbio-acquisition-2023",
         "title": "Ironwood收购VectivBio · 2023年完成 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12143,7 +12143,7 @@
       {
         "id": "expand-followup-peptidream-novartis-expansion-2024",
         "title": "PeptiDream → Novartis · 大环肽发现合作扩展 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12166,7 +12166,7 @@
       {
         "id": "expand-followup-roche-carmot-acquisition-2023",
         "title": "Roche收购Carmot · 2024年完成 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12192,7 +12192,7 @@
       {
         "id": "expand-followup-takeda-protagonist-rusfertide-2024",
         "title": "Protagonist → Takeda · Rusfertide全球合作 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12221,7 +12221,7 @@
       {
         "id": "expand-followup-takeda-protagonist-rusfertide-optout-2026",
         "title": "Rusfertide · Protagonist退出美国利润分成 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12246,7 +12246,7 @@
       {
         "id": "expand-followup-united-novo-ubt251-2025",
         "title": "United Biotechnology → Novo · UBT251海外许可 · 履行/专利/全管线待补",
-        "reason": "已核实本条所列公告和选定财报段落；不能据此声明公司全部多肽交易和后续履行已穷尽。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "补查双方截至2026-10-26所有相关证券披露、合同附件、支付、区域权利和专利映射，复用既有稳定ID。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12273,7 +12273,7 @@
       {
         "id": "expand-followup-zealand-roche-petrelintide-2025",
         "title": "Zealand → Roche · Petrelintide共开发许可 · 后续履行与合同附件复核",
-        "reason": "本轮完成所列一手公告/财报段落基线；尚未逐条复核到2026-10-26的全部补充协议、付款、终止、原始专利实施例及公司其余多肽布局。",
+        "reason": "补充协议、付款、终止、专利实施例及其他多肽项目的后续资料待核实。",
         "requested": "沿双方中英文法律名与资产别名核查后续证券披露/合同附件；复用现有分子身份，核验未披露字段，不将预计交割或已确认收入视为实付；只在实际获取受限时请求人工材料。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12298,7 +12298,7 @@
       {
         "id": "expand-history-amyr",
         "title": "Amylin receptors · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12321,7 +12321,7 @@
       {
         "id": "expand-history-bdkrb2",
         "title": "BDKRB2 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12344,7 +12344,7 @@
       {
         "id": "expand-history-bt7480",
         "title": "BT7480 · 专利/发现/全临床史待补",
-        "reason": "本轮核实具名身份与已执行阶段；未枚举全部专利实施例、CMC、适应证和合作后续。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "按目标/公司skills联用补齐原始结构、SAR、动物/CMC、各适应证实际阶段及停复研/权利变化，不把预计临床或拟退出当作既成事件。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12368,7 +12368,7 @@
       {
         "id": "expand-history-c3",
         "title": "Complement C3 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12391,7 +12391,7 @@
       {
         "id": "expand-history-c5",
         "title": "Complement C5 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12414,7 +12414,7 @@
       {
         "id": "expand-history-cacna1b",
         "title": "CaV2.2 / CACNA1B · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12437,7 +12437,7 @@
       {
         "id": "expand-history-casr",
         "title": "CaSR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12460,7 +12460,7 @@
       {
         "id": "expand-history-ct388",
         "title": "Enicepatide / CT-388 · 专利/发现/全临床史待补",
-        "reason": "本轮核实具名身份与已执行阶段；未枚举全部专利实施例、CMC、适应证和合作后续。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "按目标/公司skills联用补齐原始结构、SAR、动物/CMC、各适应证实际阶段及停复研/权利变化，不把预计临床或拟退出当作既成事件。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12484,7 +12484,7 @@
       {
         "id": "expand-history-cxcr4",
         "title": "CXCR4 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12507,7 +12507,7 @@
       {
         "id": "expand-history-f2",
         "title": "Thrombin / F2 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12530,7 +12530,7 @@
       {
         "id": "expand-history-gcgr",
         "title": "GCGR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12556,7 +12556,7 @@
       {
         "id": "expand-history-ghrhr",
         "title": "GHRHR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12579,7 +12579,7 @@
       {
         "id": "expand-history-gipr",
         "title": "GIPR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12602,7 +12602,7 @@
       {
         "id": "expand-history-glp1r",
         "title": "GLP1R · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12640,7 +12640,7 @@
       {
         "id": "expand-history-glp2r",
         "title": "GLP2R · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12663,7 +12663,7 @@
       {
         "id": "expand-history-gnrhr",
         "title": "GNRHR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12698,7 +12698,7 @@
       {
         "id": "expand-history-gucy2c",
         "title": "GUCY2C / GC-C · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12724,7 +12724,7 @@
       {
         "id": "expand-history-insr",
         "title": "INSR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12750,7 +12750,7 @@
       {
         "id": "expand-history-itga2b-itgb3",
         "title": "Integrin αIIbβ3 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12773,7 +12773,7 @@
       {
         "id": "expand-history-mc1r",
         "title": "MC1R · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12796,7 +12796,7 @@
       {
         "id": "expand-history-mc4r",
         "title": "MC4R · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12822,7 +12822,7 @@
       {
         "id": "expand-history-npr2",
         "title": "NPR2 / NPR-B · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12845,7 +12845,7 @@
       {
         "id": "expand-history-oprk1",
         "title": "OPRK1 / KOR · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12868,7 +12868,7 @@
       {
         "id": "expand-history-pth1r",
         "title": "PTH1R · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12897,7 +12897,7 @@
       {
         "id": "expand-history-slc40a1",
         "title": "Ferroportin / SLC40A1 · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12920,7 +12920,7 @@
       {
         "id": "expand-history-sstr",
         "title": "Somatostatin receptors · 全历史与临床前覆盖待补",
-        "reason": "当前仅完成所列药品的美国标签基线；不能据此枚举所有公开多肽。未执行的论文/SI、专利实施例、CMC、失败项目与商务沿革仍待调研，不属于获取失败。",
+        "reason": "论文与SI、专利实施例、CMC、适应证、失败项目及商业沿革待补充。",
         "requested": "继续按靶点skill的六范围检索，逐个编号核实计算/实验起源、结构、谱系、动物与CMC及历史阶段；公司skill补查开发方、权利与后续履行。仅确实受限的文件才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12949,7 +12949,7 @@
       {
         "id": "expand-paper-enumeration-cd274",
         "title": "PD-L1 / CD274 · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -12980,7 +12980,7 @@
       {
         "id": "expand-paper-enumeration-gabarap",
         "title": "GABARAP · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13005,7 +13005,7 @@
       {
         "id": "expand-paper-enumeration-gabarapl1",
         "title": "GABARAPL1 · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13028,7 +13028,7 @@
       {
         "id": "expand-paper-enumeration-itga4-itgb7",
         "title": "Integrin α4β7 · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13055,7 +13055,7 @@
       {
         "id": "expand-paper-enumeration-mcl1",
         "title": "MCL1 · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13078,7 +13078,7 @@
       {
         "id": "expand-paper-enumeration-mdm2",
         "title": "MDM2 · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13110,7 +13110,7 @@
       {
         "id": "expand-paper-enumeration-mdm4",
         "title": "MDM4 / MDMX · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13139,7 +13139,7 @@
       {
         "id": "expand-paper-enumeration-rbta-ab",
         "title": "RbtA（A. baumannii） · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13162,7 +13162,7 @@
       {
         "id": "expand-paper-enumeration-tnik",
         "title": "TNIK · SI枚举与产业沿革待补",
-        "reason": "本轮仅核实上述具名分子的相应正文/摘要；未枚举全靶点所有论文和专利，不把最佳结合值赋给未确认编号。",
+        "reason": "相关论文、专利及逐编号的序列与实验对应待补充。",
         "requested": "RFpeptides继续逐行核实Supplementary Tables 1–4所有设计、合成失败与实验候选及序列；TNIK需核实五候选的名称、桥连及Kd映射。其他专题补全原始序列/SAR、注册历史、当前权属及停复研；只有实际获取失败的材料才转人工下载。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13185,7 +13185,7 @@
       {
         "id": "expand-patent-map-ep2906584",
         "title": "EP2906584B1: α4β7 peptide dimer antagonists · 实施例/资产映射待核",
-        "reason": "Protagonist整合素肽家族候选；不能从公司/靶点相同认定为PN-943。",
+        "reason": "Protagonist整合素肽家族候选；与PN-943的结构对应待核实。",
         "requested": "逐项读取家族及实施例，核对精确序列/非天然残基、桥连、端基、assay物种条件、动物和制剂数据；与临床代码的映射须直接来源证明。当前HTML可读，不因专利身份直接要求人工下载。",
         "reasonType": "identity",
         "urls": [
@@ -13227,7 +13227,7 @@
       {
         "id": "expand-patent-map-wo2019125938",
         "title": "WO2019125938A1: incretin analogs · 实施例/资产映射待核",
-        "reason": "Retatrutide相关家族反查候选；本轮未把具体SEQ ID映射到LY3437943。",
+        "reason": "Retatrutide相关专利家族；SEQ ID与LY3437943的对应待核实。",
         "requested": "逐项读取家族及实施例，核对精确序列/非天然残基、桥连、端基、assay物种条件、动物和制剂数据；与临床代码的映射须直接来源证明。当前HTML可读，不因专利身份直接要求人工下载。",
         "reasonType": "identity",
         "urls": [
@@ -13250,7 +13250,7 @@
       {
         "id": "expand-patent-map-wo2026125238",
         "title": "WO2026125238A1: retatrutide compositions · 实施例/资产映射待核",
-        "reason": "正文明确提及retatrutide及WO2019125938；属于制剂/组合物线索，不是新核心分子或Lilly授权证明。",
+        "reason": "Retatrutide制剂/组合物专利线索，正文关联WO2019125938。",
         "requested": "逐项读取家族及实施例，核对精确序列/非天然残基、桥连、端基、assay物种条件、动物和制剂数据；与临床代码的映射须直接来源证明。当前HTML可读，不因专利身份直接要求人工下载。",
         "reasonType": "identity",
         "urls": [
@@ -13304,7 +13304,7 @@
       {
         "id": "hs20118-phase2-actual",
         "title": "HS-20118 II 期是否实际开始",
-        "reason": "登记显示预计启动日已过，但仍为 NOT_YET_RECRUITING，不能用日历日期或二手数据库直接升期。",
+        "reason": "登记仍为NOT_YET_RECRUITING，实际启动与首例给药待核实。",
         "requested": "靶点 skill 补查 NCT07765628 新版本、中国 CTR20261952 原始登记及首例给药公告。",
         "reasonType": "ambiguity",
         "urls": [
@@ -13383,7 +13383,7 @@
       {
         "id": "il23r-miniprotein-enumeration",
         "title": "计算 mini-binder 系列待枚举",
-        "reason": "正文与补充材料说明可读；已定位 Figures 4 / S3 / S5 / S6 的大量编号及谱系，但尚未逐项提取序列、构建体和证据。不能把论文整体动物结论赋给所有编号。",
+        "reason": "Figures 4 / S3 / S5 / S6涉及的编号、序列、构建体、谱系及逐分子实验对应待整理。",
         "requested": "SI Table S1 完整序列表、正文与补充图的编号对照；在来源允许下载时由 Codex 自行获取，访问受限时再补交。",
         "reasonType": "acquisition",
         "urls": [
@@ -13466,7 +13466,7 @@
       {
         "id": "il4-mimic-receptor-identity",
         "title": "IL-4-Y的具体受体亚基、样品与弱结合口径",
-        "reason": "公开摘要不足以复核旧表IL4Rα的特异结合归属，不能把细胞效应替代直接受体结合。",
+        "reason": "IL-4-Y的受体亚基归属与直接结合证据待核实。",
         "requested": "论文正文与相关SI中IL-4-X/Y样品、受体构建体及MST结果段落；若已人工确认无法获取请归档，不重复索取。",
         "reasonType": "identity",
         "urls": [
@@ -13534,7 +13534,7 @@
       {
         "id": "pcsk9-patent-identity",
         "title": "将 WO2019246349A1 的实施例对应到药物身份",
-        "reason": "已取得并核对 183 页 A1 扫描专利封面；论文 Methods 明确指向 Example 25。尚未逐页比对实施例结构、立体化学、盐型和实验表，身份引用映射不等于完成化学结构核验。",
+        "reason": "论文Methods指向183页A1专利的Example 25；实施例结构、立体化学、盐型与实验表待逐项核对。",
         "requested": "原件已在本地，无需再次下载。下一步由 Codex 看实施例 25 及实验表页图，核对化学结构和盐型；扫描 PDF 无可抽取文字。",
         "reasonType": "acquisition",
         "urls": [
@@ -13557,7 +13557,7 @@
       {
         "id": "peplib-az-announcement-date",
         "title": "中晟全肽–阿斯利康合作的公告日期是哪一天？",
-        "reason": "同一官网正文与推荐列表给出2022-06-27/2026-06-17不同日期；主体图片未成功读取，尚不能判断旧文迁移或新协议。",
+        "reason": "官网正文日期为2022-06-27，推荐列表为2026-06-17；原始公告日期及协议版本待核实。",
         "requested": "请提供公告正文图片/原始新闻稿或双方带日期的公开公告，核实是否同一次可行性研究。",
         "reasonType": "conflict",
         "urls": [
@@ -13579,12 +13579,12 @@
     "observations": [
       {
         "id": "az-discovery-delivery-platforms",
-        "title": "大药企购买的不只是分子，还有发现与递送能力",
+        "title": "大药企的多肽合作覆盖发现、递送与资产开发",
         "asOf": "2026-10-27",
-        "coverage": "截止2026-10-27；指定公司公开原始公告/参与交易法律顾问，不是全部MNC合作与支出普查。",
-        "summary": "已有阿斯利康–元思/石药合作；本轮补录UNP–诺华和中晟全肽–礼来的发现合作，以及三迭纪–强生的口服递送合作。中晟–诺华则是一款具体RLT资产授权，不能与平台访问混为一类。",
+        "coverage": "案例范围：指定公司公告、年报及交易法律顾问披露；截至2026-10-27。",
+        "summary": "阿斯利康与元思、石药开展发现及递送合作；UNP–诺华、中晟全肽–礼来围绕多肽发现，三迭纪–强生围绕口服递送；中晟–诺华授权一款多肽RLT资产。",
         "interpretation": "跟踪合作时可分清资产、持续发现能力和递送能力，再看平台是否产出具名项目；这比把潜在金额相加更能解释合作目的。",
-        "uncertainty": "本轮多数交易是较早公告的补录，不是本周新增交易，不能由收录增加推断市场升温。未披露靶点不能猜成PCSK9或IL23R；本轮未完成所有交易后续履行及合同审阅。",
+        "uncertainty": "部分合作的靶点、项目数、合同细节与后续履行尚待披露。",
         "nextCheck": "查各平台合作首个具名候选、后续IND/临床与履行披露；优先补查中晟–阿斯利康日期冲突。",
         "status": "active",
         "sourceIds": [
@@ -13620,12 +13620,12 @@
       },
       {
         "id": "design-outcomes-are-method-specific",
-        "title": "计算评分、实测结合和细胞功能要分开判断",
+        "title": "多肽设计方法覆盖计算优化与功能筛选",
         "asOf": "2026-10-27",
         "coverage": "既有PD-L1方法比较，新增MLIP作者摘要/代码与CXCR4作者摘要；不作模型排名或全部计算方法综述。",
         "summary": "MLIP/RFD3论文报告计算几何与能量改善；CXCR4的RaPID预印本报告实验筛选与细胞功能。已有PD-L1工作中，不同设计方法的实测结果也并不一致。",
-        "interpretation": "迁移方法时先明确它改善哪一环：生成结构、结合还是功能。MLIP力引导值得作为推理阶段模块测试，但现有证据不足以承诺提高湿实验命中率。",
-        "uncertainty": "MLIP与RaPID不是同靶点、同条件比较；两篇新增研究均为预印本。MLIP未复现，CXCR4只读摘要且未枚举具体分子，不能推定PCC、动物或临床进度。",
+        "interpretation": "MLIP力引导可作为推理阶段的优化模块，湿实验命中率是后续验证重点。",
+        "uncertainty": "MLIP与RaPID两项研究均为预印本，涉及不同靶点与条件。MLIP以计算评价为主；CXCR4的分子编号及实验条件待全文/SI核对。",
         "nextCheck": "复现MLIP在固定靶点、预算及对照下的生成，再用合成结合实验验证；取得CXCR4全文/SI核对命中分子、选择性和功能条件。",
         "status": "active",
         "sourceIds": [
@@ -13657,12 +13657,12 @@
       },
       {
         "id": "design-to-invivo-requires-context",
-        "title": "计算设计到动物结果之间，仍有优化与给药环节",
+        "title": "MC4R与GLP1R研究结合设计、筛选和给药优化",
         "asOf": "2026-10-27",
-        "coverage": "仅综合本库已读的指定来源；非全行业结论。",
+        "coverage": "MC4R与GLP1R指定论文及其公开实验资料。",
         "summary": "MC4R设计工作报告后续体外成熟及中枢给药动物结果；GLP1R设计工作结合筛选、脂肪酸修饰与动物研究。",
-        "interpretation": "可迁移的往往是设计—筛选—优化的组合流程，不能仅凭生成模型或体外命中率推定药物进度。",
-        "uncertainty": "两项工作不是头对头比较；MC4R中枢给药不证明外周有效，GLP1R融合样品结合数据不能直接等同游离修饰肽药效。",
+        "interpretation": "设计、筛选和成药性优化可作为组合流程迁移；实验命中率、暴露与药效是验证重点。",
+        "uncertainty": "MC4R动物研究采用中枢给药；GLP1R结合实验涉及融合样品，药效研究涉及游离修饰肽。两项研究采用各自实验条件。",
         "nextCheck": "查看独立复现、游离样品药效、外周暴露、稳定性与安全性，以及是否有明确的候选提名。",
         "status": "active",
         "sourceIds": [

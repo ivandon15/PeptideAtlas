@@ -12,6 +12,7 @@ import sqlite3
 import uuid
 from pathlib import Path
 from urllib.parse import urlparse
+from .editorial import violations
 
 KINDS = (
     "targets",
@@ -166,6 +167,9 @@ class Store:
                 seen.add(item["id"])
                 require(len(stable(item)) < 200000, "单条记录过大")
                 next_state[kind][item["id"]] = item
+
+        copy_issues = violations(records)
+        require(not copy_issues, "展示文案需直接陈述事实：" + ", ".join(copy_issues[:8]))
 
         def refs(item, field, kind, required=False):
             values = item.get(field, [])

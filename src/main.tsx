@@ -332,10 +332,7 @@ function App() {
             <details>
               <summary>最近核查 {latestResearch || "未记录"}</summary>
               <div>
-                <p>
-                  最近一次资料核查：{latestResearch || "未记录"}
-                  （局部，不代表全库）
-                </p>
+                <p>最近一次资料核查：{latestResearch || "未记录"}</p>
                 <p>
                   {PUBLIC_MODE ? "数据发布：" : "数据库最近写入："}
                   {PUBLIC_MODE
@@ -822,10 +819,7 @@ function App() {
                 ))}
               </div>
             )}
-            <small className="asof">
-              最后核查：{selected.asOf}
-              。阶段按已收录证据；旧日期不代表已完成当前全面复查。
-            </small>
+            <small className="asof">资料核查：{selected.asOf}</small>
           </section>
         </div>
       )}

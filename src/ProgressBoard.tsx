@@ -606,40 +606,8 @@ export function ProgressBoard({
           <ChevronRight size={15} />
         </summary>
         <p>
-          节点表示公开证据；区间表示临床启动至状态披露的追踪窗口，不等于阶段耗时。数字节点包含多条邻近事件。论文日期为公开日；阶段依已核实证据，获批范围见地区与适应证。
+          节点：证据公开或事件日期。区间：临床启动至状态披露。数字：相邻事件数。获批范围见地区与适应证。
         </p>
-      </details>
-      <details className="relationship-details">
-        <summary>
-          <Info size={15} />
-          调研覆盖
-          <ChevronRight size={15} />
-        </summary>
-        <p>
-          已收录不等于全部公开分子。以下区分检索、核实与待补材料；同一结构尚未确认时可能暂存多个身份。
-        </p>
-        {[
-          ["discovery", "发现 / 设计"],
-          ["optimization", "SAR / 成药性"],
-          ["translation", "专利 / 临床前"],
-          ["cmc", "CMC / 制剂"],
-          ["clinical", "临床 / 监管"],
-          ["business", "公司 / 交易"],
-        ].map(([id, label]) => {
-          const receipts = state.receipts
-            .filter((r) => r.targetIds?.includes(targetId) && r.scope === id)
-            .sort((a, b) => b.date.localeCompare(a.date));
-          const r = receipts[0];
-          return (
-            <article key={id}>
-              <strong>{label}</strong>
-              <span className="tag">
-                {r ? "已补查 · 仍有缺口" : "未记录专项检索"}
-              </span>
-              <p>{r?.note || "暂无范围回执，不能据已有分子推定已完整调查。"}</p>
-            </article>
-          );
-        })}
       </details>
       <details className="relationship-details">
         <summary>
