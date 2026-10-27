@@ -13,6 +13,8 @@ description: 综合本仓库已核实的多肽靶点与公司合作事实，对�
 
 只把 reviewed + reported 的 evidence 及有原始来源的 deals 当事实支点。读来源实际范围、同文多靶点与负面/失败结果，先检查来源是否同事件转载或同论文版本。聚合数量可以辅助理解，但不把收录密度当市场份额、不把未收录当机会空白、不把潜在交易额当实际支出。
 
+研发管线和公司资产统计只使用trackingRole=program，研究分子另按论文、系列及实验结果讨论。对照历史时先检查[入库前分类核对](../../references/research-contract.md#入库前分类核对)：新增SAR、SI枚举或分类勘误引起的数量变化属于资料/口径变化，不能据此推断研发项目增长或公司战略扩张。
+
 需要补查新的技术或商业事实时，分别交给[靶点调研](../peptide-target-research/SKILL.md)或[公司合作调研](../peptide-company-research/SKILL.md)。有用户新材料先交给[材料核验](../peptide-evidence-update/SKILL.md)。不是为了写一条观察强制重跑两个完整专题。
 
 ## 综合方法与输出
